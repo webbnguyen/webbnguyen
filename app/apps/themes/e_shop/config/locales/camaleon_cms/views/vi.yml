@@ -1,0 +1,14 @@
+--- 
+vi: 
+  camaleon_cms: 
+    views: 
+        index: 
+          follow_us: Síguenos
+          free_shipping: "Envío gratis"
+        layouts: 
+          header: 
+            logout: "Đăng Xuất"
+          index: 
+            buy_text: COMPRAR
+            shop_collection_now: "Comprar coleccíon ahora"
+            start_shopping_here: "Empezar a comprar aqui..."

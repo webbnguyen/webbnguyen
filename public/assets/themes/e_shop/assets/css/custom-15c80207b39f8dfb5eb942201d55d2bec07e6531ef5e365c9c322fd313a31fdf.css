@@ -1,0 +1,37 @@
+/* line 2, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+#product_comments .page-header {
+  display: none;
+}
+/* line 5, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+#product_comments .comment_form_panel {
+  margin-top: 20px;
+}
+
+/* line 9, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+a {
+  color: #816263;
+}
+/* line 11, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+a:hover {
+  color: #816263;
+}
+
+/* line 15, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+.language-list > li {
+  opacity: 0.5;
+  padding: 0;
+}
+/* line 18, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+.language-list > li.current_l, .language-list > li:hover {
+  opacity: 1;
+}
+
+/* line 23, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+.post-list-item img {
+  height: auto !important;
+}
+
+/* line 26, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/custom.css.scss */
+#home_main_slider .camera_caption > div {
+  background: none;
+}

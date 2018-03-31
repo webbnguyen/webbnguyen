@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107389880-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107389880-1');
+</script>
+
+    <!-- META SECTION -->
+    <title><%= current_site.the_title %></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="rihDWNUpXysWr5PzhAj-1gHF8AMUMaACzPNp9R0gBhA" />
+
+    <!-- END META SECTION -->
+
+    <%= stylesheet_link_tag theme_asset_path("css/main") %>
+    <%= javascript_include_tag theme_asset_path("js/main.js") %>
+    <%= raw the_head %>
+    <%= yield :script %>
+</head>
+<body>
+    <%= render ('layouts/header') %>
+
+    <!-- content-section-starts-here -->
+    <div class="container" id="main_container">
+        <%= yield %>
+    </div>
+    <%= render ('layouts/footer') %>
+
+          <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+          
+</body>
+</html>
+
+
+ 
+
+<style type="text/css">
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: #816263;
+    border-color: #fff;
+}
+
+    </style>
+
+    <script type="text/javascript">
+  
+  $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+});
+</script>

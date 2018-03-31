@@ -1,0 +1,29 @@
+#product_comments{
+  .page-header{
+    display: none;
+  }
+  .comment_form_panel{
+    margin-top: 20px;
+  }
+}
+a{
+  color: #816263;
+  &:hover{
+    color: #816263;
+  }
+}
+.language-list > li{
+  opacity: 0.5;
+  padding: 0;
+  &.current_l, &:hover{
+    opacity: 1;
+  }
+}
+.post-list-item{
+  img{ height: auto!important; }
+}
+
+#home_main_slider .camera_caption > div{
+  background: none;
+}
+

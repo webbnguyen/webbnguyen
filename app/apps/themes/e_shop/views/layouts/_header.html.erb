@@ -1,0 +1,465 @@
+
+<!-- header-section-starts -->
+<div class="header">
+    <div class="header-top-strip">
+        <div class="container">
+            <div class="header-top-left">
+                <ul>
+                    <% unless cama_current_user.present? %>
+
+
+
+
+
+
+<div class="container-fluid">
+            <div class="row">
+                <div class="col-md-offset-4 col-lg-offset-4 col-md-4 col-lg-4">
+                    <button id='modal-launcher' class="btn btn-primaryyy btn-lg" data-toggle="modal" data-target="#login-modal">
+                      Sign In | Sign Up
+                    </button>
+                </div>  
+            </div>
+        </div>
+
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header login_modal_header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h2 class="modal-title" id="myModalLabel">Login to Your Account</h2>
+            </div>
+            <div class="modal-body login-modal">
+                <h2>Sign in to apply faster.</h2>
+                <br/>
+                <div class="clearfix"></div>
+                <div id='social-icons-conatainer'>
+
+
+        <div class="modal-body">
+
+
+             <div class='modal-body-left'>
+                <div role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#sign-in" aria-controls="signinTab" role="tab" data-toggle="tab">Sign In</a>
+
+                        </li>
+                        <li role="presentation" ><a href="#sign-up" aria-controls="signupTab" role="tab" data-toggle="tab">Sign Up</a>
+
+                        </li>
+                    </ul>
+
+
+                    <!-- Tab panes -->
+                        <div class="tab-content">
+                                <%= form_tag plugins_ecommerce_login_path, id: 'sign-in', class: 'tab-pane active', role: 'tabpanel' do %>
+
+                                    <div role="tabpanel" class="tab-pane active" id="sign-in">
+
+                                    <div class="form-group">
+                                        <input type="text" name="email" id="username" placeholder="<%= t('.email', default: 'Email') %>" value="<%= params[:email] %>" class="form-control login-field">
+                                        <i class="fa fa-user login-field-icon"></i>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" name="password" id="login-pass" placeholder="<%= t('.password', default: 'Password') %>" class="form-control login-field">
+
+                                        <i class="fa fa-lock login-field-icon"></i>
+                                    </div>
+
+                                <div class="form-group">
+                                    <%= button_tag t('.login', default: 'Login'), class: 'btn btn-success modal-login-btn', type: 'submit' %>
+                                </div>
+                                    <a href="<%= cama_admin_forgot_url(return_to: site_current_url) %>" class="login-link text-center"><%= t('.forgot', default: 'Forgot Password?') %></a>
+
+                                    </div>
+                             <% end %>
+
+
+
+
+                             <div role="tabpanel" class="tab-pane" id="sign-up">
+
+                                   <%= form_for (@user ||= current_site.users.new), url: plugins_ecommerce_register_path, html: { id: 'sign-up', class: 'tab-pane', role: 'tabpanel' } do |f| %>
+                                    <%= render partial: 'layouts/camaleon_cms/admin/form_error', locals: {data: @user} %>
+                                    <%= hidden_field_tag :kind_form, 'sign-up' %>
+                                    <div class="form-group">
+                                        <%= f.text_field :first_name, class: 'form-control required', tabindex: 1, placeholder: t('.full_name', default: 'Full Name') %>
+                                    </div>
+                                    <div class="form-group">
+                                        <%= f.text_field :email, class: 'form-control email required', tabindex: 2, placeholder: t('.email', default: 'Email address') %>
+                                    </div>
+                                    <div class="form-group">
+                                        <%= f.password_field :password, class: 'form-control required', tabindex: 3, placeholder: t('.password', default: 'Password') %>
+                                    </div>
+                                    <div class="form-group">
+                                        <%= f.password_field :password_confirmation, class: 'form-control required', equalTo: '#camaleon_cms_user_password', tabindex: 4, placeholder: t('.confirm_pass', default: 'Confirm Password') %>
+                                    </div>
+                                    <div class="form-group">
+                                        <%= submit_tag t('.create_account', default: 'Create account'), class: 'btn btn-success modal-login-btn' %>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                <% end %>
+
+                            </div>
+
+
+                            </div>
+                     </div>
+                 </div>
+
+         </div>
+
+
+
+                    <div class='modal-body-right'>
+                        <div class="modal-social-icons">
+                            <a href='/auth/facebook' class="btn btn-default facebook"> <i class="fa fa-facebook modal-icons"></i> Facebook </a>
+                            <a href='#' class="btn btn-default twitter"> <i class="fa fa-twitter modal-icons"></i> Twitter </a>
+                            <a href='/auth/google_oauth2' class="btn btn-default google"> <i class="fa fa-google-plus modal-icons"></i> Google </a>
+                            <a href='#' class="btn btn-default linkedin"> <i class="fa fa-linkedin modal-icons"></i> Linkedin </a>
+                        </div> 
+                    </div>  
+                </div>                                                                                                              
+                <div class="clearfix"></div>
+
+                <div class="form-group modal-register-btn">
+                   <a href='/regulation-on-the-operation-of-e-commerce-transaction-platform-saigonyo'> <button class="btn btn-default"> New Users Guide Booking</button></a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="modal-footer login_modal_footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                    <% else %>
+                        <li><a class='profile-header' href="<%= cama_current_user.decorate.the_url %>"><span class="fa fa-user"> </span> <%= cama_current_user.the_name %></a></li>
+                        <li><a class='profile-header' href="<%= cama_admin_dashboard_path %>"><span class="fa fa-tachometer"> </span> DashBoard </a></li>
+                        <li><a class='profile-header' href="<%= plugins_ecommerce_orders_path %>"><span class="fa fa-cart"> </span> My Booking</a></li>
+                        <li><a class='profile-header' href="<%= cama_admin_logout_url(return_to: site_current_url) %>"><span class="fa fa-sign-out"> </span> <%= t("camaleon_cms.common.logout") %></a></li>
+                    <% end %>
+                </ul>
+            </div>
+            <div class="header-right">
+                <div>
+                    <%= raw current_site.draw_languages("language-list list-inline pull-left", true) %>
+                    <%= raw e_draw_ecommerce_currencies(false, {class: 'form-control pull-right', style: 'padding: 2px; height: 23px; width: 45px;'}) %>
+
+                </div>
+                <div class="clearfix"> </div>
+
+                <div class="">
+                    <h3><span class="fa fa-phone" style="color: #fff;">&nbsp;&nbsp;(84)-2871.0880.68</span></h3>
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- header-section-ends -->
+<div class="banner-top <%= 'inner-head' unless is_home? %>">
+    <div class="container">
+        <%= render 'camaleon_cms/flash_messages' %>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                  <h3> <a href="<%= current_site.the_url %>"><span><img src="<%= theme_asset_url("images/saigonyo.png") %>" alt="" ></span> </a><%= current_site.the_title %> </h3>
+                </div>
+            </div>
+            <!--/.navbar-header-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <% cama_menu_parse_items(current_site.nav_menus.where(slug: ['eshop_header_main_menu', 'main_menu']).last.children).each do |item| %>
+                        <% if item[:has_children] %>
+                            <li class="dropdown <%= 'active' if item[:current_parent] %>">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= item[:label] %> <b class="caret"></b></a>
+                                <% if item[:levels] <= 1 %>
+                                    <ul class="dropdown-menu">
+                                        <% item[:children].each_with_index do |ss_item, index| %>
+                                            <li class="<%= 'active' if ss_item[:current_item] %>"><a href="<%= ss_item[:url] %>"><%= ss_item[:label] %></a></li>
+                                        <% end %>
+                                    </ul>
+                                <% else %>
+                                    <ul class="dropdown-menu multi-column pull-right columns-<%= (12/(12/item[:children].count).ceil).ceil %>">
+                                        <div class="row">
+                                            <% item[:children].each do |sub_item| %>
+                                                <div class="col-md-<%= (12/item[:children].count).ceil %>">
+                                                    <ul class="multi-column-dropdown">
+                                                        <% ((sub_item[:children] || []).unshift(sub_item)).each_with_index do |ss_item, index| %>
+                                                            <% if index > 0 %>
+                                                                <li class="<%= 'current_item' if ss_item[:current_item] %> <%= 'current_parent_item' if ss_item[:current_parent] %>"><a href="<%= ss_item[:url] %>"><%= ss_item[:label] %></a></li>
+                                                            <% else %>
+                                                                <h6><%= ss_item[:label] %></h6>
+                                                            <% end %>
+                                                        <% end %>
+                                                    </ul>
+                                                </div>
+                                            <% end %>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </ul>
+                                <% end %>
+                            </li>
+                        <% else %>
+                            <li class="<%= 'active' if item[:current_item] %>"><a href="<%= item[:url] %>"><%= item[:label] %></a></li>
+                        <% end %>
+                    <% end %>
+                </ul>
+            </div>
+            <%= cama_edit_link(cama_admin_appearances_nav_menus_menu_url(slug: 'main_menu')) %>
+            <!--/.navbar-collapse-->
+        </nav>
+        <!--/.navbar-->
+    </div>
+</div>
+<% if is_home? %>
+
+<div class="fullscreen-bg">
+<!--  Content  -->
+
+<section class="video_intro">
+
+
+<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+<video autoplay loop id="video-background" muted plays-inline width="100%"> 
+           <source src="https://saigonyo.com/media/1/truot-tuyet-nghe-thuat.mp4" type="video/mp4">
+           <source src="https://saigonyo.com/media/1/dream1.webm" type="video/webm; codecs=vp9">
+          <source src="https://saigonyo.com/media/1/dream2.webm" type="video/webm">
+</video>
+
+
+
+            <div class="tim-kiem" >
+
+            <div class="pull-left-search join">
+            <div class="an-nhe">Book the experiences, share the passion, get the happy.</div>
+
+            <div class="input-group-bnt">
+                <select class="form-control-cata" name="category" title="Services">
+                           <% current_site.the_post_type('commerce').the_categories.decorate.each do |cat| %>
+                        <option value="option Services"><%= cat.the_title %></option>
+                            <% end %>
+                </select> 
+            </div> 
+                <div class="sub-left-right" >
+                    <%= form_tag(cama_search_path, :method => "get", :class => "") do %>
+                        <input type="text" title="Search:" name="q" value="" placeholder="<%= t("camaleon_cms.common.search") %>..." class="search-field" />
+                        <input type="submit" value="<%= t("camaleon_cms.common.search") %>" class="" />
+                    <% end %>
+                </div>
+            </div>
+
+
+
+
+                </div>
+
+                    </section>
+
+
+    </div>
+    <% end %>
+
+<style type="text/css">
+
+
+.login_modal_footer{margin-top:5px;}
+.login_modal_header .modal-title {text-align: center;font-family:'Philosopher',sans-serif; }
+.form-group{position: relative;}
+.form-group .login-field-icon {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    transition: all 0.25s ease 0s;
+    padding-top: 2%;
+}
+.login-modal{
+    width:100%;
+    padding-bottom:20px;
+}
+.login_modal_header, .login_modal_footer {background: #816263 !important;color:#fff;}
+.modal-register-btn{margin: 4% 33% 2% 33% ;width:100%;}
+.login-modal input{height:40px; box-shadow: none; border:1px solid #ddd;}
+.modal-body-left{float:left; width:50%; padding-right:4%; border-right:4px solid #ddd;}
+.modal-body-right{float:right; width:47%;}
+.login-link{padding:0 20%;}
+.modal-social-icons{padding:0 10% !important;}
+
+.facebook, .twitter, .google, .linkedin {width:100% !important;height:40px !important; padding-top:2% !important; margin-top:2% !important;}
+
+
+.modal-icons{margin-left: -10px !important; margin-right: 20px !important;}
+
+.google, .google:hover{background-color:#dd4b39;border:2px solid #dd4b39;color:#fff;}
+
+.twitter, .twitter:hover{ background-color: #00aced !important; border:2px solid #00aced !important;color: #fff !important;}
+
+.facebook, .facebook:hover{background-color: #3b5999 !important; border:2px solid #3b5999 !important;color:#fff !important;}
+
+.linkedin, .linkedin:hover{background-color: #007bb6; border: 2px solid #007bb6; color:#fff;}
+
+#social-icons-conatainer{position: relative;}
+
+#center-line{position: absolute;  right: 271.7px;top: 131px;background:#ddd;  border: 4px solid #DDDDDD;border-radius: 20px;}
+
+.modal-login-btn{width:100%;height:40px; margin-bottom:10px;}
+#modal-launcher{margin: 0 0 0 0; }
+.btn-success {
+    color: #fff;
+    background-color: #816263 !important; 
+    border-color: #816263 !important;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #337ab7 !important;
+    border-color: #337ab7 !important;
+}
+
+.header-top-left ul li a:not(.profile-header) {
+  color: #816263 !important;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+.video_intro {
+
+    height: 66vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+    .an-nhe{
+
+        font-size: 46px;
+    }
+
+.tim-kiem{
+
+    position:absolute;
+    top: 5%; 
+    left:25%; 
+    color:#fff; 
+    width:50%; 
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+
+
+    .an-nhe{
+        
+  display: none;
+  z-index: -999999;
+
+    }
+
+.tim-kiem{
+
+  display: none;
+  z-index: -999999;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+      .video_intro {
+
+    height: 36vh;
+    position: relative;
+    overflow: hidden;    
+}
+
+
+
+
+  }
+
+  @media screen and (max-width: 320px){
+
+
+.modal-social-icons{padding:0 !important;}
+.modal-register-btn{margin: 4% 33% 2% 3% ;width:100%;}
+
+
+
+  }
+
+
+
+      @media (min-width: 768px) and (max-width: 1024px) {
+
+.navbar-header{
+
+    width: 27%;
+}
+
+.logo h3{
+
+    font-size: 18px;
+}
+
+  }
+
+
+        @media (min-width: 768px) and (max-width: 1366px) {
+
+    .an-nhe{
+
+        font-size: 27px;
+    }
+
+    .join input[type="text"] {
+    width: 77%;
+
+}
+
+
+  }
+
+
+
+
+
+</style>
+
+<script>
+  $(function() {
+    var panel = $('#ecommerce_login_panel');
+    <% if params[:kind_form].present? %>
+      $('#<%= params[:kind_form] %>-link', panel).click();
+    <% end %>
+
+    function do_validation(){
+      $("#register-form", panel).validate();
+      $("#login-form", panel).validate();
+    }
+
+    if(!$.fn.validator) $.getScript('<%= asset_url('camaleon_cms/admin/jquery.validate') %>', function(){ do_validation(); });
+    else do_validation();
+  });
+</script>

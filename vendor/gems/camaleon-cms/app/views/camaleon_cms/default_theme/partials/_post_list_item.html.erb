@@ -1,0 +1,16 @@
+<div class="item">
+    <div class="thumbnail">
+        <%= raw post.the_link_thumb({}, {style: "height: 200px; width: 100%; display: block;"}) %>
+        <div class="caption">
+            <h4 id="thumbnail-label">
+                <a href="<%= post.the_url %>"><%= post.the_title %></a>
+            </h4>
+            <small class="" style="display: block;"><%= post.the_created_at %></small>
+            <hr>
+
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2Fsaigonyo360&layout=button_count&size=small&mobile_iframe=true&width=91&height=20&appId" width="100%" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<hr>
+            <p><%= raw post.the_excerpt %> <%= post.the_edit_link %></p>
+        </div>
+    </div>
+</div>

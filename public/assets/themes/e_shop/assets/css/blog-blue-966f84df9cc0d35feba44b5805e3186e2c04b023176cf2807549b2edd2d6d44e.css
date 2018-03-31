@@ -1,0 +1,1895 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);
+/* line 2, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.backgroundCover, section#features, section#buyNow, section#twitter, section.well {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 9, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+body {
+  font-family: "Open Sans", Tahoma, Arial;
+}
+
+/* line 13, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header {
+  background: #222222;
+  color: black;
+}
+
+/* line 17, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .bannercontainer {
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+/* line 22, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .banner {
+  width: 100%;
+  position: relative;
+}
+
+/* line 26, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead h1 {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+/* line 31, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-bannertimer {
+  background: url("../rs-plugin/assets/timerdot2.png");
+  height: 3px;
+}
+
+/* line 35, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-caption {
+  font-family: "Open Sans", Tahoma, Arial;
+}
+
+/* line 38, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-caption a {
+  color: white;
+}
+
+/* line 41, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-caption a:hover {
+  color: #eeeeee;
+}
+
+/* line 44, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-caption.italic {
+  font-style: italic;
+}
+
+/* line 47, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-caption .light_bold {
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* line 54, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-caption.large_white_light {
+  font-weight: 300;
+  font-size: 40px;
+  color: white;
+}
+
+/* line 59, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead .tp-caption .btn.btn-naked {
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* line 65, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+header.masthead h1, header.masthead h2, header.masthead h3 {
+  color: white;
+}
+
+/* line 69, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#wrap {
+  padding-top: 70px;
+}
+
+/* line 72, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#wrap.home {
+  padding: 0;
+}
+
+/* styling navbar */
+/* line 77, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav {
+  width: 100%;
+  position: static;
+  top: -32px;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background: white;
+  min-height: 70px;
+}
+
+/* line 89, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav.affix {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 98, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-brand {
+  padding: 0;
+  height: 69px;
+  line-height: 69px;
+}
+
+/* line 103, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-brand img {
+  margin-top: 0px;
+}
+
+/* line 106, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+/* line 110, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-toggle {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
+
+/* line 115, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-toggle i {
+  font-size: 2em;
+}
+
+/* line 118, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-nav li a {
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  font-family: "Open Sans", Tahoma, Arial;
+  font-weight: bold;
+  color: #222222;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 130, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-nav li a:hover {
+  color: #22a3df;
+  background: none;
+}
+
+/* line 134, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-nav li.social-nav {
+  margin: 21px 0 4px 10px;
+  border-left: 1px solid #eeeeee;
+  padding-left: 15px;
+}
+
+/* line 139, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-nav li.social-nav a {
+  float: left;
+  padding: 5px 10px;
+}
+
+/* line 143, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-nav li.social-nav a i {
+  font-size: 1.33333333em;
+}
+
+/* line 146, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+#nav .navbar-nav li.active a {
+  color: #22a3df;
+}
+
+/* line 150, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#whoWeAre {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 40px 0;
+}
+
+/* line 157, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#whoWeAre .media .media-body h4 {
+  font-weight: bold;
+}
+
+/* line 160, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#about {
+  padding: 40px 0;
+}
+
+/* line 163, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#about img {
+  margin: 15px auto;
+}
+
+/* line 166, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#about .media {
+  margin-top: 20px;
+}
+
+/* line 169, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#about .media .media-body .media-heading {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* line 174, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#about .media .media-body p {
+  margin-top: 20px;
+}
+
+/* line 177, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#highlights {
+  padding: 60px 0;
+  background: #eeeeee;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* line 182, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#highlights h4, section#highlights h5 {
+  font-weight: bold;
+}
+
+/* line 185, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#highlights h4 {
+  text-transform: uppercase;
+}
+
+/* line 188, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#highlights p {
+  padding: 15px 0;
+  color: #999999;
+  font-size: 13px;
+}
+
+/* line 193, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#highlights ul {
+  color: #999999;
+}
+
+/* line 196, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#features {
+  background-image: url(../img/samples/bk-bl.jpg);
+  padding: 50px 0 0 0 !important;
+  background-attachment: fixed;
+  text-align: left;
+}
+
+/* line 202, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#features .media-circle {
+  margin: 15px 0;
+}
+
+/* line 205, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#features .media-circle .media-body {
+  margin-top: 10px;
+}
+
+/* line 208, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#features .media-circle .media-body h4 {
+  font-weight: 600;
+  color: white;
+}
+
+/* line 212, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#features .media-circle .media-body p {
+  color: white;
+}
+
+/* line 215, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#features h1 {
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 51px;
+}
+
+/* line 222, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#features h1 span {
+  color: #22a3df;
+}
+
+/* line 225, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services {
+  padding: 40px 0;
+}
+
+/* line 228, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services {
+  position: relative;
+  padding: 15px;
+  background: #f2f2f2;
+  border: 2px solid white;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 238, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services .media-object {
+  background: white;
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  margin: 10px auto;
+  color: #555555;
+}
+
+/* line 246, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services .media-body {
+  margin-top: 9px;
+}
+
+/* line 249, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services:hover {
+  background: white;
+  border-color: #e6e6e6;
+}
+
+/* line 253, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services:hover .media-object {
+  background: #22a3df;
+  color: white;
+}
+
+/* line 257, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 25px 25px 0;
+  border-style: solid;
+  border-color: white white #cccccc #cccccc;
+  background: #cccccc;
+  display: block;
+  width: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-box-shadow: 1px 1px 8px 0px #b3b3b3;
+  -moz-box-shadow: 1px 1px 8px 0px #b3b3b3;
+  -o-box-shadow: 1px 1px 8px 0px #b3b3b3;
+  box-shadow: 1px 1px 8px 0px #b3b3b3;
+}
+
+/* line 277, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services:hover:before {
+  border-width: 0;
+}
+
+/* line 280, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services.right:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 25px 25px 0 0;
+  border-style: solid;
+  border-color: white #cccccc white #cccccc;
+  background: #cccccc;
+  display: block;
+  width: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 296, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services.right .media-body h4, section#services .media-services.right .media-body p {
+  text-align: right !important;
+}
+
+/* line 299, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#services .media-services.right:hover:before {
+  border-width: 0;
+}
+
+/* line 302, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials {
+  padding: 40px 0;
+}
+
+/* line 305, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel {
+  margin: 30px 0;
+}
+
+/* line 308, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel .item {
+  padding: 0 50px;
+}
+
+/* line 311, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel .item p {
+  padding: 0 50px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* line 316, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel .item .author {
+  position: relative;
+  color: #999999;
+}
+
+/* line 320, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel .item .author h5 {
+  text-transform: uppercase;
+  color: #8c8c8c;
+  margin-bottom: 1px;
+}
+
+/* line 325, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel .item .author p {
+  text-align: left;
+  padding: 0;
+  font-size: 14px;
+}
+
+/* line 330, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel .item .author:before {
+  content: "____";
+  position: absolute;
+  top: -10px;
+  left: -40px;
+  color: #cccccc;
+}
+
+/* line 337, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#testimonials #testimonials-carousel .carousel-control {
+  background: none;
+  width: 30px;
+  color: #bfbfbf;
+}
+
+/* line 342, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#buyNow {
+  background-image: url(../img/samples/bk-bl.jpg);
+  background-attachment: fixed;
+  padding: 65px 0;
+}
+
+/* line 347, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#buyNow h1 {
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+/* line 354, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#buyNow h1 span {
+  color: #22a3df;
+}
+
+/* line 357, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#buyNow p {
+  color: white;
+  padding: 20px 0;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+/* line 363, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team {
+  padding: 40px 0;
+}
+
+/* line 366, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image {
+  position: relative;
+}
+
+/* line 369, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.55);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8C000000,endColorstr=#8C000000);
+  zoom: 1;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-align: center;
+  color: white;
+}
+
+/* line 387, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details h4 {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+/* line 391, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details p {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  padding: 0 15px;
+  font-size: 13px;
+}
+
+/* line 399, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details ul {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+}
+
+/* line 405, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details ul li {
+  float: left;
+}
+
+/* line 408, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details ul li a {
+  padding: 5px;
+  margin: 2px;
+}
+
+/* line 412, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details ul li a i {
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  color: white;
+}
+
+/* line 419, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-image .member-details ul li a:hover i {
+  color: #22a3df;
+}
+
+/* line 422, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-name {
+  background: #f7f7f7;
+  padding: 20px 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 430, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-name h4 {
+  margin: 0;
+  padding: 0 0 5px 15px;
+  text-transform: uppercase;
+}
+
+/* line 435, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-name p {
+  padding-left: 15px;
+  color: #999999;
+  margin: 0;
+}
+
+/* line 440, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member .member-name.member-odd {
+  background: #fbfbfb;
+}
+
+/* line 443, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member:hover .member-image .member-details {
+  opacity: 1;
+}
+
+/* line 446, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member:hover .member-name {
+  background: #22a3df;
+}
+
+/* line 449, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#team .member:hover .member-name h4, section#team .member:hover .member-name p {
+  color: white;
+}
+
+/* line 452, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio {
+  padding: 40px 0;
+}
+
+/* line 455, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #filters {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* line 459, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #filters button {
+  background: none;
+  border: 2px solid transparent;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 474, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #filters button.current {
+  border: 2px solid #22a3df;
+}
+
+/* line 477, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container {
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 483, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item {
+  margin: 15px auto;
+}
+
+/* line 486, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details {
+  position: relative;
+}
+
+/* line 489, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details .info-wrapper {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+  zoom: 1;
+}
+
+/* line 505, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details .info-wrapper .info .name-tag {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 20px 10px 20px;
+}
+
+/* line 512, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details .info-wrapper .info .name-tag h5, section#portfolio #container .item .details .info-wrapper .info .name-tag p {
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 516, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details .info-wrapper .info .name-tag h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 520, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details .info-wrapper .info .name-tag span.divider {
+  margin: 10px 0;
+}
+
+/* line 523, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details .info-wrapper .heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 50px 0;
+  border-color: transparent #22a3df transparent transparent;
+}
+
+/* line 533, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item .details .info-wrapper .heart i {
+  margin-left: 28px;
+  margin-top: 8px;
+  display: block;
+  color: white;
+}
+
+/* line 539, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#portfolio #container .item:hover .details .info-wrapper {
+  opacity: 1;
+}
+
+/* line 542, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#skills {
+  padding: 40px 0;
+  background: #eeeeee;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* line 547, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#skills .skill-circle {
+  margin: 15px auto;
+}
+
+/* line 550, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#skills .skill-detail {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 556, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#twitter {
+  background-image: url(../img/samples/bk-social.jpg);
+  background-attachment: fixed;
+  padding: 40px 0;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+/* line 564, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#twitter:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.65);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
+  zoom: 1;
+}
+
+/* line 576, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#twitter p {
+  font-size: 16px;
+}
+
+/* line 579, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#twitter p a {
+  color: #22a3df;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+
+/* line 587, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#twitter p a:hover {
+  color: #146387;
+}
+
+/* line 590, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#twitter a.btn.btn-empty {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 45px auto;
+  position: relative;
+  top: 15px;
+}
+
+/* line 598, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#twitter .carousel-indicators {
+  bottom: -40px;
+}
+
+/* line 601, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch {
+  padding: 40px 0;
+}
+
+/* line 604, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail {
+  margin: 25px auto;
+}
+
+/* line 607, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 611, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail p {
+  color: #999999;
+}
+
+/* line 614, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail ul {
+  list-style: none;
+  padding: 15px 0;
+}
+
+/* line 618, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail ul li {
+  margin: 0 5px;
+  float: left;
+}
+
+/* line 622, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail ul li a {
+  padding: 5px;
+  color: #999999;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 630, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail ul li a i {
+  font-size: 1.7em;
+}
+
+/* line 633, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#get-in-touch .contact-details .detail ul li a:hover {
+  color: #22a3df;
+}
+
+/* line 636, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#map {
+  width: 100%;
+  height: 300px;
+}
+
+/* line 640, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article {
+  margin: 25px 0;
+}
+
+/* line 643, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article span.divider {
+  float: none;
+  margin: 40px 0;
+}
+
+/* line 647, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article h3 a {
+  color: #333333;
+}
+
+/* line 650, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article h3 a:hover {
+  color: #22a3df;
+}
+
+/* line 653, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .article-details {
+  margin: 15px 0;
+}
+
+/* line 656, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .article-details .author, section#blog .article .article-details .tags {
+  display: inline-block;
+}
+
+/* line 659, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .article-details .author a, section#blog .article .article-details .tags a {
+  color: #999999;
+}
+
+/* line 662, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .article-details .author a:hover, section#blog .article .article-details .tags a:hover {
+  color: #22a3df;
+}
+
+/* line 665, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .article-details .author i, section#blog .article .article-details .tags i {
+  color: #22a3df;
+}
+
+/* line 668, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .article-details .tags {
+  margin-left: 5px;
+}
+
+/* line 671, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .article-data {
+  color: #333;
+  margin: 20px 0;
+}
+
+/* line 675, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .type {
+  background: #22a3df;
+  text-align: center;
+  padding: 22px 0;
+  margin-bottom: 5px;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 687, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .date {
+  text-transform: uppercase;
+  color: white;
+  background: black;
+  text-align: center;
+  font-size: 22px;
+  line-height: 19px;
+  padding: 15px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 701, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .date span {
+  display: block;
+  font-size: 14px;
+}
+
+/* line 705, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .share-post {
+  margin: 30px 0;
+}
+
+/* line 708, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .share-post span {
+  margin-right: 20px;
+  border-right: 1px solid #CCC;
+  padding-right: 20px;
+}
+
+/* line 713, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .share-post a {
+  margin: 0 5px;
+  color: #999999;
+}
+
+/* line 717, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .share-post a:hover {
+  color: #22a3df;
+}
+
+/* line 720, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments {
+  position: relative;
+  padding: 15px;
+  background: #f2f2f2;
+  border: 2px solid white;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 730, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments .media-object {
+  background: white;
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  margin: 10px auto;
+  color: #555555;
+}
+
+/* line 738, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments .media-body {
+  margin-top: 9px;
+}
+
+/* line 741, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments .media-body .media-heading span {
+  float: right;
+  font-size: 13px;
+}
+
+/* line 745, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments p.date {
+  background: none;
+  color: #CCC;
+  font-size: 12px;
+  text-align: left;
+  padding: 0;
+  text-transform: none;
+}
+
+/* line 753, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments:hover {
+  background: white;
+  border-color: #e6e6e6;
+}
+
+/* line 757, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments:hover .media-object {
+  background: #22a3df;
+  color: white;
+}
+
+/* line 761, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 25px 25px 0;
+  border-style: solid;
+  border-color: white white #cccccc #cccccc;
+  background: #cccccc;
+  display: block;
+  width: 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 777, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments:hover:before {
+  border-width: 0;
+}
+
+/* line 780, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments.reply {
+  margin-left: 80px;
+  position: relative;
+  overflow: visible;
+}
+
+/* line 785, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .article .comments .media-comments.reply:after {
+  position: absolute;
+  content: " ";
+  width: 2px;
+  height: 100%;
+  top: 0;
+  background: #e6e6e6;
+  left: -40px;
+}
+
+/* line 794, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .pagination-wrapper {
+  text-align: center;
+}
+
+/* line 797, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .pagination-wrapper .pagination > li > a, section#blog .pagination-wrapper .pagination > li > span {
+  color: #22a3df;
+}
+
+/* line 800, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section#blog .pagination-wrapper .pagination > .active > a,
+section#blog .pagination-wrapper .pagination > .active > span,
+section#blog .pagination-wrapper .pagination > .active > a:hover,
+section#blog .pagination-wrapper .pagination > .active > span:hover,
+section#blog .pagination-wrapper .pagination > .active > a:focus,
+section#blog .pagination-wrapper .pagination > .active > span:focus {
+  background-color: #22a3df;
+  border-color: #22a3df;
+  color: white;
+}
+
+/* line 810, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block {
+  margin-top: 25px;
+}
+
+/* line 813, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block.search input.form-control {
+  background: #eeeeee;
+  border: none;
+  height: 40px;
+}
+
+/* line 818, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block.search button {
+  border: none;
+  background: none;
+}
+
+/* line 822, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block.search button i {
+  top: 3px;
+  right: 8px;
+  color: #22a3df;
+}
+
+/* line 827, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block span.divider {
+  margin: 40px 0;
+  display: block;
+}
+
+/* line 831, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block h4 {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+/* line 835, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block p {
+  color: #999999;
+}
+
+/* line 838, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 842, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block ul li {
+  margin: 5px 0;
+}
+
+/* line 845, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block ul li a {
+  color: #999999;
+}
+
+/* line 848, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block .media a.pull-left {
+  margin-right: 10px;
+}
+
+/* line 851, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block .media .media-object {
+  padding: 0;
+  height: 60px;
+  width: 60px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+
+/* line 862, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block .media .media-body {
+  font-size: 13px;
+  line-height: 16px;
+  color: #999999;
+}
+
+/* line 867, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block .media .media-body a {
+  display: block;
+  margin-top: 7px;
+}
+
+/* line 871, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block a.tag {
+  border: 2px solid #999999;
+  color: #999999;
+  padding: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+/* line 884, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section .side-block a.tag:hover {
+  border-color: #22a3df;
+  color: black;
+}
+
+/* line 889, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section.well {
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background-image: url(../img/samples/bk-social.jpg);
+  background-attachment: fixed;
+  position: relative;
+  padding: 45px;
+}
+
+/* line 901, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section.well:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.65);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
+  zoom: 1;
+}
+
+/* line 913, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section.well h2 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 918, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section.well .breadcrumb {
+  background: none;
+  float: right;
+  margin-bottom: 0;
+  padding: 28px 15px 5px 15px;
+}
+
+/* line 924, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+section.well .breadcrumb .active {
+  color: white;
+}
+
+/* line 928, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+footer#site-footer {
+  padding: 40px 0;
+  background: #222222;
+  color: white;
+  text-align: center;
+}
+
+/* line 934, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+footer#site-footer span.divider {
+  float: none;
+}
+
+/* line 937, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+footer#site-footer h4, footer#site-footer h5 {
+  text-transform: uppercase;
+}
+
+/* line 940, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+footer#site-footer a img.top {
+  margin: 20px 0;
+}
+
+/* line 944, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media {
+  margin: 50px 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+/* line 949, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media a {
+  text-decoration: none;
+}
+
+/* line 952, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media a.pull-left {
+  margin-right: 25px;
+}
+
+/* line 955, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media a.pull-right {
+  margin-left: 25px;
+}
+
+/* line 958, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media a .media-object {
+  background: #22a3df;
+  color: white;
+  border: 4px solid #22a3df;
+  padding: 18px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  display: block;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 978, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media:hover .media-object {
+  background: white;
+  color: #22a3df;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 987, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media.right {
+  text-align: right;
+}
+
+/* line 990, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media .media-body h4 {
+  color: black;
+  text-transform: uppercase;
+}
+
+/* line 994, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media .media-body p {
+  color: #999999;
+}
+
+/* line 997, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media.media-circle .media-object {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 10px;
+  background: none;
+  color: #22a3df;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  border: 2px solid white;
+}
+
+/* line 1011, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media.media-circle:hover .media-object {
+  background: white;
+}
+
+/* line 1014, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media.vertical .media-object {
+  background: white;
+  width: 70px;
+  height: 70px;
+  margin: 10px auto;
+  color: #555555;
+}
+
+/* line 1021, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media.vertical .media-body {
+  text-align: center;
+}
+
+/* line 1024, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.media.vertical:hover .media-object {
+  background: #22a3df;
+  color: white;
+}
+
+/* line 1029, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.go-down {
+  position: absolute;
+  bottom: 20px;
+  right: 49.2%;
+  z-index: 999;
+}
+
+/* line 1035, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.go-down a {
+  color: white;
+}
+
+/* line 1039, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading {
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* line 1043, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading h1 {
+  font-size: 45px;
+}
+
+/* line 1046, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading h1, .section-heading h2, .section-heading h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 1050, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading h1 span, .section-heading h2 span, .section-heading h3 span {
+  color: #22a3df;
+}
+
+/* line 1053, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading h4 {
+  color: #555555;
+  line-height: 22px;
+}
+
+/* line 1057, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading i {
+  color: #d9d9d9;
+}
+
+/* line 1060, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading span.divider {
+  margin: 20px auto;
+  float: none;
+}
+
+/* line 1064, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.section-heading.white {
+  color: white;
+}
+
+/* line 1068, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+span.brandy {
+  color: #22a3df;
+  text-transform: lowercase;
+}
+
+/* line 1073, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+span.divider {
+  height: 10px;
+  background: #22a3df;
+  border-left: 15px solid black;
+  display: block;
+  margin: 20px auto;
+  width: 30px;
+  position: relative;
+}
+
+/* line 1082, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+span.divider:before {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: -1px;
+  width: 1px;
+  height: 10px;
+  background: #FFF;
+}
+
+/* line 1091, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+span.divider.grey {
+  border-color: #999999;
+}
+
+/* line 1094, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+span.divider.grey:before {
+  background: #222222;
+}
+
+/* line 1098, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+ul {
+  list-style-image: url(../img/bullet-bl.png);
+  line-height: 25px;
+}
+
+/* line 1103, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.img-center {
+  margin: 0 auto;
+}
+
+/* line 1107, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.carousel-indicators.vertical {
+  right: 15px;
+  left: inherit;
+  margin-left: 0;
+  width: 20px;
+  bottom: 0px;
+}
+
+/* line 1114, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.carousel-indicators.vertical li {
+  display: block;
+  margin: 10px 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 1130, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.carousel-indicators.vertical li.active {
+  margin: 10px 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+}
+
+/* line 1136, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.carousel-indicators li {
+  display: inline-block;
+  margin: 10px 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 1152, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.carousel-indicators li.active {
+  margin: 10px 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+}
+
+/* line 1159, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.btn.btn-primary {
+  background: #22a3df;
+  border: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 40px;
+}
+
+/* line 1171, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.btn.btn-primary:hover {
+  background: #1d93ca;
+}
+
+/* line 1175, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.btn.btn-empty {
+  background: none;
+  border: 2px solid white;
+  text-transform: uppercase;
+  color: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+/* line 1190, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.btn.btn-empty:hover {
+  background: white;
+  color: #22a3df;
+}
+
+/* line 1195, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.pre-loader {
+  position: fixed;
+  background: #ecf0f1;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  display: block;
+}
+
+/* line 1203, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.pre-loader .load-con {
+  margin: 20% auto;
+  position: relative;
+  text-align: center;
+}
+
+/* line 1209, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.spinner {
+  margin: 50px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+/* line 1215, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #bdc3c7;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 1228, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+/* line 1233, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+/* line 1264, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.has-feedback.left .form-control-feedback {
+  top: 7px;
+  right: inherit;
+  left: 0;
+}
+
+/* line 1269, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.has-feedback.left .form-control {
+  padding-left: 33px;
+  padding-right: 0;
+}
+
+/* line 1274, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.form-control {
+  height: 50px;
+  padding: 12px;
+  border: 1px solid #eeeeee;
+}
+
+/* line 1280, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+a {
+  color: #22a3df;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+
+/* line 1288, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+a:hover {
+  color: #146387;
+  text-decoration: none;
+}
+
+/* line 1293, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.scrollpoint {
+  opacity: 0;
+}
+
+/* line 1296, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.scrollpoint.active {
+  opacity: 1 \0;
+}
+
+/* line 1300, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+/* line 1309, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.flex-video.widescreen {
+  padding-bottom: 57.25%;
+}
+
+/* line 1313, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.flex-video.vimeo {
+  padding-top: 0;
+}
+
+/* line 1317, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  /* line 1328, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  .flex-video {
+    padding-top: 0;
+  }
+}
+/* line 1332, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.quote {
+  background: #333333;
+  color: white;
+  border-left: 4px solid #22a3df;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+
+/* line 1345, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 1349, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+canvas {
+  width: 200px !important;
+  height: 200px !important;
+  display: block;
+  float: none;
+}
+
+@media (max-width: 767px) {
+  /* line 1357, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  #nav .navbar-nav li a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  /* line 1362, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  .theme-switcher {
+    display: none;
+  }
+
+  /* line 1365, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  .navbar-brand {
+    margin-left: 20px;
+  }
+
+  /* line 1369, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  header.masthead h1 {
+    font-size: 30px;
+  }
+
+  /* line 1372, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  header.masthead h2 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  /* line 1376, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  header.masthead h3 {
+    font-size: 14px;
+  }
+
+  /* line 1379, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  header.masthead .tp-caption a {
+    color: white;
+  }
+
+  /* line 1382, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+  header.masthead h1, header.masthead h2, header.masthead h3 {
+    color: white;
+  }
+}
+/* line 1386, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher {
+  position: absolute;
+  margin-top: 20px;
+}
+
+/* line 1390, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher .colors {
+  display: none;
+  overflow: hidden;
+  float: left;
+}
+
+/* line 1395, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher a {
+  width: 30px;
+  height: 30px;
+  float: left;
+  display: inline-block;
+}
+
+/* line 1401, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher a.orange {
+  background: #ff7f00;
+}
+
+/* line 1404, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher a.blue {
+  background: #00bee7;
+}
+
+/* line 1407, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher a.red {
+  background: #fd2020;
+}
+
+/* line 1410, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher .Switcher {
+  color: #999999;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #eeeeee;
+}
+
+/* line 1416, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/blog-blue.css.scss */
+.theme-switcher .Switcher:hover, .theme-switcher .Switcher.active {
+  color: white;
+  background: #555555;
+  border-color: #555555;
+}

@@ -1,0 +1,679 @@
+vi:
+  camaleon_cms:
+    see_intro: "Xem phần giới thiệu"
+    welcome_message: "Chào mừng bạn đến Saigonyo CMS"
+    page_not_exist: "<h1>ooops...</h1><h5>Trang bạn đang tìm kiếm không tồn tại.</h5>"
+    page_error_500: "<h1>ooops...</h1><h5>ỗi 500 - Lỗi máy chủ nội bộ. Vui lòng liên hệ với quản trị viên.</h5>"
+    admin:
+      request_error_message: "Đã xảy ra lỗi, hãy liên hệ với quản trị viên."
+      authorization_error: "Bạn không có quyền cho phần này."
+      header:
+        member_since: "Thành viên từ  %{time}"
+      button:
+        activity: 'Hoạt động'
+        add_new_field: 'Thêm trường mới'
+        add_option: 'Thêm tùy chọn'
+        add_menu: 'Thêm vào Menu'
+        add_widget: 'Thêm Widget'
+        accept: 'Chấp Nhận'
+        add_folder: 'Thêm Folder'
+        actived: 'ĐƯợc kích hoạt'
+        activate_plugin: 'Kích hoạt Plugin'
+        back: 'Trở lại'
+        change_photo: 'Thay đổi hình ảnh'
+        change_password: 'Thay đổi Password'
+        create_menu: 'Tạo Menu'
+        create: 'Tạo'
+        cancel: 'Hủy'
+        chat: 'Chat'
+        close: 'Đóng'
+        delete: 'Xóa'
+        disable_plugin: 'Vô hiệu Plugin'
+        enter: 'Enter'
+        edit: 'Chỉnh sửa'
+        new: 'Thêm mới'
+        following: 'Theo sau'
+        log_in: 'Đăng nhập'
+        move_trash: 'Di chuyển vào thùng rác'
+        no: 'No'
+        none: 'None'
+        not_actived: 'Không kích hoạt'
+        publish: 'Xuất bản'
+        preview: 'Xem trước'
+        proccess: 'Xử lý'
+        recover: 'Sửa lại'
+        restore: 'Khôi phục'
+        restore_selections: 'Khôi phục Lựa chọn'
+        delete_complete: "Xóa hoàn toàn"
+        select: 'Lựa chọn'
+        select_all: 'Chọn tất'
+        select_file: 'Chọn tệp'
+        select_none: 'Chọn không'
+        sign_up: 'Đăng ký'
+        submit: 'Submit'
+        settings: 'Cài đặt'
+        sortable: 'Có thể sắp xếp'
+        update: 'Cập nhật'
+        update_menu: 'Cập nhật Menu'
+        upload_audio: 'Tải Âm thanh'
+        upload_file: 'Tài File'
+        upload_image: 'Tải ảnh'
+        upload_icon: 'Tải Icon'
+        upload_video: 'Tải Video'
+        drag_drop: 'Kéo & Thả files'
+        view_draft: 'Xem nháp'
+        view_page: 'Xem trang'
+        yes: 'Yes'
+        out_yes: 'Yes'
+        out_not: 'No'
+        domain: "Tên miền"
+        search: "Tìm kiếm"
+
+      comments:
+        new_msg: "Nhận xét mới cho Nội dung này"
+        comments_list_post: 'Danh sách nhận xét Đăng'
+        responses: 'Phản hồi'
+        message:
+          approved: 'Chấp thuận'
+          change_status: 'Tình trạng phản hồi đã được thay đổi thành '
+          created: 'Bình luận đã được tạo ra.'
+          destroy: 'Câu trả lời đã được gỡ bỏ.'
+          destroy_comments: 'Các bình luận đã được gỡ bỏ.'
+          deleted: 'Câu trả lời đã bị xoá.'
+          error: 'Không tìm thấy nhận xét'
+          pending: 'Đang chờ xử lý'
+          responses: 'Câu trả lời đã được tạo ra.'
+          spam: 'Spam'
+          there_no_comments: 'Không có ý kiến.'
+          updated: 'Bình luận đã được cập nhật.'
+
+        tooltip:
+          approved_comment: 'Chấp nhận nhận xét'
+          comment_pending: 'Nhân xét đang chờ xử lý'
+          comment_spam: 'Comment To Spam'
+          reply_comment: 'Trả lời nhận xét'
+          delete_comment: 'Xóa nhận xét'
+      custom_field:
+        message:
+          custom_group_error: 'Lỗi nhóm trường tùy chỉnh'
+          custom_created: 'Nhóm trường tùy chỉnh đã được tạo ra.'
+          custom_updated: 'Nhóm trường tùy chỉnh đã được cập nhật.'
+        fields:
+          text_box: 'Text Box'
+          text_area: 'Text Area'
+          select: 'Select'
+          colorpicker: 'Colorpicker'
+          date: 'Date'
+          email: 'Mail'
+          file: 'Tệp'
+          image: 'Ảnh'
+          image_dimension: 'Dimension'
+          image_dimension_descr: 'Crop the image with indicated dimension (widthxheight), sample: 400x300 <br>Possible values: 400x300 | 400x | x300 | ?400x?500 | ?1400x (? => maximum, empty => auto)'
+          image_versions: 'Phiên bản'
+          image_versions_descr: "Create addtional multiple versions of the image uploaded, sample: 300x300,505x350 ==> Sẽ tạo ra hai hình ảnh bổ sung với các kích thước này"
+          image_thumb: 'Thumbnail'
+          required_image_thumb: 'Hình thu nhỏ bắt buộc?'
+          image_thumb_descr: "Xác định kích thước cho hình thu nhỏ, Ví dụ: 100x100. Default: %{d}"
+          numeric: 'Số'
+          phone: 'Phone'
+          users: 'Users'
+          posts: 'Posts'
+          select_eval: 'Chọn Eval'
+          field_attrs: 'Thuộc tính trường'
+          website: 'Website'
+          multiple_choice: 'Radio Button'
+
+
+      login:
+        already_have_account: 'Đã có tài khoản?'
+        authentication: 'Xác thực'
+        captcha: 'Captcha'
+        create_account: 'Tạo một tài khoản'
+        login: 'Đăng nhập'
+        forgot_your_password_int: 'Quên mật khẩu?'
+        message:
+          success: 'Kính Chào!!!'
+          fail: 'Tên người dùng hoặc mật khẩu không chính xác'
+          forgot_url_incorrect: 'URL sai'
+          forgot_expired: 'Đặt lại đã hết hạn.'
+          hello: 'Hello'
+          reset_password_succes: 'Đặt lại mật khẩu thành công!'
+          reset_password_error: 'Mật khẩu không đúng'
+          reset_url: 'Đặt lại URL'
+          subject_email: 'Đặt lại quyền truy cập của bạn'
+          send_mail_succes: 'Gửi thành công đặt lại email.'
+          send_mail_error: 'Không tìm thấy địa chỉ email.'
+          invalid_caption: 'Captcha không hợp lệ'
+          email_not_validated: 'Email chưa được xác nhận.'
+          confirm_email_token_incorrect: 'URL sai'
+          confirm_email_token_expired: 'Xác nhận URL email đã hết hạn'
+          confirm_email_success: 'Xác nhận thành công email!'
+        personal_info: 'Thông tin cá nhân'
+        please_login: 'Vui lòng hãy đăng nhập'
+        reset_password: 'đặt lại mật khẩu'
+        reCaptcha: 'reCaptcha'
+        send_email: 'Gửi email'
+        reset_password_html: '<strong> Gửi email </ strong>, đặt lại mật khẩu'
+        welcome: 'chào đón'
+        welcome_login_html: '<strong> Chào mừng </ strong>, Vui lòng đăng nhập'
+        Do_not_have_account_yet: "Bạn chưa có tài khoản?"
+        msg_registration_html: '<strong> Đăng ký </ strong>, sử dụng mẫu dưới đây'
+        username: "Tên người dùng"
+        password: "Mật khẩu"
+        Password_confirm: "Xác nhận mật khẩu"
+        first_name: "Tên"
+        last_name: "Họ"
+        email: "Email"
+        remember_me: "Nhớ tôi"
+        confirm:
+          text: "Vui lòng xác nhận tài khoản của bạn bằng cách nhấp vào liên kết này"
+          subject: "Xác nhận tài khoản của bạn"
+      logout:
+        log: 'Log'
+        out: 'Out'
+        logout: 'Đăng xuất'
+        logout_html: 'Log <strong>Out</strong>?'
+        message:
+          closed: 'Đã đóng phiên'
+      media:
+        media_manager: 'Media Manager'
+        home: "Home"
+        info: "Thông tin"
+        external: "Tải lên từ URL"
+        folder_name: 'Tên thư mục'
+        folder_file_name: 'Thư mục hoặc Tên Tệp'
+        reload: 'Tải lại'
+        clear_cache: 'Xóa bộ nhớ cache'
+        name_required: 'Tên tệp là bắt buộc'
+      menus:
+        link_url: 'Liên kết URL'
+        target: 'Mục Tiêu'
+        targets:
+          blank: 'Trống'
+          parent: 'Phụ huynh'
+        message:
+          created: 'Trình đơn nav đã được tạo ra.'
+          deleted: 'Trình đơn nav đã bị xóa.'
+          error_menu: 'Lỗi Menu'
+        name_link: 'Tên Liên kết'
+        name_menu: 'Tên Menu'
+        external_link: 'Liên kết bên ngoài'
+        or: 'Hay'
+        create_new: 'tạo một trình đơn mới'
+        select: 'Chọn Menu'
+        select_edit: 'Chọn trình đơn mà bạn muốn chỉnh sửa:'
+      message:
+        are_you_sure_you_want_log_out_int: 'Bạn có chắc là bạn muốn đăng xuất không?'
+        are_you_sure_to_import: "Bạn có chắc chắn muốn nhập?"
+        data_found_list: 'Không có dữ liệu tìm thấy trong danh sách'
+        delete: 'Bạn có chắc chắn để xóa mục này?'
+        delete_item: 'Thực sự muốn xóa mục này?'
+        edit_menu: 'Đặt mỗi mục theo thứ tự bạn thích. Nhấp vào biểu tượng của bút chì để chỉnh sửa mục và nhấp vào biểu tượng dưới dạng x để xóa mục đó.'
+        add_menus: 'Thêm mục trình đơn từ cột bên trái.'
+        press_no_continue_work_press_yes_logout: 'Nhấn Không nếu bạn muốn tiếp tục làm việc. Nhấn Có để đăng xuất người dùng hiện tại.'
+        updated_success: 'Đã cập nhật thành công'
+        remove_items_submenu: 'Thực sự loại bỏ mục này và các mục trình đơn phụ?'
+        you_must_upload_image: 'Bạn phải tải lên một hình ảnh'
+        you_must_upload_video: 'Bạn phải tải lên một video'
+        so_their_data_has_not_been_saved: 'Vì vậy dữ liệu của họ chưa được lưu'
+        no_response_fields: 'Không có trường trả lời '
+        quick_info: 'Một số thông tin nhanh về người dùng này'
+        was_inactivated: 'đã bị vô hiệu hóa.'
+        was_activated: 'đã được kích hoạt'
+        was_upgraded: 'Đã được cập nhật.'
+        can_not_be_removed: 'không thể xóa.'
+        was_removed: 'đã được gỡ bỏ.'
+        processing: 'Đang xử l...'
+        change_photo: 'Sử dụng mẫu dưới đây để tải tệp lên. Chỉ có các tệp hình ảnh.'
+        change_password: 'Trước tiên, thay đổi mật khẩu của bạn nhập mật khẩu cũ rồi nhập mật khẩu mới và lặp lại mật khẩu mới.'
+        you_must_upload_json_file: 'Bạn phải tải lên tệp json'
+        import_process: 'Nhập khẩu trong quá trình'
+        unauthorized: "Truy cập đã bị từ chối"
+        welcome: 'Chào mừng bạn đến với bảng quản trị của trang web của bạn.'
+        no_templates_defined: 'Không có mẫu nào được định nghĩa'
+        avatar_updated: 'Cập nhật Avatar'
+        form_error: 'Lỗi Form'
+      page_title:
+        page_title: 'Tiêu Đề Trang'
+        create: 'Tạo'
+        details: 'Chi tiết'
+        edit: 'Chỉnh sửa'
+        add: 'thêm'
+        list: 'danh mục'
+        list_of: 'Danh mục của'
+        new_site: 'site mới'
+        edit_site: 'chỉnh sửa Site'
+        update: 'Cập nhật'
+      post:
+        add_tag: 'Thêm một Tag'
+        clone: 'Sao chép'
+        clone_content: 'Sao chép nội dung'
+        label_required: 'Nhãn bắt buộc'
+        placeholder_required: 'Chỗ giữ bắt buộc'
+        message:
+          created: 'The %{post_type} được tạo.'
+          updated: 'The %{post_type} được cập nhật.'
+          deleted: 'The %{post_type} được bỏ.'
+          error: 'Lỗi %{post_type}'
+          error_post_type: 'Error %{post_type}'
+          trash: 'The %{post_type} được di chuyển vào thùng rác.'
+          requires_different_slug: 'Yêu cầu slug khác'
+          restore: 'The %{post_type} được khôi phục.'
+          draft: 'lưu nháp thành công'
+          recover: 'Phục hồi...'
+        permalink: 'liên kết bền'
+      post_type:
+        route_format: 'Nội dung Định dạng Tuyến'
+        icons_url_desc: 'Vui lòng nhập bất kỳ tên biểu tượng nào từ đây: '
+        all: 'Tất cả mục chọn'
+        add: 'Thêm'
+        add_category: 'Thêm danh mục'
+        add_post_type: 'Thêm kiểu đăng'
+        add_new: 'Thêm mới'
+        add_post_tag: 'Thêm tag đăng'
+        categories: 'Những danh mục'
+        category: 'Danh mục'
+        configuration: 'Cấu hình'
+        other_configuration: 'Tùy chỉnh cấu hình'
+        comments: 'bình luận'
+        draft: 'Nháp'
+        edit_post_type: 'Biên tập kiểu đăng'
+        edit_category: 'Chỉnh sửa danh mục'
+        enter_password: 'Nhập mật khẩu'
+        featured_image: 'Hình ảnh nổi bật'
+        keywords: 'Những từ khóa'
+        default_layout: 'Bố cục mặc định'
+        default_template: 'Biểu mẫu mặc định'
+        icon: 'Biểu tượng'
+        message:
+          error: 'Lớp lỗi'
+          error_term: 'Lớp điều kiện lỗi'
+          created: 'Được lưu'
+          updated: 'Được cập nhật'
+          deleted: 'Được xóa'
+          no_created_html: '<br> Không %{taxonomy} thấy'
+        pending: 'Đang xử lý'
+        permit_comments: 'Cho phép bình luận?'
+        post_types: 'Các loại bài đăng'
+        posts: 'Bài viết'
+        post_tags: 'Đăng thẻ'
+        published: 'Được phát hành'
+        published_date: 'Ngày xuất bản'
+        save_draft: 'Lưu Bản nháp'
+        save_pending: 'Lưu Trong khi chờ'
+        summary: 'Tóm lược'
+        tags: 'Thẻ'
+        template: 'Bản mẫu'
+        layout: 'Bố cục'
+        trash: 'Rác'
+        tooltip:
+          permission_asing_categories: 'Cho phép quản lý nội dung bài đăng theo danh mục'
+          permission_add_tags: 'Bật trường để nhập thẻ trong nội dung bài đăng'
+          permission_add_content: 'Bật trình soạn thảo để nhập nội dung bài đăng'
+          permission_add_content_summary: 'Bật trường để nhập tóm lược bài đăng'
+          permission_reviews: 'Bật tùy chọn để cho biết nếu nội dung bài đăng có thể được nhận xét'
+          permission_add_image_presentation: 'Bật trình soạn thảo để tải lên hình thu nhỏ trong nội dung bài đăng'
+          permission_manage_template: 'Bật trường để chọn mẫu trong nội dung. (Mẫu: tệp sẽ được sử dụng để hiển thị nội dung) '
+          permission_manage_layout: 'Bật trường để chọn bố cục trong nội dung. (Giao diện: Tệp tệp trong đó sẽ được hiển thị mẫu)'
+          permission_add_keywords: 'Bật trường để nhập từ khóa bài đăng (SEO)'
+          default_layout: 'Chọn bố cục mặc định cho tất cả nội dung của loại bài đăng này'
+          default_template: 'Chọn mẫu mặc định cho tất cả nội dung của loại bài đăng này'
+        upload_image: 'Câp nhật ảnh'
+        view_comments: 'Xem bình luận'
+      plugins:
+        active_plugins: 'Các plugin hoạt động'
+        disabled_plugins: 'Các plugin đã tắt'
+        all_plugins: 'Tất cả Plugins'
+        status_false: 'Không kích hoạt'
+        status_true: 'Kích hoạt'
+        type_contents: 'Loại Nội dung'
+        upgrade_to: "Nâng cấp lên"
+      settings:
+        activate_create_account: 'Kích hoạt Tài khoản Tạo'
+        activate_login_social_networks: 'Kích hoạt Đăng nhập Mạng xã hội'
+        add_field_group: 'Thêm nhóm trường'
+        admin_language: 'Ngôn ngữ quản trị'
+        allow_user_registration: 'Cho phép đăng ký người dùng?'
+        available_fields: 'Các lĩnh vực khả dụng'
+        available_languages: 'Ngôn ngữ sẵn có'
+        categories_in: 'Danh mục trong'
+        configuration_site: 'Trang cấu hình'
+        current_languages: 'Ngôn ngữ hiện tại'
+        details_custom_field_group: 'Chi tiết Nhóm trường tùy chỉnh'
+        details_site: 'Chi tiết Trang web'
+        edit_custom_field_group: 'Chỉnh sửa Nhóm Trường Tùy chỉnh'
+        field: 'Trường'
+        fields: 'Nhiều Trường'
+        information_basic: 'Thông tin cơ bản'
+        theme_setting: "Cài đặt theme"
+        input_only_date: 'Chỉ nhập ngày'
+        input_date_time: 'Nhập ngày tháng và thời gian'
+        languages_configuration: 'Cấu hình ngôn ngữ'
+        list_custom_fields_group: 'Liệt kê các trường nhóm tùy chỉnh'
+        list_sites: 'Danh sách các trang web'
+        login_twitter: 'Twitter'
+        login_facebook: 'Facebook'
+        login_google: 'Google+'
+        email_enabled: "Sử dụng các cài đặt này để gửi email"
+        email_server: "Email Server"
+        email_port: "Email Port"
+        email_domain: "Email Domain"
+        email_username: "User Name"
+        email_pass: "User Password"
+        email_from: "Email From"
+        email_cc: "Email CC"
+        twitter_card: "Twitter Card"
+        author: "Tên Tác Giả"
+        seo_setting: "Thiết lập SEO"
+        email_settings: "Thiết lập mail (SMTP)"
+        filesystem_type: "kiểu file hệ thống"
+        filesystem_s3_access_key: "AWS S3 Access Key"
+        filesystem_s3_secret_key: "AWS S3 Secret Key"
+        filesystem_s3_bucket_name: "AWS S3 Bucket name"
+        filesystem_s3_endpoint: "AWS S3 Bucket endpoint"
+        send_test_email: 'gửi kiểm tra Email'
+        filesystem_region: "AWS S3 Region"
+        filesystem_cdn: "CDN url"
+        security:
+          captcha_user_register: "Bật captcha về đăng ký người dùng?"
+          need_validate_email: "Cần xác thực email?"
+        message:
+          language_updated: 'Ngôn ngữ của bạn đã được định dạng.'
+          site_updated: 'Trang web đã được cập nhật.'
+        new_custom_field_group: 'Nhóm lĩnh vực tùy chỉnh mới'
+        options_select: 'Tùy chọn chọn'
+        option_title: 'Tiêu đề Tùy chọn'
+        others: 'Những người khác'
+        please_separated_commas: 'Xin vui lòng cách nhau bởi dấu phẩy'
+        comment_status: 'Đăng ký nhận xét như đã được chấp thuận?'
+        list_per_page_front: 'Số lượng mặt hàng được liệt kê ở  frontend'
+        list_per_page_admin: 'Số lượng mặt hàng được liệt kê ở backend'
+        permission_register_users: 'Quyền đăng ký người dùng'
+        permission_login_twitter: 'Quyền Đăng nhập với Twitter'
+        permission_login_facebook: 'Quyền Đăng nhập với Facebook'
+        permission_login_google: 'Quyền Đăng nhập với Google+'
+        posts_in: 'Bài đăng trong'
+        settings: 'Cài đặt'
+        tooltip:
+          add_custom_field_posts: 'Thêm trường tùy chỉnh trong bài viết của '
+          add_custom_field_categories: 'Thêm trường tùy chỉnh trong các danh mục của'
+          add_custom_field_users: 'Thêm trường tùy chỉnh trong người dùng '
+          add_custom_field_sites: 'Thêm trường tùy chỉnh trong trang web '
+          add_custom_field_themes: 'Thêm trường tùy chỉnh trong chủ đề '
+          add_custom_field_widget: 'Thêm trường tùy chỉnh trong Widget '
+        untitled: 'Untitled'
+        where_display_group: 'Nơi để hiển thị nhóm này'
+      sidebar:
+        appearance: 'Hiển thị'
+        comments: 'Bình luận'
+        content: 'Nội dung'
+        contents: 'những nội dung'
+        content_groups: 'Những nhóm nội dung'
+        custom_fields: 'Những trường tùy biến'
+        dashboard: 'Dashboard'
+        general_site: 'Tổng quan site'
+        information: 'Thông tin'
+        languages: 'Những ngôn ng'
+        shortcodes: "Shortcodes"
+        media: 'Đa phương tiện'
+        menus: 'Những trình đơn'
+        navigation: 'Điều hướng'
+        plugins: 'Plugins'
+        post_type: 'Loại bài đăng'
+        settings: 'Các Cài đặt'
+        site_settings: 'Những thiết đặt site'
+        sites: 'Các site'
+        themes: 'các themes'
+        users: 'Những người dùng'
+        widget: 'Tiện ích'
+        widgets: 'Những tiện '
+        main_navigation: "MAIN NAVIGATION"
+      sidebar_top:
+        admin_panel: 'Quản trị. Panel'
+        visit: 'Viếng thăm'
+      sites:
+        add_site: 'thêm Site'
+        message:
+          error: 'site không tìm thấy'
+          created: 'Trang web đã được tạo ra.'
+          updated: 'rang web đã được cập nhật.'
+          deleted: 'Đã xóa đúng'
+          enter_key_domain: 'Nhập khoá hoặc tên miền'
+          enter_key_domain_empty: 'Nhập khoá (site2) hoặc tên miền (my_domain.com). Key sẽ là tên của tên miền phụ của bạn.'
+      signin:
+        message:
+          enter_username_password: 'Bạn phải nhập tên người dùng và / hoặc mật khẩu'
+          combination_username_password_invalid: 'Kết hợp tên người dùng / mật khẩu không hợp lệ.'
+          success_user: 'Người dùng thành công'
+      table:
+        actions: 'Hành động'
+        attribute: 'Thuộc tính'
+        categories: 'Danh mục'
+        updated_at: "Cập nhật tại"
+        comments: 'Bình luận'
+        count: 'Điếm'
+        date_published: 'Ngày xuất bản'
+        default: 'Mặc'
+        default_thumbnail: 'Hình thu nhỏ mặc định'
+        default_value: 'Giá trị mặc định'
+        description: 'Mô tả'
+        dimensions: 'Kích thước'
+        display_objects: 'Đối tượng hiển th'
+        draft: 'Dự thảo'
+        email: 'Email'
+        e_mail: 'E-mail'
+        email_address: 'Địa chỉ mail'
+        error: 'Error'
+        errors: 'Errors'
+        excerpt: 'Đoạn trích'
+        facebook: 'Facebook'
+        favicon: 'Favicon'
+        screenshot: "Ảnh chụp màn hình"
+        first_names: 'Tên'
+        group_name: 'Tên nhóm'
+        google_plus: 'Google plus'
+        hide: 'Hide'
+        home_page: 'Trang chủ'
+        id: 'ID'
+        images: 'Hình ảnh'
+        import: 'Nhập khẩu'
+        instagram: 'Instagram'
+        keywords: 'Từ khóa (nhập bằng dấu phẩy)'
+        kind: 'Loại'
+        last_login: 'Lần đăng nhập cuối cùng'
+        last_names: 'Họ'
+        last_visit: 'Lần ghé thăm cuối cùng'
+        link: 'Liên k'
+        linkedin: 'Linkedin'
+        login: 'Đăng nh'
+        logo: 'Logo'
+        manage_category: 'Danh mục quản lý'
+        manage_content: 'Quản lý nội dung '
+        manage_picture: 'Quản lý Hình ảnh '
+        manage_seo: 'Quản lý SEO'
+        manage_summary: 'Quản lý Summary'
+        manage_tags: 'Quản lý Tags'
+        manage_template: 'Quản lý biểu mẫu'
+        manage_layout: 'Quản lý bố cục'
+        modified: 'Sủa đổi'
+        multiple_field_int: 'Nhiều trường?'
+        required_field_int: 'Trường bắt buộc?'
+        translate_field_int: 'Dịch trường?'
+        show_in_frontend: 'Hiển thị trong Giao diện người dùng (Chỉ đăng nội dung)'
+        name: 'Tên'
+        new_password: 'Mật khẩu Mới'
+        no_default: 'Không mặc định'
+        old_password: 'Mật khẩu c'
+        options: 'Tùy chọn'
+        settings: 'Cài đặt'
+        options_field: 'Trường tùy chọn'
+        parent: 'Parent'
+        password: 'Mật khẩu'
+        password_confirmation: 'Xác nhận mật khẩu'
+        password_protection: 'Bảo vệ mật khẩu'
+        permit_comments_default: 'Cho phép nhận xét (mặc định)'
+        post: 'Đăng'
+        post_type: 'Loại bài đăng'
+        pending: 'đang chờ xử lý'
+        private: 'Riêng tư'
+        public: 'Công khai'
+        qty: 'Số lượng'
+        quick_info: 'Thông tin Nhanh'
+        registration: 'Đăng ký'
+        repeat_new: 'lặp lại mới'
+        role: 'Vai trò'
+        slogan: 'Slogan'
+        slug: 'Slug'
+        short_code: 'Short Code'
+        site_name: 'Site Name'
+        size: 'Size'
+        social: 'Xã hội'
+        skype: 'Skype'
+        status: 'Tình trạng'
+        owner: 'Người sở hữu trang'
+        tags: 'Thẻ'
+        text: 'Văn bản'
+        title: 'Tiêu đề'
+        total: 'Tổng'
+        trash: 'thùng rác'
+        twitter: 'Twitter'
+        username: 'Tên đăng nhập'
+        value: 'Giá trị'
+        version: 'Phiên bản'
+        visibility: 'Tầm nhìn'
+        page_404: 'trang 404'
+        youtube: 'Youtube'
+        more_actions: 'Hành động khác'
+        more_actions_info: 'Thông tin hành động khác.'
+        shorcodes: "Shortcodes"
+      themes:
+        footer_copyright: 'Footer Copyright'
+        theme_select: 'chọn theme'
+        title: 'Theme %{theme} Settings '
+        analytics_code: 'Mã Analytics'
+        social_share: 'Chia sẻ xã hội'
+
+        message:
+          updated: 'Theme được cập nhật'
+      users:
+        impersonate: 'Mạo danh'
+        all_users: 'Tắt cả người dùng'
+        add_user: 'Thêm người dùng'
+        add_user_role: 'Thêm vai trò người dùng'
+        avatar: 'Avatar'
+        create_user: 'Tạo người dùng'
+        edit_profile: 'Chỉnh sửa hồ sơ'
+        list_users: 'Danh sách người dùng'
+        list_user_roles: 'Vai trò Người dùng'
+        message:
+         error: 'Không tìm thấy người dùng.'
+         error_captcha: 'Ôi! Lỗi của nó với CAPTCHA!'
+         created: 'Người dùng đã được tạo ra.'
+         updated: 'Người dùng đã được cập nhật.'
+         deleted: 'Người dùng đã bị xóa.'
+         incorrect_old_password: 'Mật khẩu cũ không chính xác'
+         rol_error: 'Không tìm thấy người dùng nhóm'
+         rol_created: 'Vai trò người dùng đã được tạo ra.'
+         rol_updated: 'Vai trò người dùng đã được cập nhật.'
+         rol_deleted: 'Vai trò người dùng đã bị xóa.'
+         requires_different_name: 'Yêu cầu tên khác nhau'
+         requires_different_username: 'Yêu cầu tên người dùng khác nhau'
+         requires_different_email: 'Yêu cầu email khác nhau'
+         created_pending_validate_email: "TNgười dùng đã được tạo, vui lòng xác nhận email của bạn"
+        new_photo: 'Ảnh mớ'
+        others_permissions: 'Các điều khoản khác'
+        profile: 'Hồ sơ'
+        slogan: 'Slogan'
+        type_contents: 'Loại nội dung'
+        user_roles: 'Vai trò Người dùng'
+        roles_values:
+          comments: 'Bình luận'
+          forms: 'Forms'
+          media: 'Truyền thông'
+          publish: 'Xuất bản'
+          themes: 'Themes'
+          html_create_or_edit: 'Tạo <br>or  Chỉnh sửa'
+          html_edit_other: 'Chỉnh sửa <br> khác'
+          html_edit_publish: 'chỉnh sửa <br> xuất bản'
+          html_delete_other: 'Xóa <br> khác'
+          html_delete_publish: 'Xóa <br> Xuất bản'
+          html_read_private: 'Đọc <br> Riêng tư'
+          html_manage_categories: 'Quản lý <br> danh mục'
+          html_manage_tags: 'Quản lý <br> Tags'
+        tool_tip:
+          comments: 'Cho phép phần nhận xét'
+          delete: 'Bạn cần quyền tạo hoặc chỉnh sửa để xóa các bài viết của tài sản của bạn. '
+          forms: 'Cho phép các phần Forms'
+          media: 'Quyền cho khu vực trung tâm'
+          publish: 'Bạn cần giấy phép Tạo hoặc Chỉnh sửa, Chỉnh sửa Khác, Chỉnh sửa, Xuất bản, để cho phép này'
+          themes: 'Chủ đề cho phép để phần'
+          widgets: 'Widgets permission to section'
+          menus: 'Phân q vào phần Menu'
+          plugins: 'Quyền đối với phần Plugins'
+          users: 'Quyền tạo, chỉnh sửa, xóa người dùng'
+          settings: 'Quyền cho phần Cài đặt'
+          create_or_edit: 'Nó cho phép bạn tạo và chỉnh sửa bài đăng của mình (bài đăng không được xuất bản)'
+          edit_other: 'Nó cho phép bạn chỉnh sửa bài đăng của người dùng khác (bài đăng không được xuất bản)'
+          edit_publish: 'Nó cho phép bạn chỉnh sửa bài đăng được xuất bản'
+          delete_other: 'Bạn cần sự cho phép xóa bỏ các bài viết khác của người dùng khác'
+          delete_publish: 'Bạn cần giấy phép Delete, Delete Other, để kích hoạt sự cho phép này'
+          read_private: 'Cho phép bạn xem bài đăng cá nhân'
+          manage_categories: 'Cho phép tạo, chỉnh sửa và xóa các loại'
+          manage_tags: 'Quyền tạo, chỉnh sửa và xóa các thẻ bài đăng'
+      validate:
+        required: 'Trường này là bắt buộc.'
+        remote: 'Xin vui lòng khắc phục trường này.'
+        email: 'Vui lòng nhập địa chỉ email hợp lệ.'
+        url: 'Vui lòng nhập một URL hợp lệ.'
+        date: 'Vui lòng nhập ngày hợp lệ.'
+        dateiso: 'Vui lòng nhập ngày hợp lệ (ISO).'
+        number: 'Hãy nhập một số hợp lệ.'
+        digits: 'Vui lòng nhập chỉ số.'
+        creditcard: 'Vui lòng nhập số thẻ tín dụng hợp lệ.'
+        equalto: 'Vui lòng nhập cùng giá trị một lần nữa.'
+        maxlength: 'Vui lòng nhập không quá {0} ký tự.'
+        minlength: 'Vui lòng nhập ít nhất {0} ký tự.'
+        rangelength: 'Vui lòng nhập một giá trị giữa {0} và {1} ký tự.'
+        range: 'Hãy nhập giá trị giữa {0} và {1}.'
+        max: 'Hãy nhập giá trị nhỏ hơn hoặc bằng {0}.'
+        min: 'Vui lòng nhập một giá trị lớn hơn hoặc bằng {0}.'
+      widgets:
+        create_widget: 'Tạo Widget'
+        create_sidebar: 'Tạo Sidebar'
+        complex_widgets: 'Tiện ích phức tạp'
+        simple_widgets: 'Các tiện ích đơn giản'
+        message:
+          created: 'Widget đã được tạo ra.'
+          updated: 'Widget đã được cập nhật.'
+          deleted: 'Tiện ích đã bị xóa.'
+          error_created: 'Không tạo Widget.'
+          error_updated: 'Không cập nhật Widget.'
+          not_registered_widgets: 'Không có tiện ích đã đăng ký'
+        assign:
+          updated: "Widget assign updated"
+          error_updated: "Widget assign not updated"
+        sidebar:
+          created: "Tạo thanh bên."
+          updated: "Cập nhật thanh bên."
+          error_created: "không tạo sidebar."
+          error_updated: "không cập nhật sidebar."
+          error_deleted: "Sidebar được xóa."
+      intro:
+        profile: "Ở nơi này, bạn có thể thấy tùy chọn hồ sơ của mình."
+        content: "Khối này chứa tất cả các nhóm nội dung của trang web của bạn.Mỗi nội dung có thể có cấu trúc khác nhau được cấu hình trong settings => Content Groups"
+        #dashboard: "Trong phần này, bạn có thể thấy "
+        media: "Phần này quản lý tất cả các tệp phương tiện công cộng của bạn."
+        comments: "Phần này quản lý tất cả các nhận xét về nội dung của bạn."
+        appearance: "Quản lý tất cả các thông tin liên quan đến Giao diện Công cộng."
+        themes: "rong phần này, bạn có thể chọn chủ đề ưa thích của bạn (Giao diện công cộng)."
+        widgets: "TMô-đun này cho phép bạn quản lý các vật dụng của mình và dán mã vào bất kỳ nội dung nào."
+        menus: "<img style=\"max-width: 100%;\" src=\"%{image}\" /> Mô-đun này cho phép bạn kiểm soát trình đơn của bạn cho Giao diện Công cộng ở nhiều cấp."
+        plugins: "ITrong phần này bạn có thể thấy tất cả các plugin (ứng dụng tùy chỉnh để mở rộng chức năng trang web của bạn)."
+        users: "Cho phép bạn quản lý tất cả người dùng của trang web và bạn cũng có thể quản lý vai trò cho người dùng."
+        settings: "Trong phần này, bạn có thể tìm thấy tất cả các cấu hình trang web."
+        gral_site: "Đây là một phần mà bạn có thể cấu hình tất cả các thiết lập của trang web và chủ đề hiện tại"
+        sites: "Mô-đun này cho phép bạn quản lý các trang web phụ của bạn, tức là bạn có thể tạo các trang web không giới hạn như thế này (Điều này chỉ hiển thị đối với trang chính) Kiểm tra /config/system.json để tuỳ chỉnh cài đặt"
+        custom_fields: "Phần này cho phép bạn dễ dàng mở rộng nội dung, chủ đề, ... theo các trường tùy chỉnh."
+        post_type: "Trong mô-đun này, bạn có thể quản lý các nhóm nội dung của bạn mà không lập trình bất kỳ điều gì."
+        languages: "Mô-đun này cho phép bạn quản lý tất cả ngôn ngữ cho trang web của bạn. Ngoài ra, bạn có thể định cấu hình ngôn ngữ cho bảng quản trị của mình."
+        shortcodes: "Trong phần này, bạn có thể xem tất cả các mã ngắn có sẵn để sử dụng trong nội dung của bạn."

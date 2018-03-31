@@ -1,0 +1,132 @@
+/* line 1, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.ec-list-orders-address {
+  padding: 0;
+  list-style: none;
+}
+/* line 4, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.ec-list-orders-address li {
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+/* line 7, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.ec-list-orders-address li strong {
+  width: 80px;
+  float: left;
+}
+/* line 11, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.ec-list-orders-address li span {
+  display: block;
+  float: left;
+}
+
+/* line 18, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#shipping_address #copy {
+  display: none;
+}
+
+/* line 23, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar {
+  background-size: 8px;
+  margin: 45px 0;
+  overflow: hidden;
+  position: relative;
+}
+/* line 28, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar .bg-bar {
+  background: #ddd none repeat scroll 0 0;
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  z-index: 0;
+}
+/* line 37, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  z-index: 9;
+}
+/* line 42, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar ul li {
+  width: 33%;
+  float: left;
+  text-align: center;
+  background-size: 36px;
+  padding-top: 0;
+  z-index: 10;
+}
+/* line 49, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar ul li .icon {
+  padding-bottom: 10px;
+}
+/* line 51, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar ul li .icon i {
+  border-radius: 50%;
+  background: #aaa;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  height: 34px;
+  padding: 8px;
+  width: 34px;
+}
+/* line 69, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar ul .accepted .icon i {
+  background-color: #89BD2F;
+}
+/* line 74, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+#order_view .status-bar ul .shipped .icon i {
+  background-color: #E32479;
+}
+
+/* line 82, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.box-adv-search .dropdown.dropdown-lg .dropdown-menu {
+  margin-top: -1px;
+  padding: 6px 20px;
+}
+/* line 86, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.box-adv-search .input-group-btn .btn-group {
+  display: flex !important;
+}
+/* line 89, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.box-adv-search .btn-group .btn {
+  border-radius: 0;
+  margin-left: -1px;
+}
+/* line 93, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.box-adv-search .btn-group .btn:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 97, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.box-adv-search .btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+/* line 101, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.box-adv-search .form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 105, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+.box-adv-search .form-group .form-control:last-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+  /* line 111, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+  .box-adv-search #adv-search {
+    width: 360px;
+    margin: 0 auto;
+  }
+  /* line 115, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+  .box-adv-search .dropdown.dropdown-lg {
+    position: static !important;
+  }
+  /* line 118, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/admin.scss */
+  .box-adv-search .dropdown.dropdown-lg .dropdown-menu {
+    min-width: 400px;
+  }
+}

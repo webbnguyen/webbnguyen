@@ -1,0 +1,10 @@
+/* line 1, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/front.scss */
+.ec-list-orders-address {
+  list-style: none;
+}
+
+/* line 5, /home/vtvsoft/Saigonyo/vendor/gems/camaleon-ecommerce/app/assets/stylesheets/plugins/ecommerce/front.scss */
+form label.error {
+  color: red;
+  font-weight: normal;
+}

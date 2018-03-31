@@ -1,0 +1,4025 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* line 8, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato-Regular';
+  background: #fff;
+}
+
+/* line 15, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(/assets/themes/e_shop/assets/fonts/Lato-Regular-7ae714b63c2c8b940bdd211a0cc678f01168a34eea8aa13c0df25364f29238a7.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url(/assets/themes/e_shop/assets/fonts/PlayfairDisplay-Regular-8252dedbc1fa558c3e193ffc7fc69e1b249802d297017711ca0ef77c8ed7c52d.ttf) format("truetype");
+}
+/* line 34, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+input[type="button"], input[type="submit"] {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 42, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'PlayfairDisplay-Regular';
+}
+
+/* line 47, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p {
+  margin: 0;
+}
+
+/* line 51, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 56, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+label {
+  margin: 0;
+}
+
+/*-----start-header----*/
+/* line 61, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#main_container {
+  padding-top: 25px;
+}
+
+/* line 66, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#product_view .product_info_col {
+  background: rgba(245, 243, 243, 0.27);
+  padding: 2em;
+}
+/* line 70, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#product_view .product-listy {
+  background: #9e9c9c;
+}
+/* line 72, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#product_view .product-listy ul.product-list {
+  padding: 0em 0 0.5em 0;
+  margin: 0.5em 0;
+}
+/* line 76, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#product_view .product-listy ul.product-list li {
+  display: block;
+  margin: 5px 0;
+}
+/* line 80, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#product_view .product-listy ul.product-list li a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  text-decoration: none;
+  padding: 5px 2em;
+  font-family: 'Doppio One', sans-serif;
+  font-weight: 400;
+  display: block;
+}
+/* line 90, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#product_view .product-listy ul.product-list li a:hover {
+  background: #000;
+  color: #fff;
+  padding: 5px 2em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+/* line 100, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#product_view .product-listy h2 {
+  color: #fff;
+  background: #816263;
+  font-size: 15px;
+  padding: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 111, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.font20 {
+  font-size: 20px;
+}
+
+/* line 115, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.header-top-strip {
+  padding: 8px 0 14px 0;
+  background-color: #816263;
+}
+
+/* line 120, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.header-top-left ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* line 125, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.header-top-left ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* line 131, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+span.glyphicon.glyphicon-user, span.glyphicon.glyphicon-lock {
+  font-size: 10px;
+  vertical-align: initial;
+  margin-right: 6px;
+}
+
+/* line 137, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.header-top-left {
+  float: left;
+  margin-top: 5px;
+}
+
+/* line 142, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.header-right {
+  float: right;
+  margin-top: 5px;
+}
+
+/* line 147, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.box_1 h3 {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 0;
+  float: left;
+  font-weight: 400;
+  padding: 0;
+}
+
+/* line 156, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.box_1 h3 img {
+  margin-left: 3px;
+}
+
+/* line 160, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+a.simpleCart_empty {
+  font-size: 14px;
+  color: #FFC6CF;
+}
+
+/* line 165, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.box_1 p {
+  margin-left: 8px;
+  float: left;
+}
+
+/* line 170, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner {
+  background: url(/assets/themes/e_shop/assets/images/banner_img-0738952b19f2e54245c9c429c7249701ad6eb73771b2bfc73d0e35524e283d3a.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  min-height: 705px;
+}
+
+/* line 180, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.logo h1 a {
+  color: #000;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+/* line 187, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.logo a span {
+  color: #816263;
+  font-size: 35px;
+  border: 2px solid #816263;
+  border-radius: 50%;
+  width: 50px;
+  display: block;
+  text-align: center;
+  float: left;
+  padding: 2px 0 0 4px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+/* line 202, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner-top {
+  padding-top: 25px;
+  background-color: #f8f8f8;
+}
+
+/* line 207, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.inner-head {
+  background-color: #fff;
+}
+
+/* line 211, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* line 216, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+  text-transform: uppercase;
+  border: 1px solid #f8f8f8;
+  margin: 0 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 225, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-nav {
+  float: right;
+  margin: 0;
+}
+
+/* line 230, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-collapse.collapse {
+  padding: 0;
+}
+
+/* line 234, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent;
+  border: 1px solid #816263;
+  color: #816263;
+}
+
+/* line 240, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #000;
+  background-color: transparent;
+}
+
+/* line 245, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+
+/* line 251, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #fff;
+}
+
+/* line 256, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.navbar-header {
+  float: left;
+  width: 35%;
+}
+
+/* line 261, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.multi-column-dropdown h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #816263;
+  padding: 0;
+}
+
+/* line 269, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.multi-column-dropdown li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+/* line 274, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  color: #000;
+  white-space: normal;
+  font-weight: 300;
+}
+
+/* line 283, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.multi-column-dropdown li a.list {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+/* line 288, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dropdown-menu .divider {
+  height: 0px;
+  margin: 1px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+/* line 295, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.multi-column-dropdown li a:hover, .multi-column-dropdown li.current_item a {
+  text-decoration: none;
+  color: #816263;
+  background-color: #fff !important;
+}
+
+/* line 301, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+  padding: 15px 20px;
+}
+
+/* line 306, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dropdown-menu.columns-3 {
+  min-width: 550px;
+  padding: 15px 20px;
+}
+
+/* line 311, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dropdown-menu.columns-4 {
+  padding: 15px 20px;
+}
+
+/* line 315, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner-bottom-left {
+  float: Left;
+  margin: 110px 0px 0px 30px;
+}
+
+/* line 320, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner-bottom-right {
+  float: right;
+  width: 50%;
+}
+
+/* line 325, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner-bottom-left h2 {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 120px;
+  color: #816263;
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  margin: 0 0 0 100px;
+  padding: 0;
+}
+
+/*--header--*/
+/* line 340, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#slider2,
+#slider3 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+}
+
+/* line 348, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.rslides_tabs li:first-child {
+  margin-left: 0;
+}
+
+/* line 352, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.rslides_tabs .rslides_here a {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 358, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.events {
+  list-style: none;
+}
+
+/* line 362, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+/* line 368, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 377, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks li {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 382, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks img {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  border: 0;
+}
+
+/* line 389, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks .caption {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  text-shadow: none;
+  color: #fff;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  margin: 0;
+  max-width: none;
+  top: 10%;
+  text-align: center;
+}
+
+/* line 405, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: transparent;
+  top: 56%;
+  left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 70px;
+  width: 40px;
+  background: transparent url(/themes/e_shop/assets/images/arrows2.png) no-repeat left top;
+  margin-top: 1%;
+}
+
+/* line 421, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_nav:hover {
+  opacity: 0.5;
+}
+
+/* line 425, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0px;
+}
+
+/* line 431, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_nav.prev {
+  right: auto;
+  background-position: left top;
+  left: 0px;
+}
+
+/* line 437, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#slider3-pager a {
+  display: inline-block;
+}
+
+/* line 441, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#slider3-pager span {
+  float: left;
+}
+
+/* line 445, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#slider3-pager span {
+  width: 100px;
+  height: 15px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 30em;
+  opacity: 0.6;
+}
+
+/* line 454, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#slider3-pager .rslides_here a {
+  background: #FFF;
+  border-radius: 30em;
+  opacity: 1;
+}
+
+/* line 460, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#slider3-pager a {
+  padding: 0;
+}
+
+/* line 464, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#slider3-pager li {
+  display: inline-block;
+}
+
+/* line 468, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+/* line 476, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 485, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.rslides li {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+/* line 491, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.rslides img {
+  height: auto;
+  border: 0;
+}
+
+/* line 496, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_tabs {
+  list-style: none;
+  position: absolute;
+  bottom: -21%;
+  z-index: 999;
+  left: 38%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+/* line 507, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.slider-top span {
+  font-weight: 600;
+}
+
+/* line 511, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_tabs li {
+  display: inline-block;
+  margin: 0 .3em;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 517, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .callbacks_nav {
+    top: 47%;
+  }
+}
+@media screen and (max-width: 760px) {
+  /* line 523, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  #bs-example-navbar-collapse-1 .pull-right {
+    float: none !important;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 529, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-4 {
+    min-width: 750px;
+  }
+}
+/*----*/
+/* line 535, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_tabs a {
+  visibility: hidden;
+}
+
+/* line 539, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_tabs a:after {
+  content: "\f111";
+  font-size: 0;
+  font-family: FontAwesome;
+  visibility: visible;
+  display: block;
+  width: 40px;
+  height: 5px;
+  display: block;
+  background: #898989;
+  display: inline-block;
+  border: none;
+}
+
+/* line 553, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.callbacks_here a:after {
+  background: #816263;
+}
+
+/* line 557, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner-info {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* line 562, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner-info h3 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #000000;
+  padding: 0;
+}
+
+/* line 569, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.banner-info p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #816263;
+  margin: 20px 0;
+}
+
+/* line 576, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+div.shop {
+  float: right;
+  margin-top: 25px;
+}
+
+/* line 581, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+div.shop a {
+  text-decoration: none;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+/* line 590, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+div.shop a:hover {
+  color: #fff;
+  background-color: #816263;
+  border: 1px solid #816263;
+}
+
+/*-- online-strip --*/
+/* line 597, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.online-strip {
+  border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
+  padding: 20px 0;
+  text-align: center;
+  margin: 40px 0 30px;
+}
+
+/* line 605, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.shipping-grid {
+  border-left: 1px solid #C8C8C8;
+  border-right: 1px solid #C8C8C8;
+}
+
+/* line 610, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.shipping {
+  float: left;
+  width: 13%;
+  margin-right: 3%;
+  margin-left: 20%;
+}
+
+/* line 617, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.shipping img {
+  width: 100%;
+  margin-top: 10%;
+}
+
+/* line 622, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.shipping-text {
+  float: left;
+}
+
+/* line 626, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.online-strip h3 {
+  color: #816263;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+/* line 632, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.follow-us h3 {
+  margin-top: 0.4em;
+}
+
+/* line 636, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.online-strip p {
+  font-size: 0.95em;
+}
+
+/* line 640, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+
+/*-- online-strip --*/
+/* line 662, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h3.head.text-center {
+  font-size: 35px;
+  color: #816263;
+  font-weight: 500;
+  padding: 0;
+}
+
+/* line 669, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product {
+  position: relative;
+  margin-top: 50px;
+}
+/* line 672, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product:hover .mask {
+  display: block;
+}
+/* line 675, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product img {
+  width: 100%;
+}
+/* line 678, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product .p_title {
+  height: 95px;
+}
+/* line 681, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product a {
+  display: block;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+/* line 688, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product a.product_name {
+  margin: 15px 0;
+}
+/* line 692, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product:hover .mask {
+  display: block;
+}
+/* line 695, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product .mask {
+  display: none;
+  position: absolute;
+  top: 44%;
+  left: 33%;
+}
+/* line 700, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product .mask a {
+  background: rgba(255, 255, 255, 0.74);
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+/* line 707, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product .mask a:hover {
+  text-decoration: none;
+  background: #816263;
+  color: #fff;
+  transition: 0.7s all;
+  -webkit-transition: 0.7s all;
+  -o-transition: 0.7s all;
+  -moz-transition: 0.7s all;
+  -ms-transition: 0.7s all;
+}
+/* line 719, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product p {
+  color: #999;
+  font-family: 'Lato-Regular';
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 725, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product p a {
+  text-decoration: none;
+  color: #999;
+}
+/* line 729, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product p i {
+  background: url(/assets/themes/e_shop/assets/images/cart-61649ea0e8362c7c61f6c9c3c457047157dcd8774815238272410112dfc9a3ab.png) no-repeat;
+  width: 20px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/*--end-product--*/
+/* line 740, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h3.like {
+  font-size: 30px;
+  color: #816263;
+  font-weight: 500;
+  padding: 0;
+}
+
+/* line 747, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+a.like_name {
+  line-height: 40px;
+  display: block;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+/* line 757, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+#flexiselDemo1, #flexiselDemo3 {
+  display: none;
+}
+
+/* line 761, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-container {
+  position: relative;
+  max-width: 100%;
+  margin-top: 3em;
+}
+
+/* line 767, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-ul {
+  position: relative;
+  width: 9999px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* line 776, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-inner {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 781, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-item {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  position: relative;
+  line-height: 0px;
+}
+
+/* line 790, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-item > img {
+  cursor: pointer;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 350px;
+  max-height: 500px;
+  display: inline-block;
+}
+
+/* line 800, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.grid-flex {
+  margin: 20px 0 20px 0;
+}
+
+/* line 804, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-item > img {
+  cursor: pointer;
+  position: relative;
+  width: 90%;
+}
+
+/*** Navigation ***/
+/* line 811, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  margin-top: -2em;
+}
+
+/* line 820, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-nav-left {
+  left: 0px;
+  background: url(/themes/e_shop/assets/images/arrows.png) no-repeat -8px -7px;
+}
+
+/* line 825, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nbs-flexisel-nav-right {
+  right: 0px;
+  background: url(/themes/e_shop/assets/images/arrows.png) no-repeat -61px -7px;
+}
+
+/* line 830, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.other-products {
+  padding: 60px 0;
+}
+
+/* line 834, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.liked-product {
+  margin-top: 0;
+}
+
+/*-- news-letter-starts-here --*/
+/* line 839, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.news-letter {
+  background-color: #F7F7F7;
+  padding: 35px 0;
+}
+
+/* line 844, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.join h6 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+  float: left;
+  margin-right: 5%;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-family: 'Lato-Regular';
+  padding: 0;
+}
+
+/* line 856, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.join input[type="text"] {
+  width: 68%;
+  color: #C3C3C3;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 10px;
+  border: 1px solid #E4E4E4;
+  outline: none;
+  font-family: 'Lato-Regular';
+  text-align: left;
+}
+
+/* line 869, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.join input[type="submit"] {
+  outline: none;
+  cursor: pointer;
+  width: 22%;
+  padding: 6px 0 10px;
+  background: #816263;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0px 0 0 -3px;
+  border: none;
+  -webkit-apperance: none;
+}
+
+/* line 883, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.join input[type="submit"]:hover {
+  background-color: #000;
+}
+
+/*-- news-letter-ends-here --*/
+/*-- footer-starts-here --*/
+/* line 889, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span1_of_4 h4 {
+  margin: 0 0 15px 0;
+  font-size: 23px;
+  color: #816263;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 0;
+}
+
+/* line 898, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.footer {
+  padding: 50px 0;
+}
+
+/* line 902, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.f_nav li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+/* line 907, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.f_nav li a {
+  list-style-type: none;
+  font-size: 14px;
+  color: #B3B3B3;
+  text-transform: capitalize;
+}
+
+/* line 914, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cards.text-center {
+  border-top: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
+  margin: 40px 0;
+  padding: 25px 0;
+}
+
+/* line 921, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.copyright p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #929292;
+  letter-spacing: 1px;
+}
+
+/* line 928, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.copyright p a {
+  color: #816263;
+}
+
+/*-- footer-ends-here --*/
+/*-- products-page-starts-here --*/
+/* line 935, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.latest-bis {
+  margin: 1.5em 0;
+  position: relative;
+}
+
+/* line 940, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.offer {
+  position: absolute;
+  bottom: 13%;
+  right: 2%;
+}
+
+/* line 946, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.offer p {
+  font-size: 30px;
+  color: #fff;
+  background: rgba(129, 98, 99, 0.73);
+  padding: 15px 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  font-weight: 400;
+}
+
+/* line 959, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.offer small {
+  color: #7C7C7C;
+  font-size: 18px;
+}
+
+/* line 964, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.tags {
+  list-style: none;
+  background: #FCFCFC;
+  margin-top: 2em;
+  padding: 1em;
+  font-weight: 400;
+}
+
+/* line 972, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h4.tag_head {
+  color: #333;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+/* line 980, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links {
+  padding: 0;
+  list-style: none;
+}
+
+/* line 985, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links li {
+  display: inline-block;
+  margin: 8px 3px;
+}
+
+/* line 990, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links li a {
+  color: #333;
+  font-size: 1em;
+  background: #e9e9e9;
+  padding: 5px 10px;
+}
+
+/* line 997, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links li a:hover {
+  text-decoration: none;
+  background: #816263;
+  color: #fff;
+}
+
+/* line 1003, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.link1 {
+  font-size: 0.85em;
+  line-height: 18px;
+  color: #333;
+  font-weight: bold;
+  background: url(/themes/e_shop/assets/images/tag_arrow.png) right 4px no-repeat;
+  padding-right: 20px;
+  margin-top: 1.5em;
+  display: inline-block;
+}
+
+/* line 1014, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.link1:hover {
+  color: #fb4d01;
+  text-decoration: none;
+}
+
+/* line 1019, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.back {
+  float: right;
+  font-size: 0.82em;
+}
+
+/* line 1024, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.back a {
+  font-size: 14px;
+  color: #B9B4B5;
+}
+
+/* line 1029, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.labout {
+  display: block;
+  float: left;
+  margin: 0 3.6% 0 0;
+}
+
+/* line 1035, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span_2_of_al {
+  width: 40%;
+  width: 46%;
+  float: left;
+}
+
+/* line 1041, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span_2_of_al h3 {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+/* line 1048, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.ratings {
+  padding: 0;
+  margin-top: 1em;
+}
+
+/* line 1053, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.ratings li {
+  display: inline-block;
+}
+
+/* line 1057, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.ratings li a {
+  font-size: 0.87em;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* line 1064, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+i.rating-ed {
+  background: url(/themes/e_shop/assets/images/stars.png) no-repeat -9px;
+}
+
+/* line 1068, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.price_single {
+  font-size: 1.3em;
+  margin: 0.5em 0 1.5em;
+  font-family: 'Doppio One', sans-serif;
+  font-weight: 400;
+}
+
+/* line 1075, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+span.reducedfrom {
+  text-decoration: line-through;
+  margin-right: 3%;
+  color: #555;
+}
+
+/* line 1081, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+span.actual {
+  color: #ee4a02;
+  font-size: 1em;
+  margin-right: 5%;
+}
+
+/* line 1087, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.price_single a {
+  color: #999;
+  font-size: 13px;
+}
+
+/* line 1092, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h2.quick {
+  color: #555;
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+/* line 1098, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.quick_desc {
+  color: #999;
+  font-size: 0.8125em;
+  line-height: 1.8em;
+}
+
+/* line 1104, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.btn_form form input[type="submit"] {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: inline-block;
+  font-size: 1em;
+  padding: 13px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2em;
+}
+
+/* line 1124, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.abt-ft {
+  margin-top: 2em;
+}
+
+/* line 1128, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.singel_right {
+  margin-bottom: 2em;
+}
+
+/* line 1132, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h3.new-models {
+  font-size: 1.2em;
+  background: #ee4a02;
+  padding: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* line 1140, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.view-first:hover .mask {
+  opacity: 1;
+}
+
+/* line 1144, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.view .mask, .view .content {
+  position: absolute;
+  overflow: hidden;
+  top: 10em;
+  left: 6.2em;
+}
+
+/* line 1151, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(219, 127, 8, 0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.82);
+  -moz-box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+  color: #000;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+/* line 1169, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.title {
+  color: #000;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+/* line 1175, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-left {
+  float: left;
+  margin-right: 2.6%;
+}
+
+/* line 1180, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.title {
+  color: #000;
+  font-size: 0.95em;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 1187, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pricey {
+  float: right;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+
+/* line 1193, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.view .mask, .view .content {
+  position: absolute;
+  overflow: hidden;
+  top: 11.5em;
+  left: 8.2em;
+}
+
+/* line 1200, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.view-first:hover .mask {
+  opacity: 1;
+}
+
+/* line 1204, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.view .mask, .view .content {
+  position: absolute;
+  overflow: hidden;
+  top: 11.5em;
+  left: 8.2em;
+}
+
+/* line 1211, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product_image {
+  position: relative;
+}
+
+/* line 1215, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product_container {
+  padding: 1em;
+}
+
+/* line 1219, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.products-page {
+  padding: 4em 0;
+}
+
+/* line 1223, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.sort-by select {
+  outline: none;
+}
+
+/* line 1227, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages {
+  float: right;
+}
+
+/* line 1231, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages .limiter {
+  color: #747474;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* line 1237, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages .limiter label {
+  vertical-align: middle;
+}
+
+/* line 1241, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages .limiter select {
+  padding: 0;
+  margin: 0 0 1px;
+  vertical-align: middle;
+}
+
+/* line 1247, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.limiter.visible-desktop label {
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 1252, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.mens-toolbar {
+  margin: 23px 0;
+  font-size: 20px;
+}
+
+/* line 1257, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.mens-toolbar .sort {
+  float: left;
+  width: 20.5%;
+}
+
+/* line 1262, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.sort-by {
+  color: #000;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+/* line 1268, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.sort-by label {
+  font-weight: normal;
+  float: left;
+  margin: 2px 5px 0 0;
+}
+
+/* line 1274, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation.dc_paginationA.dc_paginationA06 {
+  float: right;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 1280, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li {
+  float: left;
+  margin: 0px;
+  margin-left: 5px;
+  padding: 0px;
+  list-style: none;
+  font-size: 14px;
+}
+
+/* line 1289, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li a {
+  color: #000;
+  display: block;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-size: 0.7125em;
+  text-transform: uppercase;
+}
+
+/* line 1298, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li.active a, ul.women_pagenation li a:hover {
+  background: #3C3038;
+  color: #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 1308, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.latest-bis {
+  margin: 1.5em 0;
+  position: relative;
+}
+
+/* line 1313, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.offer {
+  position: absolute;
+  bottom: 13%;
+  right: 2%;
+}
+
+/* line 1319, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links {
+  padding: 0;
+  list-style: none;
+}
+
+/* line 1324, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links li {
+  display: inline-block;
+  margin: 8px 3px;
+}
+
+/* line 1329, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links li a {
+  color: #333;
+  font-size: 1em;
+  background: #e9e9e9;
+  padding: 5px 10px;
+}
+
+/* line 1336, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.tags_links li a:hover {
+  text-decoration: none;
+}
+
+/* line 1340, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.link1 {
+  font-size: 0.85em;
+  line-height: 18px;
+  color: #333;
+  font-weight: bold;
+  background: url(/themes/e_shop/assets/images/tag_arrow.png) right 4px no-repeat;
+  padding-right: 20px;
+  margin-top: 1.5em;
+  display: inline-block;
+}
+
+/* line 1351, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.link1:hover {
+  color: #fb4d01;
+  text-decoration: none;
+}
+
+/* line 1356, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.back {
+  float: right;
+  font-size: 0.82em;
+}
+
+/* line 1361, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.labout {
+  display: block;
+  float: left;
+  margin: 0 3.6% 0 0;
+}
+
+/* line 1367, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span_2_of_al {
+  width: 40%;
+  width: 46%;
+  float: left;
+}
+
+/* line 1373, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span_2_of_al h3 {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+/* line 1380, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.ratings {
+  padding: 0;
+  margin-top: 1em;
+}
+
+/* line 1385, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.ratings li {
+  display: inline-block;
+}
+
+/* line 1389, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.ratings li a {
+  font-size: 0.87em;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* line 1396, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+i.rating-ed {
+  background: url(/themes/e_shop/assets/images/stars.png) no-repeat -9px;
+}
+
+/* line 1400, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.price_single {
+  font-size: 1.3em;
+  margin: 0.5em 0 1.5em;
+  font-family: 'Doppio One', sans-serif;
+  font-weight: 400;
+}
+
+/* line 1407, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+span.reducedfrom {
+  text-decoration: line-through;
+  margin-right: 3%;
+  color: #555;
+}
+
+/* line 1413, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+span.actual {
+  color: #ee4a02;
+  font-size: 1em;
+  margin-right: 5%;
+}
+
+/* line 1419, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.price_single a {
+  color: #999;
+  font-size: 13px;
+}
+
+/* line 1424, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h2.quick {
+  color: #555;
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+/* line 1430, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.quick_desc {
+  color: #999;
+  font-size: 0.8125em;
+  line-height: 1.8em;
+}
+
+/* line 1436, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.btn_form form input[type="submit"] {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: inline-block;
+  font-size: 1em;
+  padding: 13px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2em;
+}
+
+/* line 1456, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.abt-ft {
+  margin-top: 2em;
+}
+
+/* line 1460, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.singel_right {
+  margin-bottom: 2em;
+}
+
+/* line 1464, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h3.new-models {
+  font-size: 1.2em;
+  background: #ee4a02;
+  padding: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* line 1472, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.view .mask, .view .content {
+  position: absolute;
+  overflow: hidden;
+  top: 12em;
+  left: 6.2em;
+}
+
+/* line 1479, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.title {
+  color: #000;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+/* line 1485, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-left {
+  float: left;
+  margin-right: 2.6%;
+}
+
+/* line 1490, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.title {
+  color: #000;
+  font-size: 0.95em;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 1497, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pricey {
+  float: right;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+
+/* line 1503, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product_container {
+  padding: 1em;
+  border-top: 10px solid #f8f8f8;
+}
+
+/* line 1508, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.products-page {
+  padding: 60px 0;
+}
+
+/*---- Best Buy Starts Here ---*/
+/* line 1513, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.mens-toolbar .sort {
+  float: left;
+  width: 20.5%;
+}
+
+/* line 1518, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.sort-by {
+  color: #828282;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* line 1524, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation {
+  float: right;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 1530, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li.active a, ul.women_pagenation li a:hover {
+  background: #3C3038;
+  color: #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 1540, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.sort-by select {
+  outline: none;
+}
+
+/* line 1544, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages {
+  float: right;
+}
+
+/* line 1548, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages .limiter label {
+  vertical-align: middle;
+}
+
+/* line 1552, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.limiter.visible-desktop label {
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 1557, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.product_image:hover .mask {
+  display: block;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/*-- products-page-ends-here --*/
+/*-- login-starts-here --*/
+/* line 1568, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-left {
+  padding: 0;
+}
+
+/* line 1572, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-left h2 {
+  color: #000;
+  font-size: 20px;
+  padding-bottom: 18px;
+  font-weight: 600;
+}
+
+/* line 1579, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-right h3 {
+  color: #000;
+  font-size: 20px;
+  padding-bottom: 18px;
+  font-weight: 600;
+}
+
+/* line 1586, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+li.home a {
+  color: #816263;
+  font-size: 16px;
+}
+
+/* line 1591, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-left p, .login-right p {
+  color: #CAC9C9;
+  display: block;
+  font-size: 1.1em;
+  margin: 0 0 2em 0;
+  line-height: 1.5em;
+}
+
+/* line 1599, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.acount-btn {
+  background: #816263;
+  color: #FFF;
+  font-size: 15px;
+  padding: 0.7em 1.2em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* line 1612, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.acount-btn:hover, .login-right input[type="submit"]:hover {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 1618, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-right form {
+  padding: 1em 0;
+}
+
+/* line 1622, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-right form div {
+  padding: 0 0 2em 0;
+}
+
+/* line 1626, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-right span {
+  color: #555;
+  font-size: 1em;
+  padding-bottom: 0.2em;
+  display: block;
+  text-transform: uppercase;
+}
+
+/* line 1634, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-right input[type="text"] {
+  border: 1px solid #EEE;
+  outline-color: #CACACA;
+  width: 96%;
+  font-size: 13px;
+  padding: 8px;
+}
+
+/* line 1642, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-right input[type="password"] {
+  border: 1px solid #EEE;
+  outline-color: #CACACA;
+  width: 96%;
+  font-size: 13px;
+  padding: 8px;
+}
+
+/* line 1650, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-right input[type="submit"] {
+  background: #816263;
+  color: #FFF;
+  font-size: 1em;
+  padding: 0.7em 1.2em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+/* line 1665, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+a.forgot {
+  font-size: 1em;
+  margin-right: 11px;
+}
+
+/* line 1670, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.breadcrumbs {
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+/* line 1676, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.breadcrumbs li {
+  display: inline-block;
+  color: #000;
+}
+
+/* line 1681, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.breadcrumbs li.women {
+  background: yellow;
+  font-size: 14px;
+  padding: 3px;
+}
+
+/* line 1687, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.previous {
+  padding: 0;
+  list-style: none;
+  float: right;
+  margin-top: 3px;
+}
+
+/* line 1694, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.previous li a {
+  font-size: 14px;
+  color: #B9B4B5;
+}
+
+/* line 1699, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dreamcrub {
+  margin: 15px 0 60px 0;
+  background-color: #FDFDFD;
+  padding: 10px 20px;
+}
+
+/* line 1705, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.mens-toolbar .sort {
+  float: left;
+  width: 20.5%;
+}
+
+/* line 1710, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.sort-by label {
+  font-weight: normal;
+}
+
+/* line 1714, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.mens-toolbar .pages {
+  float: right;
+  margin: 0;
+}
+
+/* line 1719, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation.dc_paginationA.dc_paginationA06 {
+  float: right;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 1725, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages {
+  float: right;
+}
+
+/* line 1729, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages .limiter {
+  color: #000;
+  font-size: 0.8125em;
+  text-transform: uppercase;
+}
+
+/* line 1735, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.pages .limiter select {
+  padding: 0;
+  margin: 0 0 1px;
+  vertical-align: middle;
+}
+
+/* line 1741, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li {
+  float: left;
+  margin: 0px;
+  margin-left: 5px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 1749, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li a {
+  color: #000;
+  display: block;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-size: 0.8125em;
+  text-transform: uppercase;
+}
+
+/* line 1758, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li.active a {
+  background: #7C7C7C;
+  color: #fff;
+}
+
+/* line 1763, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.women_pagenation li a:hover {
+  background: #816263;
+  color: #fff;
+}
+
+/* line 1768, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.login-page {
+  padding: 60px 0;
+}
+
+/*-- login-ends-here --*/
+/*-- register-starts-here --*/
+/*-- registration-form --*/
+/* line 1775, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.registration-form {
+  padding: 60px 0;
+}
+
+/* line 1780, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.registration-form h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 20px;
+  padding-bottom: 18px;
+}
+
+/* line 1788, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg p {
+  color: #CAC9C9;
+  margin: 0px 0 0 0;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+/* line 1795, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.col-md-6.reg-form {
+  padding: 0;
+}
+
+/* line 1799, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg p:nth-child(2) {
+  margin: 0;
+}
+
+/* line 1803, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg form {
+  margin-top: 32px;
+}
+
+/* line 1807, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg p a {
+  text-decoration: none;
+  color: #816263;
+}
+
+/* line 1812, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg p a:hover {
+  color: #000;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  -moz-transition: .5s all;
+}
+
+/* line 1821, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg ul {
+  padding: 0;
+  margin: 0 0 22px 0;
+}
+
+/* line 1826, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg ul li {
+  display: inline-block;
+  width: 58%;
+}
+
+/* line 1831, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg ul li.text-info {
+  width: 38%;
+  color: #816263;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 0 0px 0;
+  font-weight: bold;
+}
+
+/* line 1840, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg form input[type="text"], .reg form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  color: #000;
+}
+
+/* line 1850, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg-form {
+  float: left;
+  width: 50%;
+}
+
+/* line 1855, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg-right {
+  float: right;
+  width: 47%;
+}
+
+/* line 1860, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.click a {
+  display: inline-block;
+  color: #816263;
+}
+
+/* line 1865, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.click a:hover {
+  color: #000;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  -moz-transition: .5s all;
+}
+
+/* line 1874, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg form input[type=submit] {
+  border: none;
+  color: #ffffff;
+  padding: 9px 35px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0 0 32px 0;
+  background: #816263;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+/* line 1888, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg form input[type=submit]:hover {
+  background: #000;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  -moz-transition: .5s all;
+}
+
+/* line 1897, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg ul:nth-child(6) {
+  margin: 0 0 32px 0;
+}
+
+/* line 1901, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg ul li:nth-child(2) {
+  margin-left: 3%;
+}
+
+/* line 1905, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reg-right p {
+  color: #CAC9C9;
+  margin: 0 0 30px 0;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+/*-- //registration-form --*/
+/*-- register-ends-here --*/
+/*-- contact-page-starts-here --*/
+/* line 1915, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact {
+  padding: 60px 0;
+}
+
+/* line 1919, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-info {
+  margin-bottom: 40px;
+}
+
+/* line 1923, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-left {
+  width: 30%;
+  float: left;
+}
+
+/* line 1928, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-right {
+  width: 68%;
+  float: right;
+}
+
+/* line 1933, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-left input[type="text"], .contact-left input[type="email"] {
+  width: 100%;
+  color: #000;
+  margin: 0 23px 23px 0;
+  font-size: 14px;
+  padding: 12px 10px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+}
+
+/* line 1943, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-right textarea {
+  width: 100%;
+  color: #000;
+  font-size: 14px;
+  resize: none;
+  height: 185px;
+  padding: 12px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+}
+
+/* line 1954, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-form button[type=submit] {
+  border: none;
+  color: #ffffff;
+  padding: 13px 43px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  background: #816263;
+}
+
+/* line 1964, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-form button[type=submit]:hover {
+  background: #000;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  -moz-transition: .5s all;
+}
+
+/* line 1973, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-info h2 {
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+/* line 1983, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-info h3 {
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+/* line 1993, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-map {
+  width: 100%;
+  margin-bottom: 52px;
+}
+
+/* line 1998, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.contact-map iframe {
+  width: 100%;
+  height: 330px;
+}
+
+/*-- //contact-page-ends-here --*/
+/*-- typography-page-ends-here --*/
+/* line 2005, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h2.heading {
+  margin: 0 0px 0.3em 0;
+  color: #000;
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding: 0;
+}
+
+/* line 2013, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.typrography {
+  padding: 60px 0;
+}
+
+/* line 2017, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.grid_3 h3 {
+  padding-bottom: 15px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #3382C9;
+}
+
+/* line 2024, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.grid_4 h3 {
+  color: #666161;
+  padding-bottom: 0;
+  font-size: 28px;
+  letter-spacing: 0;
+}
+
+/* line 2031, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.grid_4 h3 {
+  padding: 12px 0;
+}
+
+/* line 2035, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.grid_5 h1, h2, h3, h4, h5, h6 {
+  padding: 12px 0;
+}
+
+/* line 2039, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h3.first {
+  padding-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #3382C9;
+}
+
+/* line 2046, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* line 2050, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+h3.bars {
+  padding-bottom: 15px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #3382C9;
+}
+
+/* line 2057, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.badge {
+  background-color: #3382D3;
+}
+
+/* line 2061, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.page-header h1 {
+  padding-bottom: 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #3382C9;
+}
+
+/* line 2068, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+section#tables h2 {
+  padding-bottom: 15px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #3382C9;
+}
+
+/* line 2075, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+div#myTabContent {
+  margin-top: 0.5em;
+}
+
+/*-- typography-page-ends-here --*/
+/*--checkout--*/
+/*-- cart-page --*/
+/* line 2082, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-gd {
+  margin-top: 50px;
+}
+
+/* line 2086, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-items {
+  padding: 60px 0;
+}
+
+/* line 2090, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-items h2 {
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-size: 28px;
+  color: #816263;
+  font-weight: 600;
+  padding: 0;
+}
+
+/* line 2099, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-item {
+  width: 20%;
+  float: left;
+  margin-right: 4%;
+}
+
+/* line 2105, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-item img {
+  width: 100%;
+}
+
+/* line 2109, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.close1, .close2, .close3 {
+  background: url(/themes/e_shop/assets/'../images/close_1.png') no-repeat 0px 0px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+/* line 2123, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-item-info {
+  width: 75%;
+  float: left;
+  margin-top: 3%;
+}
+
+/* line 2129, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-item-info h3 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* line 2135, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-item-info h3 a {
+  color: #816263;
+  font-size: 18px;
+}
+
+/* line 2140, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-item-info h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.85em;
+  margin: 0.7em 0;
+}
+
+/* line 2147, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.qty {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 2153, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.qty li {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+/* line 2158, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.qty li p {
+  font-size: 14px;
+  color: #000;
+}
+
+/* line 2163, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.delivery {
+  margin-top: 3em;
+}
+
+/* line 2167, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.delivery p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  float: left;
+}
+
+/* line 2174, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.delivery span {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+}
+
+/* line 2181, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-sec {
+  margin: 25px 0;
+}
+
+/* line 2185, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.cart-header, .cart-header2, .cart-header3 {
+  position: relative;
+  background-color: #FDFDFD;
+}
+
+/*-- //check --*/
+/*-- single-page --*/
+/* line 2192, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.col-md-5.zoom-grid {
+  padding: 0;
+}
+
+/* line 2196, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.reviews-tabs {
+  margin-top: 60px;
+}
+
+/* line 2200, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.response-text-right p {
+  font-size: 13px;
+  margin: 0 0 1em;
+  line-height: 20px;
+}
+
+/* line 2206, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #816263;
+  cursor: default;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid #E7E7E7;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+/* line 2219, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nav-tabs > li > a {
+  margin-right: 0px;
+  line-height: 1.42857143;
+  border-radius: 0;
+  color: #000000;
+  cursor: default;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid #E7E7E7;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: 'PlayfairDisplay-Regular';
+}
+
+/* line 2236, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+ul.nav.nav-tabs {
+  margin-bottom: 15px;
+  padding-bottom: 18px;
+}
+
+/* line 2242, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #FCFCFC;
+}
+
+/* line 2246, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.media-left.response-text-left {
+  width: 10%;
+  float: left;
+  margin-right: 2%;
+}
+
+/* line 2252, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.response-text-right ul li {
+  display: inline-block;
+  color: #B6B8B5;
+  font-size: 1em;
+  font-weight: 600;
+  margin-right: 16px;
+  font-family: 'PlayfairDisplay-Regular';
+}
+
+/* line 2261, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.response-text-right ul li a {
+  color: #887f66;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* line 2267, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.media, .media .media {
+  margin-top: 25px;
+}
+
+/* line 2271, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.tab-text {
+  line-height: 26px;
+  color: #B9B9B9;
+  font-size: 14px;
+}
+
+/* line 2277, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.media-left.response-text-left h5 {
+  font-size: 14px;
+  text-align: Center;
+  margin-top: 3px;
+}
+
+/* line 2283, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.media-left.response-text-left h5 a {
+  color: #000;
+}
+
+/* line 2287, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.media-left.response-text-left h5 a:hover {
+  color: #816263;
+}
+
+/* line 2291, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.media-left.response-text-left img {
+  width: 100%;
+}
+
+/* line 2295, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dress-name {
+  margin: 30px 0;
+}
+
+/* line 2299, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dress-name h3 {
+  float: left;
+  font-size: 19px;
+  color: #000;
+  font-weight: 500;
+  padding: 0;
+}
+
+/* line 2307, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dress-name p {
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 23px;
+  color: #CAC9C9;
+}
+
+/* line 2314, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.dress-name span {
+  float: right;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+/* line 2322, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.left {
+  float: left;
+  font-size: 13px;
+  color: #000;
+  letter-spacing: 2px;
+  margin-right: 5%;
+  width: 40%;
+}
+
+/* line 2331, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+p.right {
+  float: left;
+  font-size: 13px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+/* line 2338, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span1 {
+  margin: 18px 0;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 2345, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span3 {
+  margin: 18px 0;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 2352, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.span4 {
+  border-bottom: 1px solid #Eee;
+  padding-bottom: 18px;
+}
+
+/* line 2357, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.purchase {
+  margin-top: 50px;
+}
+
+/* line 2361, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.purchase a {
+  float: left;
+  width: 50%;
+  font-size: 14px;
+  color: #000;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  margin-top: 1px;
+}
+
+/* line 2371, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.purchase a:hover {
+  color: #816263;
+}
+
+/* line 2375, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.social-icons {
+  float: left;
+  width: 40%;
+}
+
+/* line 2380, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.social-icons ul li {
+  display: inline-block;
+}
+
+/* line 2384, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.social-icons ul li a {
+  width: 18px;
+  height: 18px;
+  background: url(/themes/e_shop/assets/'../images/s-icons.png') no-repeat 0px 0px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* line 2392, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.social-icons ul li a:hover {
+  opacity: 0.5;
+}
+
+/* line 2396, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.social-icons ul li a.facebook1 {
+  background-position: 0px 0px;
+}
+
+/* line 2400, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.social-icons ul li a.twitter1 {
+  background-position: -18px 0px;
+}
+
+/* line 2404, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+.social-icons ul li a.googleplus1 {
+  background-position: -36px 0px;
+}
+
+/*-- //single-page --*/
+/*-- responsine-design --*/
+@media screen and (max-width: 1366px) {
+  /* line 2412, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner {
+    min-height: 650px;
+  }
+
+  /* line 2415, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-3 {
+    min-width: 530px;
+  }
+
+  /* line 2418, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .footer {
+    padding: 50px 0 35px;
+  }
+
+  /* line 2421, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cards.text-center {
+    margin: 35px 0;
+    padding: 20px 0;
+  }
+
+  /* line 2425, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left h2 {
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 115px;
+  }
+
+  /* line 2430, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dreamcrub {
+    margin: 0px 0 60px 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 2436, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner {
+    min-height: 608px;
+  }
+
+  /* line 2439, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left h2 {
+    font-size: 82px;
+    line-height: 100px;
+    margin: 0 0 0 120px;
+  }
+
+  /* line 2444, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left {
+    margin: 100px 0px 0px 30px;
+  }
+
+  /* line 2447, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-nav {
+    margin-right: 30px;
+  }
+
+  /* line 2450, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-3 {
+    min-width: 520px;
+  }
+
+  /* line 2453, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info h3 {
+    font-size: 40px;
+  }
+
+  /* line 2456, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info p {
+    font-size: 16px;
+  }
+
+  /* line 2459, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  h2.heading {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 2465, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-header {
+    width: 17%;
+  }
+
+  /* line 2468, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner {
+    min-height: 491px;
+  }
+
+  /* line 2471, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .header-top-strip {
+    padding: 6px 0 12px 0;
+  }
+
+  /* line 2474, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left h2 {
+    font-size: 70px;
+    line-height: 85px;
+    margin: 0 0 0 135px;
+  }
+
+  /* line 2479, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info h3 {
+    font-size: 35px;
+  }
+
+  /* line 2482, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info p {
+    margin: 15px 0;
+  }
+
+  /* line 2485, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .callbacks_tabs {
+    bottom: -16%;
+  }
+
+  /* line 2488, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .callbacks_tabs a:after {
+    width: 35px;
+    height: 4px;
+  }
+
+  /* line 2492, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  div.shop a {
+    padding: 10px 18px;
+    font-size: 16px;
+  }
+
+  /* line 2496, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-default .navbar-nav > li > a {
+    margin: 0 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  /* line 2501, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-nav {
+    margin-right: 60px;
+    margin-top: 6px;
+  }
+
+  /* line 2505, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-3 {
+    min-width: 475px;
+  }
+
+  /* line 2508, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-2 {
+    min-width: 360px;
+  }
+
+  /* line 2511, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .online-strip {
+    padding: 15px 0;
+    margin: 35px 0 20px;
+  }
+
+  /* line 2515, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  h3.head.text-center {
+    font-size: 30px;
+  }
+
+  /* line 2518, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .nbs-flexisel-item img {
+    width: 95%;
+  }
+
+  /* line 2521, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .liked-product {
+    margin-top: 0;
+  }
+
+  /* line 2524, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  h3.like {
+    font-size: 29px;
+  }
+
+  /* line 2527, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="submit"] {
+    width: 18%;
+  }
+
+  /* line 2530, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .footer {
+    padding: 40px 0 35px;
+  }
+
+  /* line 2533, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .news-letter {
+    padding: 30px 0;
+  }
+
+  /* line 2536, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .typrography, .products-page, .registration-form, .login-page, .contact, .cart-items {
+    padding: 30px 0 40px;
+  }
+
+  /* line 2539, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .mens-toolbar .sort {
+    width: 22.5%;
+  }
+
+  /* line 2542, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .offer p {
+    font-size: 26px;
+    padding: 21px 11px;
+  }
+
+  /* line 2546, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .view .mask, .view .content {
+    top: 10em;
+    left: 5.2em;
+  }
+
+  /* line 2550, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dress-name {
+    margin: 20px 0;
+  }
+
+  /* line 2553, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .purchase {
+    margin-top: 35px;
+  }
+
+  /* line 2556, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dreamcrub {
+    margin: 0px 0 50px 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 2562, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .logo a span {
+    font-size: 28px;
+    width: 45px;
+    height: 46px;
+    padding: 4px 0 0 3px;
+    margin-top: 3px;
+  }
+
+  /* line 2569, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .logo h1 a {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  /* line 2573, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-default .navbar-nav > li > a {
+    margin: 0 5px;
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  /* line 2578, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-nav {
+    margin-top: 8px;
+  }
+
+  /* line 2581, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .caret {
+    margin-bottom: 3px;
+  }
+
+  /* line 2584, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner {
+    min-height: 350px;
+  }
+
+  /* line 2587, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info h3 {
+    font-size: 30px;
+  }
+
+  /* line 2590, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info {
+    margin-top: 90px;
+  }
+
+  /* line 2593, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left h2 {
+    font-size: 50px;
+    line-height: 65px;
+    margin: 0 0 0 130px;
+  }
+
+  /* line 2598, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left {
+    margin: 75px 0px 0px 30px;
+  }
+
+  /* line 2601, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  div.shop a {
+    padding: 8px 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  /* line 2606, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .callbacks_tabs a:after {
+    width: 30px;
+    height: 4px;
+  }
+
+  /* line 2610, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join h6 {
+    font-size: 18px;
+  }
+
+  /* line 2613, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .liked-product {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  /* line 2617, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="submit"] {
+    width: 17%;
+    font-size: 16px;
+    padding: 7px 0 9px;
+  }
+
+  /* line 2622, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="text"] {
+    width: 47%;
+    font-size: 13px;
+  }
+
+  /* line 2626, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .news-letter {
+    padding: 25px 0;
+  }
+
+  /* line 2629, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .other-products {
+    padding: 35px 0 60px 0;
+  }
+
+  /* line 2632, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .span1_of_4 {
+    width: 25%;
+    float: left;
+    padding: 0 5px;
+  }
+
+  /* line 2637, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  ul.f_nav li a {
+    font-size: 13px;
+  }
+
+  /* line 2640, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .span1_of_4 h4 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+  }
+
+  /* line 2644, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cards.text-center img {
+    width: 55%;
+  }
+
+  /* line 2647, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .copyright p {
+    font-size: 14px;
+  }
+
+  /* line 2650, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .follow-us, .shipping-grid, .online-order {
+    width: 33.333%;
+    float: left;
+  }
+
+  /* line 2654, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .shipping {
+    width: 18%;
+    margin-left: 11%;
+  }
+
+  /* line 2658, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cards.text-center {
+    margin: 25px 0;
+    padding: 18px 0;
+  }
+
+  /* line 2662, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .footer {
+    padding: 40px 0 30px;
+  }
+
+  /* line 2665, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-3 {
+    min-width: 416px;
+  }
+
+  /* line 2668, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .multi-column-dropdown li a {
+    font-size: 13px;
+  }
+
+  /* line 2671, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-2 {
+    min-width: 317px;
+  }
+
+  /* line 2674, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-left {
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+  }
+
+  /* line 2679, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-right {
+    float: left;
+    width: 50%;
+  }
+
+  /* line 2683, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-right p {
+    margin: 0 0 1.3em 0;
+  }
+
+  /* line 2686, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dreamcrub {
+    margin: 0px 0 45px 0;
+  }
+
+  /* line 2689, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-left h2, .login-right h3 {
+    font-size: 18px;
+  }
+
+  /* line 2692, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .reg-form {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  /* line 2696, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .reg-right {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 2700, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .reg ul li.text-info {
+    width: 30%;
+  }
+
+  /* line 2703, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-items h2 {
+    margin: 0 0 15px 0;
+    font-size: 22px;
+  }
+
+  /* line 2707, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-item {
+    width: 21%;
+    margin-right: 3%;
+  }
+
+  /* line 2711, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
+  /* line 2714, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-map iframe {
+    height: 300px;
+  }
+
+  /* line 2717, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .mens-toolbar .sort {
+    width: 33.5%;
+  }
+
+  /* line 2720, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .media-left.response-text-left {
+    width: 16%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 2726, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info {
+    margin-top: 75px;
+  }
+
+  /* line 2729, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left {
+    margin: 65px 0px 0px 30px;
+  }
+
+  /* line 2732, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-3 {
+    min-width: 406px;
+  }
+
+  /* line 2735, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-2 {
+    min-width: 290px;
+    padding-right: 0;
+    padding-left: 10px;
+  }
+
+  /* line 2740, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .reg ul li.text-info {
+    font-size: 14px;
+  }
+
+  /* line 2743, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  h2.heading {
+    font-size: 32px;
+  }
+
+  /* line 2746, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-form input[type=submit] {
+    padding: 8px 30px;
+  }
+
+  /* line 2749, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-map iframe {
+    height: 250px;
+  }
+
+  /* line 2752, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-info h2, .contact-info h3 {
+    margin: 0 0 15px 0;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 2759, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-header {
+    width: 100%;
+  }
+
+  /* line 2762, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar {
+    border: none;
+  }
+
+  /* line 2765, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-nav {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  /* line 2771, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-default .navbar-nav > li > a {
+    margin: 5px 0px;
+  }
+
+  /* line 2774, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-header {
+    float: none;
+  }
+
+  /* line 2777, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-collapse.collapse {
+    margin-top: 10px;
+  }
+
+  /* line 2780, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info h3 {
+    font-size: 25px;
+  }
+
+  /* line 2783, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info p {
+    margin: 10px 0;
+    font-size: 13px;
+  }
+
+  /* line 2787, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .callbacks_tabs a:after {
+    width: 26px;
+    height: 3px;
+  }
+
+  /* line 2791, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner {
+    min-height: 304px;
+  }
+
+  /* line 2794, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left h2 {
+    font-size: 35px;
+    line-height: 50px;
+    margin: 0 0 0 100px;
+  }
+
+  /* line 2799, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  div.shop a {
+    padding: 8px 12px;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  /* line 2804, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .follow-us, .shipping-grid, .online-order {
+    padding: 0 4px;
+  }
+
+  /* line 2807, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  a.twitter {
+    margin: 0 0.5em;
+  }
+
+  /* line 2810, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .online-strip h3 {
+    font-size: 1.3em;
+  }
+
+  /* line 2813, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .shipping {
+    margin-left: 7%;
+  }
+
+  /* line 2816, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  h3.head.text-center {
+    font-size: 28px;
+  }
+
+  /* line 2819, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .nbs-flexisel-item img {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+
+  /* line 2823, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .span1_of_4 {
+    width: 50%;
+    padding: 0 15px;
+    min-height: 290px;
+  }
+
+  /* line 2828, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .mask {
+    left: 26%;
+  }
+
+  /* line 2831, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join h6 {
+    font-size: 16px;
+    margin-right: 3%;
+  }
+
+  /* line 2835, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="text"] {
+    width: 44%;
+  }
+
+  /* line 2838, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="submit"] {
+    width: 19%;
+  }
+
+  /* line 2841, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .col-sm-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  /* line 2845, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .multi-column-dropdown li a:hover {
+    background-color: #fff !important;
+  }
+
+  /* line 2848, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-nav .open .dropdown-menu {
+    background-color: #fff;
+  }
+
+  /* line 2851, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-left h2, .login-right h3 {
+    font-size: 17px;
+  }
+
+  /* line 2854, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-left p, .login-right p {
+    font-size: 1em;
+  }
+
+  /* line 2857, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dreamcrub {
+    margin: 0px 0 35px 0;
+  }
+
+  /* line 2860, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-right span {
+    font-size: 0.9em;
+  }
+
+  /* line 2863, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .offer p {
+    font-size: 21px;
+    padding: 22px 17px;
+  }
+
+  /* line 2867, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .mens-toolbar .sort {
+    width: 37.5%;
+  }
+
+  /* line 2870, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .view .mask, .view .content {
+    top: 8em;
+    left: 4.2em;
+  }
+
+  /* line 2874, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-item-info h3 a {
+    font-size: 15px;
+  }
+
+  /* line 2877, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-items h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  /* line 2881, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-item-info {
+    margin-top: 1%;
+  }
+
+  /* line 2884, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-gd {
+    margin-top: 30px;
+  }
+
+  /* line 2887, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .delivery p, .delivery span {
+    font-size: 14px;
+  }
+
+  /* line 2890, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  h2.heading {
+    font-size: 30px;
+  }
+
+  /* line 2893, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .panel-title {
+    padding: 0;
+  }
+
+  /* line 2896, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .media-left.response-text-left {
+    width: 20%;
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 2903, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .nbs-flexisel-item img {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  /* line 2907, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .liked-product, .contact-right {
+    width: 100%;
+  }
+
+  /* line 2910, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-left {
+    width: 100%;
+  }
+
+  /* line 2913, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-left input[type="text"] {
+    margin: 0 0px 23px 0;
+  }
+
+  /* line 2916, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cards.text-center img {
+    width: 75%;
+  }
+
+  /* line 2919, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join h6 {
+    font-size: 18px;
+    margin-right: 0;
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* line 2927, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-form input[type=submit] {
+    margin-top: 15px;
+  }
+
+  /* line 2930, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="text"] {
+    width: 70%;
+  }
+
+  /* line 2933, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="submit"] {
+    width: 30%;
+  }
+
+  /* line 2936, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .contact-info h2, .contact-info h3 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+  }
+
+  /* line 2940, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-top {
+    padding-top: 20px;
+  }
+
+  /* line 2943, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner {
+    min-height: 227px;
+  }
+
+  /* line 2946, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left h2 {
+    font-size: 23px;
+    line-height: 34px;
+    margin: 0 0 0 67px;
+  }
+
+  /* line 2951, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info h3 {
+    font-size: 20px;
+  }
+
+  /* line 2954, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info {
+    margin-top: 0px;
+  }
+
+  /* line 2957, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .callbacks_tabs {
+    left: 21%;
+  }
+
+  /* line 2960, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  div.shop a {
+    padding: 7px 10px;
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+
+  /* line 2965, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .header-top-strip {
+    padding: 5px 0 10px 0;
+  }
+
+  /* line 2968, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  a.twitter {
+    margin: 0 0.3em;
+    width: 20px;
+    height: 20px;
+    background: url(/assets/themes/e_shop/assets/images/follow-95c1da2956d8fd4af34a048b1d06cc7d5865490fe69d90eec14bf182c66b2a7f.png) no-repeat 0px 3px;
+    background-size: 35px;
+  }
+
+  /* line 2975, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  a.facebook {
+    width: 20px;
+    height: 20px;
+    background: url(/assets/themes/e_shop/assets/images/follow-95c1da2956d8fd4af34a048b1d06cc7d5865490fe69d90eec14bf182c66b2a7f.png) no-repeat -18px 2px;
+    background-size: 35px;
+  }
+
+  /* line 2981, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .online-strip h3 {
+    font-size: 1.2em;
+  }
+
+  /* line 2984, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .shipping {
+    margin-left: 38%;
+    width: 20%;
+    margin-bottom: 6px;
+  }
+
+  /* line 2989, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .follow-us, .online-order {
+    margin-top: 15px;
+  }
+
+  /* line 2992, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .latest-bis img {
+    width: 100%;
+  }
+
+  /* line 2995, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .latest-bis {
+    width: 50%;
+    margin: 30px auto;
+  }
+
+  /* line 2999, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-left, .login-right {
+    width: 100%;
+    margin-right: 0%;
+    padding: 0;
+  }
+
+  /* line 3004, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-right {
+    margin-top: 20px;
+  }
+
+  /* line 3007, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .acount-btn {
+    font-size: 13px;
+    padding: 0.7em 1em;
+  }
+
+  /* line 3011, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-right p {
+    margin: 0 0 1em 0;
+  }
+
+  /* line 3014, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-left h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  /* line 3018, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .reg ul li.text-info {
+    width: 36%;
+  }
+
+  /* line 3021, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-item {
+    width: 26%;
+    margin-right: 3%;
+  }
+
+  /* line 3025, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-item-info {
+    width: 71%;
+  }
+
+  /* line 3028, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .delivery p, .delivery span {
+    font-size: 13px;
+  }
+
+  /* line 3031, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .delivery {
+    margin-top: 2em;
+  }
+
+  /* line 3034, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .panel-title {
+    padding: 0;
+  }
+
+  /* line 3037, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .media-left.response-text-left {
+    width: 20%;
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 3044, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .header-top-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 3048, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .header-right {
+    margin-right: 22%;
+    margin-top: 3%;
+  }
+
+  /* line 3052, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .header-top-left ul li {
+    margin: 0 10px;
+  }
+
+  /* line 3055, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .logo a span {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 2px 0 0 1px;
+    margin-top: 6px;
+  }
+
+  /* line 3062, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .logo h1 a {
+    font-size: 21px;
+  }
+
+  /* line 3065, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .navbar-toggle {
+    padding: 7px 7px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+
+  /* line 3071, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-top {
+    padding-top: 15px;
+  }
+
+  /* line 3074, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left h2 {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 0 0 15px;
+  }
+
+  /* line 3079, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner {
+    min-height: 170px;
+  }
+
+  /* line 3082, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info h3 {
+    font-size: 18px;
+  }
+
+  /* line 3085, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-info p {
+    margin: 8px 0;
+    font-size: 13px;
+  }
+
+  /* line 3089, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-right {
+    width: 57%;
+  }
+
+  /* line 3092, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .callbacks_tabs a:after {
+    width: 21px;
+    height: 3px;
+  }
+
+  /* line 3096, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .banner-bottom-left {
+    margin: 55px 0px 0px 30px;
+  }
+
+  /* line 3099, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .follow-us, .shipping-grid, .online-order {
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  /* line 3103, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .shipping {
+    margin-left: 14%;
+    width: 16%;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  /* line 3109, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .shipping-grid {
+    padding: 0 15px;
+    width: 100%;
+    margin: 15px 0;
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+  }
+
+  /* line 3119, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .online-strip h3 {
+    font-size: 1.4em;
+  }
+
+  /* line 3122, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .online-order {
+    margin-top: 0;
+  }
+
+  /* line 3125, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .follow-us, .online-order {
+    margin-top: 0;
+  }
+
+  /* line 3128, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .nbs-flexisel-item img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  /* line 3132, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cards.text-center img {
+    width: 95%;
+  }
+
+  /* line 3135, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .copyright p {
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+
+  /* line 3140, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .mask {
+    left: 32%;
+  }
+
+  /* line 3143, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="text"] {
+    width: 65%;
+  }
+
+  /* line 3146, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .join input[type="submit"] {
+    width: 35%;
+    font-size: 15px;
+  }
+
+  /* line 3150, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .span1_of_4 {
+    width: 100%;
+    min-height: 230px;
+    text-align: center;
+  }
+
+  /* line 3155, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  ul.f_nav li a {
+    font-size: 14px;
+  }
+
+  /* line 3158, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .span1_of_4 h4 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  /* line 3162, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dreamcrub {
+    margin: 0px 0 25px 0;
+    background-color: #FDFDFD;
+    padding: 8px 5px;
+  }
+
+  /* line 3167, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-right input[type="submit"] {
+    padding: 0.5em 1em;
+  }
+
+  /* line 3170, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .login-left h2 {
+    font-size: 18px;
+  }
+
+  /* line 3173, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .reg ul li.text-info {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+
+  /* line 3177, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .reg ul li:nth-child(2) {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* line 3181, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-item {
+    width: 60%;
+    margin-right: 0;
+  }
+
+  /* line 3185, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .cart-item-info {
+    width: 100%;
+  }
+
+  /* line 3188, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .delivery p, .delivery span {
+    font-size: 13px;
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  /* line 3193, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .delivery {
+    margin-top: 1em;
+  }
+
+  /* line 3196, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .col-sm-4, .col-sm-6 {
+    width: 100%;
+  }
+
+  /* line 3199, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-3 {
+    min-width: 270px;
+  }
+
+  /* line 3202, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  ul.multi-column-dropdown h6 {
+    margin-top: 15px;
+  }
+
+  /* line 3205, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dropdown-menu.columns-2 {
+    min-width: 266px;
+  }
+
+  /* line 3208, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  ul.breadcrumbs li.women {
+    font-size: 12px;
+    padding: 3px;
+  }
+
+  /* line 3212, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  ul.previous li a {
+    font-size: 13px;
+  }
+
+  /* line 3215, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .latest-bis {
+    width: 75%;
+    margin: 25px auto;
+  }
+
+  /* line 3219, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .mens-toolbar .sort {
+    width: 60.5%;
+  }
+
+  /* line 3222, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .view .mask, .view .content {
+    top: 12em;
+    left: 6.8em;
+  }
+
+  /* line 3226, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .social-icons {
+    width: 45%;
+  }
+
+  /* line 3229, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  p.left {
+    width: 62%;
+  }
+
+  /* line 3232, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .col-md-7.dress-info {
+    padding: 0;
+  }
+
+  /* line 3235, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dress-name h3 {
+    width: 100%;
+  }
+
+  /* line 3238, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .dress-name span {
+    float: left;
+    margin-top: 10px;
+  }
+
+  /* line 3242, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .view .mask, .view .content {
+    top: 7em;
+    left: 1.8em;
+    font-size: 12px;
+    padding: 5px;
+    display: none;
+  }
+
+  /* line 3250, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  .product_image:hover .mask {
+    display: none;
+  }
+
+  /* line 3253, /home/vtvsoft/Saigonyo/app/apps/themes/e_shop/assets/css/style.css.scss */
+  p.tab-text {
+    font-size: 13px;
+  }
+}

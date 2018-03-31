@@ -1,0 +1,85 @@
+<!----->
+<div class="col-md-3 product-bottom">
+			<!--categories-->
+				<div class=" rsidebar span_1_of_left">
+						<h3 class="cate">Our Products</h3>
+							 <ul class="menu-drop">
+							<li class="item1">
+								<ul class="cute">
+						            <% current_site.the_post_type('commerce').the_categories.decorate.each do |cat| %>
+						                <li class="subitem1"><a href="<%= cat.the_url %>"><%= cat.the_title %></a></li>
+						            <% end %>
+								</ul>
+							</li>
+							
+						</ul>
+					</div>
+				<!--initiate accordion-->
+						<script type="text/javascript">
+							$(function() {
+							    var menu_ul = $('.menu-drop > li > ul'),
+							           menu_a  = $('.menu-drop > li > a');
+							    menu_ul.hide();
+							    menu_a.click(function(e) {
+							        e.preventDefault();
+							        if(!$(this).hasClass('active')) {
+							            menu_a.removeClass('active');
+							            menu_ul.filter(':visible').slideUp('normal');
+							            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+							        } else {
+							            $(this).removeClass('active');
+							            $(this).next().stop(true,true).slideUp('normal');
+							        }
+							    });
+							
+							});
+						</script>
+<!--//menu-->
+<!--seller-->
+				<div class="product-bottom">
+						<h3 class="cate">Best Sellers</h3>
+						<% current_site.the_products.limit(6).decorate.each do |product| %>
+					<div class="product-go">
+						<div class=" fashion-grid">
+							<a href="<%= product.the_url %>"><img class="img-responsive " src="<%= product.the_thumb_url %>" alt=""></a>	
+						</div>
+						<div class=" fashion-grid1">
+							<h6 class="best2"><a href="<%= product.the_url %>" > <%= raw @post.the_excerpt(100) %>  </a></h6>
+							<span class=" price-in1"> <%= product.the_price %></span>
+						</div>	
+						<div class="clearfix"> </div>
+					</div>
+					 <% end %>
+				</div>
+
+<!--//seller-->
+<!--tag-->
+				
+				
+				
+				
+				<div class="tag">	
+						<h3 class="cate">Tags</h3>
+					<div class="tags">
+						<ul>
+							<% current_site.the_products.decorate.each do |product| %>
+							<% tags = product.the_tags.decorate %>
+							
+							<% if tags.present? %>
+							
+								<% tags.each do |post_tag| %>
+							
+							<li><a href="<%= post_tag.the_url %>"><%= post_tag.the_title %></a></li>
+								<% end %>
+							<% end %>
+							<% end %>
+						<div class="clearfix"> </div>
+						</ul>
+				</div>					
+			</div>
+			
+			
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	</div>

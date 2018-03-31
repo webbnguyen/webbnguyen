@@ -1,0 +1,873 @@
+--- 
+de: 
+  camaleon_cms: 
+    common: 
+      addition: Addition
+      author: Autor
+      back_top: "Zum Anfang"
+      categories: Kategorien
+      category_list: Kategorieliste
+      comment: Kommentar
+      comment_error: "Es gab einen Fehler beim Speichern des Kommentars"
+      comment_msg: "Du musst eingeloggt sein, um kommentieren zu können"
+      comment_new: "Neuer Kommentar"
+      comment_reply: Antworten
+      comment_saved: "Dein Kommentar wurde gespeichert"
+      comments: Kommentare
+      confirm: "Bist du sicher?"
+      content_list: "Content-Liste: %s"
+      current: Aktuell
+      dashboard: "Ban Dieu Khien"
+      edit: Bearbeiten
+      extra_attributes: Extra-Attribute
+      file_format_error: "Dateiformat nicht erlaubt"
+      file_size_exceeded: "Dateigröße überschritten"
+      home_galleries: "Zur Galleriestartseite"
+      latest_articles: "Neuste Artikel"
+      leave_comment: "Schreibe einen Kommentar"
+      login: Login
+      logout: Logout
+      message: Nachricht
+      next: Nächste
+      no_contents_found: "Keine Inhalte gefunden"
+      no_results_found: "Keine Ergebnisse"
+      notice: "Nachrichten "
+      photo_gallery: Fotogallerie
+      post_tag_list: Tag-Liste
+      prev: Vorherige
+      proceted_article: "Geschützter Artikel"
+      profile: "Profil Ho SO"
+      read_more: "Mehr lesen"
+      recent_posts: "Neuste Posts"
+      register: Registrieren
+      search: Suche
+      search_msg: "Suchergebnisse für:"
+      search_not_found: "Die Suche ergab keine Treffer"
+      send: Senden
+      share: "Teilen auf"
+      share_facebook: "Teilen auf Facebook"
+      share_google_plus: "Teilen auf Google Plus"
+      share_twitter: "Teilen auf Twitter"
+      site: Seite
+      sub_category_list: Unterkategorieliste
+      submit: Absenden
+      total_followers_social: "Follower in Sozialen Netzwerken"
+      view_all_news: "All Neuigkeiten sehen"
+      visit: Besuchen
+  will_paginate: 
+    next_label: Nächste
+    previous_label: Vorherige
+en: 
+  camaleon_cms: 
+    common: 
+      a_civilized: "A civilized community is well organized and developed, civilized life is conducted according to rational principles, and has fair rules and customs. That security comes from knowing that users can depend on principles like fairness, integrity, honesty, human dignity, service, quality or excellence, potential, growth, patience, nurturance, and encouragement. By centering participation on timeless, unchanging principles, users create a fundamental paradigm of effective contributing."
+      addition: Addition
+      all_the: "All the reviews on Saigonyo are written by hosts and customer from our community, so any review you see is based on an experience that customer has been achieved."
+      are_children: "ARE CHILDREN ALLOWED ON EXPERIENCES?"
+      art: Art
+      author: Author
+      back_top: "Back to Top"
+      base_on_the_love: "Based on the love and respect of the talented community around the world. We desire to connect, share and learn from you sincerely. Please share with us."
+      become_a_sharer: "Become A Saigoneer (Locals people)"
+      book_any: "Book any experience you like"
+      build_and_share: "Build and share the different experience programs based on your passion and talents to your loved ones and fans."
+      build_share_on: "Build share on"
+      build_submit: "Build and submit your experience. If it meets the quality standards, our team will reach out with next steps."
+      build_up_a: "Build up a culture of civilized culture that shares your talents with those who respect and love you."
+      calli_pain: "Calligraphy painting"
+      categories: Categories
+      category_list: "Category List"
+      challenges_experiences: "CHALLENGES EXPERIENCES"
+      choose_a: "Choose a specific city and dates"
+      civilized_community: "CIVILIZED COMMUNITY"
+      comment: Comment
+      comment_error: "An error was occurred on save comment"
+      comment_msg: "You must be logged in to post a comment"
+      comment_new: "New Comment"
+      comment_reply: Reply
+      comment_saved: "Your comment was saved"
+      comments: Comments
+      confirm: "Are you sure?"
+      content_list: "Content list: %s"
+      create_unique: "Create unique experiences around your Talent, and earn extra money by bringing others along experience."
+      current: Current
+      dance_course: "Dance Course"
+      dashboard: Dashboard
+      depend_on: "Depend on each experiences, the host would have an age limit as a requirement. You should check it out before booking."
+      design_submit: "Design and submit!"
+      edit: Edit
+      experience_local: "Experience A local"
+      exploring_yourseft: "EXPLORING YOURSEFT"
+      extra_attributes: "Extra Attributes"
+      extra_income: "Extra income"
+      file_format_error: "File format not allowed"
+      file_size_exceeded: "File size exceeded"
+      flexibility_ok: Flexibility
+      from_saving: "From saving for home repairs to taking a dream trip, use the extra income to fund your passions."
+      future_orientation: "FUTURE ORIENTATION"
+      get_tips_and: "Get tips and tools and connect with hosts like you from around the world."
+      get_to_passion: "Get inspired to passion"
+      group_reviews: "Group reviews"
+      have_you_experiece: "Have you experienced the challenges of your life - times when you are feeling lost and do not know how to keep going? Choose yourself a talent that you idol and want yourself like them. They will help you acquire the skills to overcome the challenge."
+      help_orient_the: "Help orient the future of the village and help people succeed in life. A culture can also be considered future oriented if members of that culture tend to value creative thinking and new ideas and to believe that the future can be controlled or influenced by present decisions."
+      helping_centre: "HELPING CENTRE:"
+      home_galleries: "Go to the home of galleries"
+      horses_ride: "Horses Ride Course"
+      how_do: "HOW DO I ADD OR CHANGE AVAILABILITY FOR MY EXPERIENCE?"
+      how_do_I: "HOW DO I CONTACT A GUEST AS AN EXPERIENCE HOST?"
+      how_do_booking: "How do I book an experience?"
+      how_do_confir_content: "You’ll receive a confirmation email for each experience you book. This email will go to the email address associated with your Saigonyo account. You can also find your itinerary by going into the Enjoy section of the Saigonyo app."
+      how_do_confirmation: "How do I find the booking confirmation for my upcoming experience?"
+      how_do_reviews: "HOW DO REVIEWS WORK FOR EXPERIENCES?"
+      how_does: "HOW DOES BOOKING WORK FOR EXPERIENCES?"
+      how_to: "How to book an experience?"
+      how_to_start: "How to get started"
+      if_a_reservation: "If a reservation has more than one confirmed guest, the host's review will appear on all of the guests' profiles."
+      if_you: "If you're looking for a one-time experience, try searching for short-term options available at Saigonyo, an existing experience set up by shared elite members."
+      in_each: "In each experience that charged, the insurance is included and the coverage depends on each host along with the experiences."
+      it_is_your: "It is your passion that will shape your talent, your talents will create masterpieces of technology, art, programs ... and guide you to great success. Share a different experience is to confirm your level."
+      join_mail: "JOIN OUR MAILING LIST"
+      kepp_track: "Keep track of your bookings, message your guests, and update your schedule from the app."
+      latest_articles: "Latest Articles"
+      learn_boat: "Learn Sailing Boat"
+      leave_comment: "Leave a comment"
+      let's: "Let's explore"
+      life_style: "life Style"
+      login: Login
+      logout: Logout
+      look_for: "Look for the Experiences section"
+      love_community: LOVE
+      make_sure: "Make sure to review the specified requirements by the sharer and check the schedules to avoid overlap before booking."
+      manage_on: "Manage on the fly"
+      message: Message
+      more_experiences: "More Experiences"
+      music_showbiz: "Music & showbiz"
+      next: Next
+      no_contents_found: "No contents found"
+      no_results_found: "No results found"
+      notice: "News "
+      once_your: "Once your experience is published on Saigonyo, guests can instantly book any dates you’ve made available. They’ll have to review any guest requirements you’ve added to your experience. When a guest books, you get an email notification with the guest’s profile and contact information. You can also view this information in your app. We recommend sending your guests a message to introduce yourself and get to know them before the experience and answer any questions they may have."
+      one_the_experiences: "Once the experience is published, you’re free to host when you want. You can also set your group size and price."
+      our_community: "Our community relies on honest, transparent reviews. We will remove or alter a review if we find that it violates our review guidelines."
+      pass_through: "Pass through the trials. Write down all the main goals that you feel you have achieved and want to achieve. In turn, record events in your life have occurred and have influenced or affected you. Then the miracle will happen to you."
+      photo_gallery: "Photo gallery"
+      post_tag_list: "Tag List"
+      prev: Prev
+      proceted_article: "Protected article"
+      profile: Profile
+      read_more: "Read More"
+      ready_to_become: " Ready to become a Saigoneer passion and experience new things with us? Checking out our policy and terms of use (Attach a link to the underscore for the partner to see before signing in) and design you unique sharing plan. We are here to spread your talents to the world."
+      ready_to_share: "Ready to share an experience in your city?"
+      recent_posts: "Recent Posts"
+      register: Register
+      review_history: "Review history"
+      review_our_quality: "Review our quality standards to get familiar with what others do and what our community expects."
+      reviewing_an: "Reviewing an experience after your experience end, you'll receive a reminder notification to leave a review. Guests have 14 days to write a review and have the option to leave both private feedback for their hosts, and public feedback for future guests. Reviewing a guest. Hosts can leave private feedback about their guests via the Saigonyo app within 14 days of the last experience. Review history. To see reviews from past guests, visit the public page for your experience. Our community relies on honest, transparent reviews. We will remove a review, if we find that it violates our review guidelines."
+      satisfaction: "Satisfaction is 100% guaranteed"
+      satisfaction_content: "Affiliate Booking on booking over 10-30% discount ; Join our VIP Club for email only Deals, Coupons, Sales, and more!"
+      search: Search
+      search_msg: "Search Results for:"
+      search_not_found: "Search items were not found to list"
+      send: Send
+      share: "Share on"
+      share_facebook: "Share Facebook"
+      share_google_plus: "Share Google Plus"
+      share_passion: "Share your passion with the world."
+      share_policies: "Share on your terms & policies"
+      share_talents: "Share your talents, Shine yourself."
+      share_twitter: "Share Twitter"
+      site: Site
+      start_by_designing: "Start by designing the experience you have in mind. We’ll guide you through each step. If your experience meets the quality standards, you’ll hear more about what’s next. Hosts can offer both immersions and one day experiences. Immersions happen over multiple days and are offered as is—their schedule can’t be modified. If you’re looking for a one-off experience, try browsing our one day experience options. Just like home availability, experience availability is set by the individual host. Before you book Make sure to review the guest requirements and any other requirements specified by the host. These could include age limits or skill level. Booking additional experiences.You can book as many experiences as you want during your trip—be sure to cross-check schedules to avoid booking experiences that overlap."
+      sub_category_list: "Sub Category List"
+      submit: Submit
+      subscribe_mail: SUBSCRIBE
+      support_ok: Support
+      to_leave: "To leave a review for a recent trip, go to your reviews. Reviews are limited to 500 words and must follow Saigonyo's Content Policy. You can edit your review for up to 48 hours, unless your host or guest completes their review."
+      to_see_reviews: "To see reviews you've written or reviews about you, go to your reviews. You'll also see any private feedback that people have left you."
+      total_followers_social: "Total of followers on social networks"
+      unhappy: "Unhappy with your experiences?"
+      unhappy_content: "We'll Take It Back! We stand by our high-quality products and your satisfaction is 100% guaranteed"
+      use_the: "Use the Saigonyo app on your iOS or Android phone or tablet to book an experience. When you open the app, look for the Experiences section. Then, choose a specific city and dates, or browse through all experiences. Hosts can offer both immersions and one day experiences. Immersions happen over multiple days and are offered as is—their schedule can’t be modified. If you’re looking for a one-off experience, try browsing our one day experience options. Just like home availability, experience availability is set by the individual host. Before you book Make sure to review the guest requirements and any other requirements specified by the host. These could include age limits or skill level. Booking additional experiences. You can book as many experiences as you want during your trip—be sure to cross-check schedules to avoid booking experiences that overlap."
+      use_the_saigonyo: "Use the Saigonyo app on your iOS or Android phone or tablet to book an experience."
+      view_all_news: "View all news"
+      visit: Visit
+      wake_cano: "Wakeboard Cano"
+      we_recommend: "We recommend sending a message to your guests on the site or through the mobile app to introduce yourself, get to know them beforehand, and answer any questions they may have."
+      what_happens: "WHAT HAPPENS AFTER A GUEST BOOKS MY EXPERIENCE?"
+      what_happens_if: "What happens if someone is injured during an experience?"
+      why_do_you: "Create booking for innovative services based on your passion, share experiences and increase income."
+      why_you'll: "Why you’ll love becoming a Saigoneer"
+      writing_a: "Writing a review"
+      you_are_talents: "You are really talented, people will admire you and look forward to learning and sharing from you. Let those bright talents are not lost tomorrow."
+      you_get: "You’ll get a get a confirmation email with the names and number of guests booked under each reservation. Once all guests under the same reservation have completed our verification process, you’ll be able to message them through the Saigonyo app. They have up to 3 days to complete this process."
+      you_have: "You have 14 days after checkout to write a review for a trip."
+      you_need: "You'll need to set up your payout method on your Saigonyo profile. If you haven’t already done, please learn how to add a payout method. Saigonyo will release your payout for an experience the day after you host the experience (or the day after you host the first experience, if you have more than one). The exact date you receive the funds will depend on your financial institution and whether the payout is released on a weekend or bank holiday. Hosts who partnered with nonprofits should add a payout method owned by the nonprofit. In order to verify of this payout method, nonprofits will be asked to submit a bank statement for us to match against the host's payout method."
+      you_set_your: "You set your price and decide when you want to share passion and how often."
+      your_talents: "YOUR TALENTS"
+  will_paginate: 
+    next_label: Next
+    previous_label: Previous
+es: 
+  camaleon_cms: 
+    common: 
+      addition: Ademas
+      author: Autor
+      back_top: "Volver arriba"
+      categories: Categorías
+      category_list: "Lista de Categorías"
+      clear_cache: "Limpiar Caché"
+      comment: Comentario
+      comment_error: "Ocurrió un error al enviar su comentario"
+      comment_msg: "Tu debes estar logeado para comentar"
+      comment_new: "Nuevo Comentario"
+      comment_reply: Respuesta
+      comment_saved: "Su comentario se a guardado"
+      comments: Comentarios
+      confirm: "Estas seguro?"
+      content_list: "Lista de contenidos: %s"
+      current: Actual
+      edit: Editar
+      extra_attributes: "Otros Atributos"
+      file_format_error: "Formato de archivo no permitido"
+      file_size_exceeded: "Tamaño excedido"
+      home_galleries: "Ir a la portada de galerias"
+      latest_articles: "Ultimos Articulos"
+      leave_comment: "Dejar un comentario"
+      login: Ingresar
+      logout: Salir
+      message: Mensaje
+      next: Siguiente
+      no_contents_found: "No se encontraron contenidos"
+      no_results_found: "No se encontraron resultados"
+      notice: "Noticias de "
+      photo_gallery: "Galerías de fotos"
+      post_tag_list: "Lista de Etiquetas"
+      prev: Anterior
+      read_more: "Leer Más"
+      recent_posts: "Artículos Recientes"
+      register: Registrarse
+      related_articles: "Artículos Relacionados"
+      reload: Recargar
+      search: Buscar
+      search_msg: "Resultados de búsqueda para: "
+      search_not_found: "Elementos de busqueda no se encontraron para listar"
+      send: Enviar
+      share: "Comparte en"
+      share_facebook: "Compartir en Facebook"
+      share_google_plus: "Compartir en Google Plus"
+      share_twitter: "Compartir en Twitter"
+      site: Sitio
+      sub_category_list: "Lista de Sub Categorías"
+      submit: Ingresar
+      total_followers_social: "Total de seguidores en redes sociales"
+      view_all_news: "Ver todas las noticias"
+      visit: Visitar
+  will_paginate: 
+    next_label: Siguiente
+    previous_label: Anterior
+fr: 
+  camaleon_cms: 
+    common: 
+      a_civilized: "une communauté civilisée bien organisée et développée, la vie civilisée est menée sur une base raisonnable, avec des règles et des coutumes justes. La sécurité provient de savoir que les utilisateurs peuvent s'appuyer sur des principes tels que l'équité, l'intégrité, la dignité, le service, la qualité ou l'excellence, le potentiel, la croissance, la patience, les soins et encouragé. En se concentrant sur l'engagement de principes intemporels et immuables, les utilisateurs créent un modèle de base de contribution efficace."
+      addition: Addition
+      art: art
+      author: Auteur
+      back_top: "Retour en haut"
+      base_on_the_love: "Basé sur l'amour et le respect de la communauté talentueuse à travers le monde. Nous sommes impatients de vous connecter, de partager et d'apprendre avec sincérité. Veuillez nous contacter."
+      become_a_sharer: "Devenir Saigoneer (Locals)"
+      build_and_share: "Créez et partagez les différents programmes d'expérience en fonction de votre passion et de vos talents pour vos proches et vos amateurs."
+      build_share_on: "partage de partage sur la plate-forme"
+      build_submit: "Créez et soumettez votre expérience. Si les normes de qualité, notre équipe vous abordera avec les prochaines étapes de support."
+      build_up_a: "Construisez une culture civilisée, partagez vos talents avec des personnes qui vous respectent et vous adorent."
+      calli_pain: "Peinture Calligraphie"
+      categories: Catégories
+      category_list: "Liste des catégories"
+      challenge_experiences: CHALLENGES
+      civilized_community: "COMMUNAUTÉ CIVILISÉE"
+      comment: Commentaire
+      comment_error: "Une erreur est survenue lors de l'enregistrement du commentaire"
+      comment_msg: "Vous devez être connecté pour publier un commentaire"
+      comment_new: "Nouveau commentaire"
+      comment_reply: Répondre
+      comment_saved: "Votre commentaire est enregistré"
+      comments: Commentaires
+      confirm: "Êtes-vous sûr?"
+      content_list: "Liste de contenu : %s"
+      create_unique: "Créez des expériences uniques autour de votre Talent, et gagnez de l'argent en apportant d'autres expériences."
+      current: Courant
+      dance_course: "cours de danse"
+      dashboard: "Tableau de bord"
+      design_submit: "conception et soumission!"
+      edit: Editer
+      experience_local: "expérience locale"
+      exploring_yourseft: "DÉCOUVREZ VOUS-MÊME"
+      extra_attributes: "Attributs extras"
+      extra_income: "augmentez vos gains"
+      file_format_error: "Format de fichier invalide"
+      file_size_exceeded: "Taille du fichier excessive"
+      flexibility_ok: flexibilité
+      from_saving: "de sauvegarder les réparations à domicile en passant par un voyage de rêve, utilisez un revenu supplémentaire pour amasser des fonds pour votre passion."
+      future_orientation: "ORIENTATION FUTURE"
+      get_tips_and: "Vous connaissez plus de conseils et d'outils pour vous connecter avec les mêmes enthousiastes que vous veniez du monde entier."
+      get_to_passion: "Inspiré par la passion"
+      have_you_experiece: "Avez-vous déjà connu les défis de votre vie - les moments où vous vous sentez perdu et ne savez pas comment procéder? Choisissez vous-même un talent que vous idol et vous voulez comme eux. Ils vous aideront à acquérir les compétences nécessaires pour surmonter le défi."
+      help_orient_the: "Aide à orienter l'avenir du village et à aider les gens à réussir dans la vie. Une culture peut également être considérée comme une orientation future si les membres de cette culture ont tendance à évaluer la pensée créative et les idées nouvelles et croient que l'avenir peut être contrôlé ou toléré. influencé par les décisions actuelles."
+      home_galleries: "Aller à l'accueil des galeries"
+      horses_ride: "cours d'équitation"
+      how_to_start: "Comment commencer"
+      it_is_your: "C'est votre passion qui façonnera votre talent, vos talents créeront des chefs-d'oeuvre de la technologie, de l'art, des programmes ... et vous guideront avec grand succès. Partager une expérience différente est de confirmer votre niveau."
+      join_mail: "JOIGNEZ-VOUS À NOTRE LISTE D'ENVOI"
+      kepp_track: "Suivez votre réservation, informez votre invité et mettez à jour votre horaire depuis l'application."
+      latest_articles: "Derniers articles"
+      learn_boat: "cours de voile"
+      leave_comment: "Laisser un commentaire"
+      let's: "découvrez plus"
+      life_style: "style de vie"
+      login: Connexion
+      logout: Déconnexion
+      love_community: AMOUR
+      manage_on: "Gestion rapide"
+      message: Message
+      more_experiences: "une autre expérience"
+      music_showbiz: "musique et showbiz"
+      next: Suivant
+      no_contents_found: "Aucun contenu trouvé"
+      no_results_found: "Aucun résultat trouvé"
+      notice: "Nouvelles "
+      one_the_experiences: "Lorsque l'expérience est publiée, vous serez libre d'accueillir comme vous le souhaitez. Vous pouvez également définir le nombre de membres de l'équipe et votre prix."
+      pass_through: "passer le test. Notez tous les objectifs principaux que vous estimez avoir atteint et que vous souhaitez atteindre. À leur tour, enregistrez les événements de votre vie qui ont eu lieu et vous ont influencé ou affecté. Ensuite, des miracles vous arriveront."
+      photo_gallery: "Galerie photo"
+      post_tag_list: "Liste des tags"
+      prev: Précédent
+      proceted_article: "Article protégé"
+      profile: Profil
+      read_more: "En savoir plus"
+      ready_to_become: "Prêt à devenir une passion passionnante et à expérimenter de nouvelles choses avec nous? Vérifier notre politique et les conditions d'utilisation (Joignez un lien au trait de soulignement pour que le partenaire puisse le voir avant de vous connecter) et vous concevoir un plan de partage unique. Nous sommes là pour diffuser vos talents sur le monde."
+      ready_to_share: "Prêt à partager une expérience dans votre ville?"
+      recent_posts: "Posts récents"
+      register: Enregistrer
+      review_our_quality: "Passez en revue nos normes de qualité pour créer des programmes culturellement appropriés avec ce que les autres font et ce que notre communauté attend."
+      satisfaction: "La satisfaction est garantie à 100%"
+      satisfaction_content: "Réservation d'affiliation lors de la réservation de plus de 10 à 30% de réduction; Rejoignez notre Club VIP pour recevoir des courriels uniquement, des coupons, des ventes et bien plus encore!"
+      search: Rechercher
+      search_msg: "Chercher des résultats pour:"
+      search_not_found: "Aucun résultat ne correspond aux critères de recherche."
+      send: Envoyer
+      share: "Partager sur"
+      share_facebook: "Partage sur Facebook"
+      share_google_plus: "Partager sur Google Plus"
+      share_passion: "Partagez votre passion avec le monde."
+      share_policies: "Partagez vos termes et politiques"
+      share_talents: "Partagez vos talents, brillez-vous."
+      share_twitter: "Partager sur Twitter"
+      site: Site
+      start_by_designing: "Commencez par concevoir l'expérience que vous avez en tête. Nous vous guiderons dans chaque étape. Si votre expérience répond aux normes de qualité, vous en apprendrez plus sur ce qui suit. Les hôtes peuvent offrir des immersions et des expériences quotidiennes. Les immersions se produisent pendant plusieurs jours et sont offertes tel quel, leur calendrier ne peut pas être modifié. Si vous recherchez une expérience unique, essayez de parcourir nos options d'expérience d'une journée. Tout comme la disponibilité à domicile, la disponibilité de l'expérience est définie par l'hôte individuel. Avant de réserver, assurez-vous d'examiner les exigences des invités et toutes autres exigences spécifiées par l'hôte. Cela pourrait inclure des limites d'âge ou un niveau de compétence. Réservation d'expériences supplémentaires. Vous pouvez réserver autant d'expériences que vous le souhaitez lors de votre voyage, assurez-vous de vérifier les horaires pour éviter de réserver des expériences qui se chevauchent."
+      sub_category_list: "Liste des sous-catégories"
+      submit: Soumettre
+      subscribe_mail: SOUSCRIRE
+      support_ok: Support
+      total_followers_social: "Total de followers sur les réseaux sociaux"
+      unhappy: "Malheureux avec vos expériences?"
+      unhappy_content: "WNous le reprendrons! Nous maintenons nos produits de haute qualité et votre satisfaction est garantie à 100%"
+      view_all_news: "Voir toutes les nouvelles"
+      visit: Visite
+      wake_cano: canoë-kayak
+      why_do_you: "Créez des réservations pour des services innovants basés sur votre passion, partagez vos expériences et augmentez vos revenus."
+      why_you'll: "pourquoi aimeriez-vous devenir une part?"
+      you_are_talents: "Vous avez vraiment du talent, les gens vous admireront et vous attendent avec impatience d'apprendre et de partager de votre part. Laissez les talents brillants ne perdent pas demain."
+      you_set_your: "Vous décidez quand et quand vous souhaitez partager votre passion et votre timing."
+      your_talents: "VOTRE TALENT"
+  will_paginate: 
+    next_label: Suivant
+    previous_label: Précédent
+it: 
+  camaleon_cms: 
+    common: 
+      addition: Aggiungi
+      author: Autore
+      back_top: "Torna su"
+      categories: Categorie
+      category_list: "Lista categorie"
+      comment: Commento
+      comment_error: "C'è stato un errore durante il salvataggio del commento"
+      comment_msg: "Devi essere loggato per poter commentare"
+      comment_new: "Nuovo Commento"
+      comment_reply: Rispondi
+      comment_saved: "Il tuo commento è stato salvato"
+      comments: Commenti
+      confirm: Confermi?
+      content_list: "Lista Contenuti: %s"
+      current: Corrente
+      edit: Modifica
+      extra_attributes: "Attributi extra"
+      file_format_error: "Formato file non accettato"
+      file_size_exceeded: "File troppo grande"
+      home_galleries: "Vai alla home delle gallerie"
+      latest_articles: "Ultimi articoli"
+      leave_comment: "Lascia un commento"
+      login: Login
+      logout: Logout
+      message: Messaggio
+      next: Successivo
+      no_contents_found: "Nessun contenuto trovato"
+      no_results_found: "Nessun risultato trovato"
+      notice: News
+      photo_gallery: "Galleria foto"
+      post_tag_list: "Lista tag"
+      prev: Precedente
+      read_more: "Leggi tutto"
+      recent_posts: "Articoli recenti"
+      register: Registrazione
+      search: Cerca
+      search_msg: "Risultati della ricerca per:"
+      search_not_found: "Nessun risultato trovato"
+      send: Invia
+      share: "Condividi su"
+      share_facebook: "Condividi su Facebook"
+      share_google_plus: "Condividi su Google Plus"
+      share_twitter: "Condividi su Twitter"
+      site: Sito
+      sub_category_list: "Lista sottocategorie"
+      submit: Conferma
+      total_followers_social: "Follower totali sui social network"
+      view_all_news: "Vedi tutte le news"
+      visit: Visita
+  will_paginate: 
+    next_label: Successivo
+    previous_label: Precedente
+nl: 
+  camaleon_cms: 
+    common: 
+      addition: Toevoeging
+      author: Auteur
+      back_top: "Terug naar boven"
+      categories: Categorieën
+      category_list: "categorieën Overzicht"
+      comment: Reactie
+      comment_error: "Er heeft zich een fout voorgedaan bij het opslaan van je reactie"
+      comment_msg: "Je moet inglogd zijn om een reactie te plaatsen"
+      comment_new: "Nieuwe Reactie"
+      comment_reply: Antwoord
+      comment_saved: "Je reactie is opgeslagen"
+      comments: Reacties
+      confirm: "Weet je het zeker?"
+      content_list: "Inhoud Overzicht: %s"
+      current: Huidig
+      edit: Bewerk
+      extra_attributes: "Extra Attributen"
+      file_format_error: "Bestandstype niet toegstaan"
+      file_size_exceeded: "Bestandsgroote overschreden"
+      home_galleries: "Naar hetfotogallerijen overzicht"
+      latest_articles: "Laatste Berichten"
+      leave_comment: "Laat een reactie achter"
+      login: Login
+      logout: Uitloggen
+      message: Message
+      next: Volgende
+      no_contents_found: "Geen inhoud gevonden"
+      no_results_found: "Geen resultaten gevonden"
+      notice: "Nieuws "
+      photo_gallery: Fotogallerij
+      post_tag_list: "Tag Overzicht"
+      prev: Vorige
+      proceted_article: "Beveiligd artikel"
+      read_more: "Lees meer"
+      recent_posts: "Recente Berichten"
+      register: Registreer
+      search: Zoeken
+      search_msg: "Zoekresultaten voor:"
+      search_not_found: "Er zijn geen zoekresultaten gevonden"
+      send: Verstuur
+      share: "Delen op"
+      share_facebook: "Deel op Facebook"
+      share_google_plus: "Deel op Google+"
+      share_twitter: "Deel op Twitter"
+      site: Site
+      sub_category_list: "subcategorieën Overzicht"
+      submit: Verstuur
+      total_followers_social: "Totaal aantal volgers op sociale media"
+      view_all_news: "Al het nieuws bekijken"
+      visit: Bezoek
+  will_paginate: 
+    next_label: Volgende
+    previous_label: Vorige
+pt: 
+  camaleon_cms: 
+    common: 
+      addition: Adição
+      author: Autor
+      back_top: "Voltar para o topo"
+      categories: Categorias
+      category_list: "Listagem de Categorias"
+      comment: Comentário
+      comment_error: "Ocorreu um erro ao tentar gravar o comentário"
+      comment_msg: "Deverá fazer login para poder comentar"
+      comment_new: "Novo comentário"
+      comment_reply: Responder
+      comment_saved: "Seu comentário foi salvo"
+      comments: Comentários
+      confirm: "Tem certeza?"
+      content_list: "Lista de Conteúdo: %s"
+      current: Atual
+      dashboard: "Página Inicial"
+      edit: Editar
+      extra_attributes: "Atributos Extra"
+      file_format_error: "Formato de arquivo não permitido"
+      file_size_exceeded: "Tamanho do arquivo excedeu o limite"
+      home_galleries: "Ir para a página principal das Categorias"
+      latest_articles: "Últimos Artigos"
+      leave_comment: "Deixar um comentário"
+      login: Login
+      logout: Sair
+      message: Mensagem
+      next: Próximo
+      no_contents_found: "Nenhum conteúdo encontrado"
+      no_results_found: "Nenhum resultado encontrado"
+      notice: "Novidades "
+      photo_gallery: "Galeria de Fotos"
+      post_tag_list: "Lista de Tags"
+      prev: Anterior
+      proceted_article: "Artigo Protegido"
+      profile: Perfil
+      read_more: "Ler Mais"
+      recent_posts: "Publicações Recentes"
+      register: Registar
+      search: Procurar
+      search_msg: "Procurar Resultados para:"
+      search_not_found: "A busca não encontrou nenhum resultado"
+      send: Enviar
+      share: "Partilhar em"
+      share_facebook: "Partilhar no Facebook"
+      share_google_plus: "Partilhar no Google Plus"
+      share_twitter: "Partilhar no Twitter"
+      site: Sítio
+      sub_category_list: "Lista de Sub Categorias"
+      submit: Submeter
+      total_followers_social: "Total de seguidores nas redes sociais"
+      view_all_news: "Ver todas as notícias"
+      visit: Visitar
+  will_paginate: 
+    next_label: Seguinte
+    previous_label: Anterior
+pt-BR: 
+  camaleon_cms: 
+    common: 
+      addition: Adição
+      author: Autor
+      back_top: "Voltar para o topo"
+      categories: Categorias
+      category_list: "Listagem de Categorias"
+      comment: Comentário
+      comment_error: "Ocorreu um erro ao tentar salvar o comentário"
+      comment_msg: "Você deve estar logado para postar um comentário"
+      comment_new: "Novo comentário"
+      comment_reply: Responder
+      comment_saved: "Seu comentário foi salvo"
+      comments: Comentários
+      confirm: "Você tem certeza?"
+      content_list: "Lista de Conteúdo: %s"
+      current: Atual
+      dashboard: "Página Inicial"
+      edit: Editar
+      extra_attributes: "Atributos Extras"
+      file_format_error: "Formato de arquivo não permitido"
+      file_size_exceeded: "Tamanho do arquivo excedeu o limite"
+      home_galleries: "Ir para a home das Categorias"
+      latest_articles: "Últimos Artigos"
+      leave_comment: "Deixar um comentário"
+      login: Login
+      logout: Sair
+      message: Mensagem
+      next: Próximo
+      no_contents_found: "Nenhum conteúdo encontrado"
+      no_results_found: "Nenhum resultado encontrado"
+      notice: "Novidades "
+      photo_gallery: "Galeria de Fotos"
+      post_tag_list: "Lista de Tags"
+      prev: Anterior
+      proceted_article: "Artigo Protegido"
+      profile: Perfil
+      read_more: "Ler Mais"
+      recent_posts: "Posts Recentes"
+      register: Registrar
+      search: Procurar
+      search_msg: "Procurar Resultados para:"
+      search_not_found: "A busca não achou nenhum item"
+      send: Enviar
+      share: "Compatilhar em"
+      share_facebook: "Compartilhar no Facebook"
+      share_google_plus: "Compartilhar no Google Plus"
+      share_twitter: "Compartilhar no Twitter"
+      site: Site
+      sub_category_list: "Lista de Sub Categorias"
+      submit: Submeter
+      total_followers_social: "Total de seguidores nas redes sociais"
+      view_all_news: "Ver todas as notícias"
+      visit: Visitar
+  will_paginate: 
+    next_label: Próximo
+    previous_label: Anterior
+ru: 
+  camaleon_cms: 
+    common: 
+      addition: Дополнение
+      author: Автор
+      back_top: "Вернуться к началу"
+      categories: Категории
+      category_list: "Список категорий"
+      comment: Комментарий
+      comment_error: "Произошла ошибка при сохранении комментария"
+      comment_msg: "Вам нужно войти чтобы оставить комментарий"
+      comment_new: "Новый комментарий"
+      comment_reply: Ответить
+      comment_saved: "Ваш комментарий был сохранен"
+      comments: Комментарии
+      confirm: "Вы подтверждаете?"
+      content_list: "Список контентов: %s"
+      current: Текущий
+      edit: Редактировать
+      extra_attributes: "Дополнительные атрибуты"
+      file_format_error: "Формат файла запрещен"
+      file_size_exceeded: "Превышен допустимый размер файла"
+      home_galleries: "Перейти на главную галерею"
+      latest_articles: "Последние статьи"
+      leave_comment: "Оставить комментарий"
+      login: Вход
+      logout: Выход
+      message: Сообщение
+      next: Следующий
+      no_contents_found: "Контенты не найдены"
+      no_results_found: "Результатов не найдено"
+      notice: "Новости "
+      photo_gallery: Фотогалерея
+      post_tag_list: "Список тегов"
+      prev: Предыдущий
+      proceted_article: "Защищенная статья"
+      read_more: "Прочитать больше"
+      recent_posts: "Недавние Посты"
+      register: Зарегистрироваться
+      search: Поиск
+      search_msg: "Результаты поиска для:"
+      search_not_found: "Search items were not found to list"
+      send: Отправить
+      share: Поделиться
+      share_facebook: "Поделиться Facebook"
+      share_google_plus: "Поделиться Google Plus"
+      share_twitter: "Поделиться Twitter"
+      site: Сайт
+      sub_category_list: "Список подкатегорий"
+      submit: Отправить
+      total_followers_social: "Всего последователей в социальных сетях"
+      view_all_news: "Смотреть все новости"
+      visit: Посетить
+  will_paginate: 
+    next_label: Следующий
+    previous_label: Предыдущий
+vi: 
+  camaleon_cms: 
+    common: 
+      a_civilized: "Một cộng đồng văn minh được tổ chức tốt và phát triển, đời sống văn minh được tiến hành theo nguyên tắc hợp lý, có các quy tắc và phong tục công bằng. Sự bảo mật đó đến từ việc biết rằng người dùng có thể dựa vào các nguyên tắc như công bằng, toàn vẹn, nhân phẩm, dịch vụ, chất lượng hoặc sự xuất sắc, tiềm năng, tăng trưởng, kiên nhẫn, chăm sóc và khuyến khích. Bằng cách tập trung sự tham gia vào các nguyên tắc vô thời, không thay đổi, người dùng tạo ra một mô hình cơ bản về đóng góp hiệu quả."
+      addition: "Bổ sung"
+      all_the: "Tất cả các bài đánh giá trên Saigonyo được viết bởi các bên tổ chức và khách hàng từ cộng đồng của chúng tôi, vì vậy bất kỳ đánh giá nào bạn thấy dựa trên trải nghiệm mà khách hàng đã tham gia."
+      are_children: "TRẺ EM CÓ ĐƯỢC PHÉP THAM GIA TRẢI NGHIỆM KHÔNG?"
+      art: "Nghệ thuật"
+      author: "Tác g"
+      back_top: "Về đầu trang"
+      base_on_the_love: "Dựa trên tình yêu và sự tôn trọng của cộng đồng tài năng trên khắp thế giới. Chúng tôi mong muốn kết nối, chia sẻ và học hỏi từ bạn chân thành. Hãy chia sẻ với chúng tôi."
+      become_a_sharer: "Trở thành Saigoneer (Người địa phương)"
+      book_any: "Đăng kí bất kỳ trải nghiệm mà bạn thích"
+      build_and_share: "Hãy xây dựng và chia sẻ những chương trình trải nghiệm khác biệt dựa trên chính đam mê và tài năng của bạn cho những người yêu quý và hâm mộ bạn thưởng thức."
+      build_share_on: "Xây dựng chia sẻ  trên nền tảng"
+      build_submit: "Xây dựng và gửi trải nghiệm của bạn. Nếu đạt tiêu chuẩn chất lượng, Team của chúng tôi sẽ tiếp cận với bạn các bước hỗ trợ tiếp theo."
+      build_up_a: "Xây dựng văn hoá văn minh, chia sẻ  tài năng của bạn với những người tôn trọng và yêu mến bạn."
+      calli_pain: "Tranh thư pháp"
+      categories: "Danh Mục"
+      category_list: "Danh sách chuyên mục"
+      challenges_experiences: "NHỮNG THÁCH THỨC"
+      choose_a: "Chọn một thành phố và ngày cụ thể"
+      civilized_community: "CỘNG ĐỒNG VĂN MINH"
+      comment: "Nhận xét"
+      comment_error: "Đã xảy ra lỗi khi lưu chú thích"
+      comment_msg: "Bạn phải đăng nhập để đăng nhận xét"
+      comment_new: "Bình luận mới"
+      comment_reply: "Trả lời"
+      comment_saved: "Nhận xét của bạn đã được lưu"
+      comments: "Bình luận"
+      confirm: "Bạn chắc không?"
+      content_list: "Content list: %s"
+      create_unique: "Tạo trải nghiệm độc đáo xung quanh Tài năng của bạn và kiếm thêm tiền bằng cách đưa những người khác cùng trải nghiệm."
+      current: "Hiện tại"
+      dance_course: "Khóa học Khiêu vũ"
+      dashboard: Dashboard
+      depend_on: "Phụ thuộc vào từng trải nghiệm, ban tổ chức sẽ có giới hạn độ tuổi theo yêu cầu. Bạn nên kiểm tra nó trước khi đăng kí."
+      design_submit: "Thiết kế và Đệ Trình !"
+      edit: "Chỉnh sửa"
+      experience_local: "Trải nghiệm địa phương"
+      exploring_yourseft: "KHÁM PHÁ CHÍNH MÌNH"
+      extra_attributes: "Thuộc tính bổ sung"
+      extra_income: "Tăng Thu nhập thêm"
+      file_format_error: "Định dạng tệp không được phép"
+      file_size_exceeded: "Đã vượt quá kích thước tệp"
+      flexibility_ok: "Tính Linh Hoạt"
+      from_saving: "Từ  việc tiết kiệm sửa chữa nhà để có một chuyến đi mơ ước, sử  dụng thu nhập thêm để tăng quỹ tiền cho niềm đam mê của bạn."
+      future_orientation: "ĐỊNH HƯỚNG TƯƠNG LAI"
+      get_tips_and: "Bạn biết thêm mẹo và có công cụ kết nối với những người cùng đam mê như bạn từ khắp nơi trên thế giới."
+      get_to_passion: "Lấy cảm hứng từ đam mê"
+      group_reviews: "Đánh giá nhóm"
+      have_you_experiece: "Bạn đã từng trải nghiệm những thử thách trong cuộc sống của mình - những lúc bạn cảm thấy lạc lõng và không biết làm thế nào để tiếp tục? Chọn cho mình một tài năng mà bạn thần tượng và muốn mình như họ. Họ sẽ giúp bạn có được những kỹ năng để vượt qua thách thức."
+      help_orient_the: "Giúp định hướng tương lai của ngôi làng và giúp mọi người thành công trong cuộc sống. Một nền văn hoá cũng có thể được coi là định hướng tương lai nếu các thành viên của nền văn hoá đó có xu hướng đánh giá tư duy sáng tạo và những ý tưởng mới và tin tưởng rằng tương lai có thể được kiểm soát hoặc chịu ảnh hưởng bởi các quyết định hiện tại."
+      helping_centre: "TRUNG TÂM THÔNG TIN TRỢ GIÚP:"
+      home_galleries: "Vào thư mục hình ảnh"
+      horses_ride: "Khóa học cưỡi ngựa"
+      how_do: "LÀM SAO TÔI CÓ THỂ THÊM VÀO HAY THAY ĐỔI HIỆU LỰC TRẢI NGHIỆM CỦA TÔI?"
+      how_do_I: "LÀM CÁCH NÀO ĐỂ TÔI LIÊN HỆ VỚI KHÁCH HÀNG TRỞ THÀNH MỘT ĐỐI TÁC CUNG CẤP TRẢI NGHIỆM?"
+      how_do_booking: "Làm thế nào để đăng kí một trải nghiệm?"
+      how_do_confir_content: "Bạn sẽ nhận được một email xác nhận cho mỗi trải nghiệm bạn đặt. Email này sẽ chuyển đến địa chỉ email liên quan đến tài khoản Saigonyo của bạn. Bạn cũng có thể tìm thấy hành trình của mình bằng cách đi vào phần Thưởng thức của ứng dụng Saigonyo."
+      how_do_confirmation: "Làm cách nào để tôi tìm được xác nhận Booking cho những trải nghiệm sắp tới?"
+      how_do_reviews: "ĐÁNH GIÁ CHO NHỮNG TRẢI NGHIỆM ĐÓ NHƯ THẾ NÀO?"
+      how_does: "VIỆC ĐẶT NHỮNG TRẢI NGHIỆM HOẠT ĐỘNG NHƯ THẾ NÀO?"
+      how_to_start: "Làm Sao để bắt đầu"
+      if_a_reservation: "Nếu một đăng kí có nhiều hơn một khách hàng xác nhận, bài đánh giá của ban tổ chức sẽ xuất hiện trên tất cả hồ sơ của khách hàng."
+      if_you: "Nếu bạn đang tìm kiếm trải nghiệm một lần, bạn hãy thử tìm kiếm các lựa chọn trải nghiệm ngắn ngày sẵn có tại Saigonyo, trải nghiệm sẵn có được thiết lập bởi các thành viên ưu tú chia sẻ."
+      in_each: "Trong mỗi trải nghiệm có tính phí, bảo hiểm được bao gồm trong chi phí và phí bảo hiểm phụ thuộc vào mỗi bên tổ chức cùng với trải nghiệm của họ."
+      it_is_your: "Chính đam mê sẽ hình thành tài năng , chính tài năng của bạn sẽ kiến tạo ra các kiệt tác về công nghệ, nghệ thuật , chương trình... và dẫn lối cho bạn đến thành công lớn. Chia sẻ một trải nghiệm khác biệt là khẳng định đẳng cấp của bạn ."
+      join_mail: "ĐĂNG KÝ DANH SÁCH MAIL CỦA CHÚNG TÔI"
+      kepp_track: "Theo dõi các Booking của bạn, thông báo cho khách của bạn và cập nhật lịch trình của bạn từ  ứng dụng."
+      latest_articles: "Các bài báo mới nhất"
+      learn_boat: "Khóa học thuyền buồm"
+      leave_comment: "Để lại nhận xét"
+      let's: "Hãy khám phá thêm"
+      life_style: "Cuộc sống phong cách"
+      login: "Đăng nhập"
+      logout: Thát
+      look_for: "Chọn mục “Trải nghiệm”"
+      love_community: "TÌNH YÊU THƯƠNG"
+      make_sure: "Đảm bảo xem lại các yêu cầu được đặt ra bởi chuyên gia và kiểm tra thời gian biểu để tránh chồng chéo trước khi đặt."
+      manage_on: "Quản lý nhanh"
+      message: "Thông b"
+      more_experiences: "Trải nghiệm khác"
+      music_showbiz: "Âm nhạc & showbiz"
+      next: "Tiếp theo"
+      no_contents_found: "Không tìm thấy nội dung"
+      no_results_found: "Không tìm thấy kết quả"
+      notice: "Tin tức "
+      once_your: "Sau khi trải nghiệm của bạn được đăng lên trang của Saigonyo, khách hàng có thể ngay lập tức đặt trước bất kỳ vào ngày nào bạn đã có. Họ sẽ phải xem lại bất kỳ yêu cầu dành cho khách mà bạn đã đặt ra cho trải nghiệm của bạn. Khi khách hang đặt trải nghiệm, bạn sẽ nhận được thông báo qua email với hồ sơ của khách hàng và thông tin liên hệ. Bạn cũng có thể xem thông tin này trong ứng dụng của mình. Chúng tôi khuyên bạn nên gửi cho khách hàng một thông điệp để tự giới thiệu và làm quen với họ trước khi trải nghiệm và trả lời bất kỳ câu hỏi nào họ đưa ra."
+      one_the_experiences: "Khi trải nghiệm được xuất bản, bạn sẽ được tự do lưu trữ  khi muốn. Bạn cũng có thể đặt số lượng thành viên nhóm và giá cả của bạn."
+      our_community: "Cộng đồng của chúng tôi dựa vào những đánh giá trung thực, minh bạch. Chúng tôi sẽ xóa hoặc sửa đổi một bài đánh giá nếu chúng tôi thấy rằng nó vi phạm các nguyên tắc đánh giá của chúng tôi."
+      pass_through: "Đi qua các thử nghiệm. Viết ra tất cả các mục tiêu chính mà bạn cảm thấy bạn đã đạt được và muốn đạt được. Đổi lại, ghi lại các sự kiện trong cuộc sống của bạn đã xảy ra và đã ảnh hưởng hoặc ảnh hưởng đến bạn. Sau đó, phép lạ sẽ xảy ra với bạn."
+      photo_gallery: "Hình ảnh "
+      post_tag_list: "Danh sách Thẻ"
+      prev: Trước
+      proceted_article: "Bài báo được bảo vệ"
+      profile: "Hồ sơ"
+      read_more: "Đọc thêm"
+      ready_to_become: " Sẵn sàng trở thành nhà chia sẻ đam mê với người khác và trải nghiệm những điều mới với chúng tôi? Kiểm tra chính sách và điều khoản sử dụng của chúng tôi (đính kèm liên kết vào chữ gạch dưới cho các đối tác xem trước khi đăng nhập) và thiết kế kế hoạch chia sẻ duy nhất của bạn. Chúng tôi đang ở đây để truyền bá tài năng của bạn tới thế giới."
+      ready_to_share: "Sẵn sàng chia sẻ trải nghiệm tại thành phố của bạn?"
+      recent_posts: "Bài đăng gần đây"
+      register: "Đăng ký"
+      review_history: "Lịch sử đánh giá"
+      review_our_quality: "Xem xét các tiêu chuẩn chất lượng của chúng tôi để xây dựng chương trình mang tính phù hợp văn hóa với những gì người khác làm và những gì cộng đồng của chúng tôi mong đợi."
+      reviewing_an: "Đánh giá trải nghiệm sau khi nó kết thúc, bạn sẽ nhận được thông báo nhắc để lại đánh giá. Khách hàng có 14 ngày để viết bài đánh giá và có tùy chọn để lại cả hai là phản hồi riêng tư cho bên tổ chức và phản hồi công cộng cho khách hàng tương lai. Đánh giá khách hàng. Ban tổ chức có thể để lại phản hồi riêng tư về khách của họ thông qua ứng dụng Saigonyo trong 14 ngày kể từ lần trải nghiệm cuối cùng. Xem lại lịch sử. Để xem các bài đánh giá của khách hàng trước đây, hãy truy cập trang công cộng dành cho trải nghiệm của bạn. Cộng đồng của chúng tôi dựa vào những đánh giá trung thực, minh bạch. Chúng tôi sẽ xóa bài đánh giá, nếu chúng tôi thấy rằng nó vi phạm các nguyên tắc đánh giá của chúng tôi."
+      satisfaction: "Sự hài lòng được bảo đảm 100%"
+      satisfaction_content: "Booking Affiliate khi đặt phòng có thể giảm giá từ 10-30% ; Đăng ký Câu lạc bộ VIP của chúng tôi qua email để nhận Deals, Coupons, Sales, và nhiều hơn nữa!"
+      search: "Tìm kiếm"
+      search_msg: "Kết quả tìm kiếm cho:"
+      search_not_found: "Các mục tìm kiếm không được liệt kê"
+      send: Gửi
+      share: "Share on"
+      share_facebook: "Chia sẻ Facebook"
+      share_google_plus: "Chia sẻ Google Plus"
+      share_passion: "Chia sẻ niềm đam mê của bạn với thế giới."
+      share_policies: "Chia sẻ về điều khoản & chính sách của bạn"
+      share_talents: "Chia sẻ tài năng của bạn, Tỏa sáng bản thân."
+      share_twitter: "Chia sẻ Twitter"
+      site: "Trang web"
+      start_by_designing: " Bắt đầu bằng cách thiết kế trải nghiệm bạn có trong đầu. Chúng tôi sẽ hướng dẫn bạn từng bước. Nếu kinh nghiệm của bạn đáp ứng các tiêu chuẩn chất lượng, bạn sẽ được nghe nhiều hơn về những gì tiếp theo. Nhà tổ chức có thể cung cấp cả sự nhập hội và kinh nghiệm một ngày. Immersions xảy ra trong nhiều ngày và được cung cấp như là-lịch trình của họ không thể được sửa đổi. Nếu bạn đang tìm kiếm trải nghiệm một lần, hãy thử duyệt các lựa chọn kinh nghiệm một ngày của chúng tôi. Cũng giống như sự sẵn có của nhà, sự sẵn có của trải nghiệm được thiết lập bởi các máy chủ cá nhân. Trước khi đặt sách Đảm bảo xem lại yêu cầu của khách và bất kỳ yêu cầu nào khác được chỉ định bởi chủ nhà. Những điều này có thể bao gồm giới hạn độ tuổi hoặc trình độ kỹ năng. Đặt thêm trải nghiệm.Bạn có thể đặt càng nhiều kinh nghiệm càng tốt trong suốt chuyến đi-hãy đảm bảo kiểm tra chéo kế hoạch để tránh trải nghiệm chồng chéo."
+      sub_category_list: "Danh mục phụ"
+      submit: "Đệ trình"
+      subscribe_mail: "ĐĂNG KÝ"
+      support_ok: "Sự Hỗ Trợ"
+      to_leave: "Để lại bài đánh giá cho một chuyến đi gần đây, hãy chuyển đến các bài đánh giá của bạn. Nhận xét được giới hạn trong 500 từ và phải tuân theo chính sách nội dung của Saigonyo. Bạn có thể chỉnh sửa bài đánh giá của mình trong tối đa 48 giờ, nếu ban tổ chức hoặc khách hàng của bạn chưa hoàn thành bài đánh giá của họ."
+      to_see_reviews: "Để xem bài đánh giá bạn đã viết hoặc đánh giá về bạn, hãy chuyển đến bài đánh giá của bạn. Bạn cũng sẽ thấy bất kỳ phản hồi riêng tư nào mà mọi người đã để lại cho bạn."
+      total_followers_social: "Tổng số người theo trên mạng xã hội"
+      unhappy: "Không hài lòng với trải nghiệm của bạn?"
+      unhappy_content: "Chúng tôi sẽ áp dụng qui định hoàn trả  chi phí cho quý khách! Chúng tôi luôn quan tâm đến vấn đề chất lượng dịch vụ  của các đối tác và sự hài lòng của bạn được đảm bảo 100%"
+      use_the: "Sử dụng trang web, ứng dụng Saigonyo trên điện thoại hoặc máy tính bảng hệ điều hành iOS hoặc Android của bạn để đăng kí một trải nghiệm. Khi bạn mở ứng dụng, hãy tìm mục “Trải nghiệm”. Sau đó, chọn một thành phố và ngày cụ thể, hoặc xem qua tất cả các trải nghiệm. Nhà tổ chức có thể cung cấp cả hai loại là trải nghiệm hòa nhập hoặc trải nghiệm một ngày. Trải nghiệm hòa nhập diễn ra trong nhiều ngày và lịch trình của họ đưa ra không thể sửa đổi. Nếu bạn đang tìm kiếm trải nghiệm một lần, hãy thử lướt qua các lựa chọn trải nghiệm một ngày của chúng tôi. Cũng giống như sự sẵn có tại nhà, sự sẵn có của trải nghiệm được thiết lập bởi các cá nhân. Trước khi bạn đăng kí trải nghiệm hãy đảm bảo rằng xem lại yêu cầu dành cho khách hàng và bất kỳ yêu cầu nào khác được đặt ra bởi nhà tổ chức. Những điều này có thể bao gồm giới hạn độ tuổi hoặc trình độ kỹ năng. Đăng kí thêm nhiều trải nghiệm. Bạn có thể đăng kí bao nhiêu trải nghiệm như bạn muốn trong suốt chuyến đi của bạn -hãy đảm bảo về việc kiểm tra toàn bộ kế hoạch để tránh những trải nghiệm trùng lặp nhau."
+      use_the_saigonyo: "Sử dụng ứng dụng Saigonyo trên hệ điều hành iOS hoặc Android của điện thoại hoặc máy tính bảng của bạn để đặt một trải nghiệm."
+      view_all_news: "Xem tất cả tin tức"
+      visit: Thăm
+      wake_cano: "Lướt ván Cano"
+      we_recommend: "Chúng tôi khuyên bạn nên gửi một tin nhắn cho khách của bạn trên trang web hoặc thông qua ứng dụng dành cho thiết bị di động để tự giới thiệu, làm quen và trả lời bất kỳ câu hỏi nào họ đưa ra."
+      what_happens: "ĐIỀU GÌ XẢY RA SAU KHI MỘT KHÁCH HÀNG ĐẶT TRẢI NGHIỆM CỦA TÔI?"
+      what_happens_if: "CHUYỆN GÌ SẼ XẢY RA NẾU AI ĐÓ BỊ THƯƠNG TRONG SUỐT QUÁ TRÌNH TRẢI NGHIỆM?"
+      why_do_you: "Tạo booking cho các dịch vụ sáng tạo dựa trên niềm đam mê của bạn, chia sẻ kinh nghiệm vàooking tăng thu nhập."
+      why_you'll: "Tại sao bạn lại thích trở thành một nhà chia sẻ"
+      writing_a: "Viết đánh giá"
+      you_are_talents: "Bạn thực sự có tài năng, mọi người sẽ ngưỡng mộ bạn và mong muốn được học hỏi và chia sẻ từ bạn. Hãy để những tài năng sáng chói không bị mất vào ngày mai."
+      you_get: "Bạn sẽ nhận được một email xác nhận với tên và số lượng khách đặt dưới mỗi đăng kí. Khi tất cả khách hàng trong cùng một đăng kí đã hoàn tất quy trình xác minh của chúng tôi, bạn sẽ có thể thông báo cho họ thông qua ứng dụng Saigonyo. Họ có đến 3 ngày để hoàn thành quá trình này."
+      you_have: "Bạn có 14 ngày sau khi thanh toán để viết bài đánh giá cho một chuyến đi."
+      you_need: "Bạn sẽ cần cài đặt phương thức thanh toán của mình trên hồ sơ Saigonyo của bạn. Nếu bạn vẫn chưa đăng kí, vui lòng tìm hiểu cách thêm phương thức thanh toán. Saigonyo sẽ xử lý thanh toán của bạn cho một trải nghiệm vào ngày sau khi bạn tổ chức trải nghiệm (hoặc ngày sau khi bạn tổ chức trải nghiệm đầu tiên, nếu bạn có nhiều hơn một ngày). Ngày chính xác bạn nhận được tiền sẽ phụ thuộc vào tổ chức tài chính của bạn và nếu như khoản thanh toán được xử lý vào cuối tuần hoặc kỳ nghỉ ngân hàng. Ban tổ chức hợp tác với các tổ chức phi lợi nhuận nên thêm một phương thức thanh toán do tổ chức phi lợi nhuận sở hữu. Để xác minh phương pháp thanh toán này, các tổ chức phi lợi nhuận sẽ được yêu cầu gửi bảng sao kê ngân hàng để chúng tôi khớp với phương thức thanh toán của bên tổ chức."
+      you_set_your: "Bạn quyết định đặt giá và khi nào bạn muốn chia sẻ niềm đam mê của bạn và thời điểm thực hiện."
+      your_talents: "TÀI NĂNG CỦA BẠN"
+  will_paginate: 
+    next_label: "Tiếp theo"
+    previous_label: Trước
+zh-CN: 
+  camaleon_cms: 
+    common: 
+      addition: 添加
+      author: 作者
+      back_top: 返回顶部
+      categories: 分类
+      category_list: 分类列表
+      comment: 评论
+      comment_error: 保存评论时发生错误
+      comment_msg: 您必须登录才能发表评论
+      comment_new: 新评论
+      comment_reply: 回复
+      comment_saved: 评论已经保存
+      comments: 评论
+      confirm: 是否确定?
+      content_list: "内容列表: %s"
+      current: 当前
+      dashboard: 主页
+      edit: 编辑
+      extra_attributes: 额外属性
+      file_format_error: 文件格式不允许
+      file_size_exceeded: 超过文件大小
+      home_galleries: 返回图片库
+      latest_articles: 最新文章
+      leave_comment: 发表评论
+      login: 登录
+      logout: 注销
+      message: 消息
+      next: 向下
+      no_contents_found: 未找到内容
+      no_results_found: 未找到结果
+      notice: 新闻
+      photo_gallery: 照片库
+      post_tag_list: 标签列表
+      prev: 向上
+      proceted_article: 受保护的文章
+      profile: 简介
+      read_more: 更多
+      recent_posts: 最近发布内容
+      register: 注册
+      search: 搜索
+      search_msg: "搜索结果:"
+      search_not_found: 找不到列表中的搜索项
+      send: 发送
+      share: 分享
+      share_facebook: "分享到 Facebook"
+      share_google_plus: "分享到 Google Plus"
+      share_twitter: "分享到 Twitter"
+      site: 站点
+      sub_category_list: 子分类列表
+      submit: 提交
+      total_followers_social: 社交网络上的关注者总数
+      view_all_news: 查看所有新闻
+      visit: 访问
+  will_paginate: 
+    next_label: 下一页
+    previous_label: 上一页
+

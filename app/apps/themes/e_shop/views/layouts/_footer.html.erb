@@ -1,0 +1,91 @@
+
+<!-- content-Mang-Xa-hoi-->
+    <div class="online-strip">
+        <div class="col-md-44 follow-us">
+          <h3>follow us : <a class="btn btn-sm font20" href="https://www.facebook.com/saigonyo360"><i class="fa fa-facebook"></i></a><a class="btn btn-sm font20" href="https://twitter.com/saigonyo360"><i class="fa fa-twitter"></i></a><a class="btn btn-sm font20" href="https://www.instagram.com/saigonyo360"><i class="fa fa-instagram"></i></a><a class="btn btn-sm font20" href="<%= current_theme.get_field('apps_adroid') %>"><i class="fa fa-android"></i></a><a class="btn btn-sm font20" href="<%= current_theme.get_field('apps_ios') %>"><i class="fa fa-apple"></i></a></h3>
+        </div>
+        <div class="col-md-44 shipping-grid">
+            <div class="pull-left">
+                <img src="<%= theme_asset_url("images/guaranteed.png") %>" alt="" width="100%"/>
+            </div>
+            <div class="">
+                 <h3> <%= t("camaleon_cms.common.satisfaction") %></h3>
+                <p><%= t("camaleon_cms.common.satisfaction_content")%></p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-44 online-order">
+
+            <div class="pull-left">
+                <img src="<%= theme_asset_url("images/money-back.png") %>" alt="" width="100%"/>
+            </div>
+                    <div class="">
+             <h3><%= t("camaleon_cms.common.unhappy")%></h3>
+            <p><%= t("camaleon_cms.common.unhappy_content")%></p>
+                    </div>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+<!-- content-section-ends-here -->
+
+<div class="footer">
+    <div class="container">
+        <div class="footer_top">
+            <div class="row">
+                <% cama_menu_parse_items(current_site.nav_menus.where(slug: 'eshop_footer_main_menu').first.children).each do |item| %>
+                    <div class="col-md-3 span1_of_4">
+                        <h4><%= item[:label] %></h4>
+                        <ul class="f_nav">
+                            <% (item[:children] || []).each do |subitem| %>
+                                <li class="<%= 'current_item' if subitem[:current_item] %> <%= 'current_parent_item' if subitem[:current_parent] %>"><a href="<%= subitem[:url] %>"><%= subitem[:label] %></a></li>
+                            <% end %>
+                        </ul>
+                    </div>
+                <% end %>
+                <%= cama_edit_link(cama_admin_appearances_nav_menus_menu_url(slug: 'eshop_footer_main_menu')) %>
+
+            <div class="pull-right-subscribe">
+                <div class="join">
+                    <h6><%= t("camaleon_cms.common.join_mail") %> </h6>
+                    <div class="sub-left-right">
+                        <%= form_tag plugins_cama_subscriber_subscribe_url do %>
+                            <input type="text" name="email" value="Enter Your Email Here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email Here';}" />
+                            <input type="submit" value="<%= t("camaleon_cms.common.subscribe_mail") %>" />
+                        <% end %>
+                    </div>
+            <div class="pull-left">
+                <img src="<%= theme_asset_url("images/trust.png") %>" alt="" width="100"/>
+                <img src="<%= theme_asset_url("images/secure.png") %>" alt="" />
+                <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=37812" > 
+                <img src="<%= theme_asset_url("images/license.jpg") %>" alt="" class="license-img"/></a>
+            </div>
+
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="cards text-center">
+            <img src="<%= theme_asset_url("images/cards.jpg") %>" alt="" /><br>
+            <a href="//www.dmca.com/Protection/Status.aspx?ID=d712cfa2-d001-48d9-b497-b4264719e7bb" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=d712cfa2-d001-48d9-b497-b4264719e7bb" alt="DMCA.com Protection Status" ></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        </div>
+        <div class="copyright text-center">
+                     <p>Head Office: 68 Nguyen Hue, Ben Nghe, District 1, Ho Chi Minh City, Vietnam. " The system creates bookings, events orient activities passionate experiences at major cities. "</p>   
+            <p>© Copyright 2017 Saigonyo JSC. All Rights Reserved - Registration number is 2017-0129/ĐK/TMĐT<a href="https://www.saigonyo.com">  Saigonyo.com</a></p>
+
+        </div>
+    </div>
+</div>
+
+<style type="text/css">
+@media (max-width: 767px) {
+    .license-img {
+        width:100%;
+
+    }
+
+}
+
+</style>

@@ -1,0 +1,2803 @@
+/*Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+@font-face {
+  font-family: 'OleoScript-Regular';
+  src: url(../fonts/OleoScript-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+/* line 15, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+html, body {
+  background: #fff;
+  font-size: 100%;
+  font-family: 'Roboto-Regular';
+}
+
+/* line 20, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 27, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 31, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+h1, h2, h3, h4, h5, h6, label, p {
+  margin: 0;
+}
+
+/*----*/
+/* line 35, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.header-top {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+/* line 39, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.header-left {
+  margin-top: 4px;
+}
+
+/* line 42, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.header-left ul li {
+  display: inline-block;
+}
+
+/* line 45, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.header-left ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  margin: 0 2em 0 0;
+}
+
+/* line 51, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.header-left ul li a:hover {
+  color: #EF5F21;
+}
+
+/* line 54, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.head-top {
+  padding: 1em 0 0;
+}
+
+/* line 57, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.number {
+  margin-top: 1%;
+}
+
+/* line 60, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.number span {
+  color: #000;
+  font-size: 1em;
+}
+
+/* start menu */
+/* line 65, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.h_menu4 {
+  margin: 7px 0 0px;
+}
+
+/* line 68, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.h_nav h4 {
+  border-bottom: 1px solid #ececec;
+  font-size: 1.3em;
+  color: #000;
+  line-height: 1.8em;
+  margin-bottom: 4%;
+  text-align: left;
+}
+
+/* line 76, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.h_nav h4.top {
+  margin-top: 1%;
+}
+
+/* line 79, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.h_nav ul li {
+  display: block;
+}
+
+/* line 82, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.h_nav ul li a {
+  display: block;
+  font-size: 1em;
+  color: #B0B0B0;
+  text-transform: capitalize;
+  line-height: 2em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+}
+
+/* line 94, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.h_nav ul li a:hover {
+  color: #52d0c4;
+  text-decoration: underline;
+}
+
+/*--banner--*/
+/*--header--*/
+/* line 100, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+select.in-drop, select.in-drop1 {
+  border: none;
+  outline: 0;
+  font-size: 0.9em;
+  color: #000;
+  background: none;
+  width: 81%;
+}
+
+/* line 108, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.world ul li {
+  display: inline-block;
+  margin: 0 2% 0 0;
+}
+
+/* line 112, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+select.in-drop1 {
+  width: 100%;
+}
+
+/* line 115, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.logo {
+  text-align: center;
+}
+
+/* line 118, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+p.log {
+  float: left;
+  font-size: 1em;
+  width: 50%;
+  margin-top: 4%;
+}
+
+/* line 124, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+p.log a {
+  color: #52d0c4;
+  text-decoration: none;
+  margin: 0 5%;
+  display: inline-block;
+}
+
+/* line 130, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+p.log a:hover {
+  color: #000;
+}
+
+/* line 133, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.search {
+  text-align: right;
+  margin-top: 1%;
+}
+
+/* line 137, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+i.glyphicon.glyphicon-search {
+  color: #000;
+  font-size: 1em;
+}
+
+/* line 141, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.world {
+  margin-top: 2%;
+}
+
+/* line 144, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+i.glyphicon.glyphicon-phone {
+  margin: 0 4% 0 0;
+}
+
+/*--cart--*/
+/* line 148, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.itemContainer {
+  width: 100%;
+  float: left;
+}
+
+/* line 152, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.itemContainer div {
+  float: left;
+  margin: 5px 20px 5px 20px;
+}
+
+/* line 156, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.itemContainer a {
+  text-decoration: none;
+}
+
+/* line 159, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.cartHeaders {
+  width: 100%;
+  float: left;
+}
+
+/* line 163, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.cartHeaders div {
+  float: left;
+  margin: 5px 20px 5px 20px;
+}
+
+/* line 167, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.item_add {
+  color: #000;
+  border: none;
+}
+
+/* line 171, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+a.item_add {
+  text-decoration: none;
+}
+
+/* line 174, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.grid_1 img {
+  margin-bottom: 1em;
+}
+
+/* line 177, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.box_1 h3 {
+  color: #000;
+  font-size: 1em;
+}
+
+/* line 181, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.box_1 h3 img {
+  margin-left: 5px;
+}
+
+/* line 184, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.box_1 p a {
+  color: #B5B3B3;
+  font-size: 0.77em;
+}
+
+/* line 188, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.total {
+  display: inline-block;
+}
+
+/* line 191, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.cart.box_1 {
+  float: right;
+  margin-top: 2px;
+}
+
+/*--- slider-css --*/
+/* line 196, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.slider {
+  position: relative;
+}
+
+/* line 199, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 207, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 215, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+/* line 220, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+/* line 227, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.callbacks_tabs a:after {
+  content: "\f111";
+  font-size: 0;
+  font-family: FontAwesome;
+  visibility: visible;
+  display: block;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50px;
+}
+
+/* line 239, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.callbacks_here a:after {
+  background: #000;
+}
+
+/* line 242, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.callbacks_tabs a {
+  visibility: hidden;
+}
+
+/* line 245, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.callbacks_tabs li {
+  display: inline-block;
+}
+
+/* line 248, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+ul.callbacks_tabs.callbacks1_tabs {
+  position: absolute;
+  bottom: 14px;
+  z-index: 999;
+  left: 45%;
+}
+
+/* line 254, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.banner {
+  border-bottom: 1px solid #bcbcbc;
+  padding: 1em 0;
+}
+
+/* line 258, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.banner-mat {
+  padding: 0;
+}
+
+/*--content--*/
+/* line 262, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.content-top h1 {
+  color: #000;
+  font-size: 3em;
+  font-family: 'OleoScript-Regular';
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+/* line 269, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.col-md1 img {
+  margin: 0 auto;
+}
+
+/* line 272, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.col-md1 h3 {
+  font-size: 1.2em;
+  line-height: 1.1em;
+  font-family: 'OleoScript-Regular';
+  text-align: center;
+  margin: 0 0 0.7em;
+  color: #000;
+}
+
+/* line 280, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.col-md1 h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 284, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.price h5 {
+  float: left;
+  color: #000;
+  font-size: 1.5em;
+  margin-top: 3px;
+}
+
+/* line 290, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.price a {
+  color: #FFF;
+  font-size: 0.9em;
+  display: block;
+  float: right;
+  background-color: #52D0C4;
+  padding: 0.3em 0.6em;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* line 300, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.content-top {
+  padding: 4em 0;
+}
+
+/* line 303, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.content-top1 {
+  padding: 2em 0;
+}
+
+/* line 306, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.col-md1 {
+  border: 1px solid #CACACA;
+  padding: 1em;
+  border-bottom: 5px solid #52D0C4;
+}
+
+/* line 311, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.col-md1:hover {
+  border: 1px solid #000;
+  border-bottom: 5px solid #000;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 320, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.col-md1:hover .price a {
+  background-color: #000;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/*--footer--*/
+/* line 329, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.top-footer iframe {
+  width: 100%;
+  min-height: 300px;
+  border: none;
+}
+
+/* line 334, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.top-footer1 h2 {
+  font-size: 2em;
+  color: #52d0c4;
+  font-family: 'OleoScript-Regular';
+  margin: 0 0 0.5em;
+}
+
+/* line 340, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.top-footer1 input[type="text"] {
+  width: 65%;
+  padding: 0.6em;
+  outline: none;
+  color: #BDBDBD;
+  font-size: 1em;
+  background: none;
+  border: 1px solid #BDBDBD;
+}
+
+/* line 349, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.top-footer1 input[type="submit"] {
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  padding: 0.8em 0em;
+  width: 30%;
+  vertical-align: top;
+  outline: none;
+}
+
+/* line 359, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.top-footer1 input[type="submit"]:hover {
+  background-color: #52d0c4;
+}
+
+/* line 362, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer {
+  border-top: 1px solid #BDBDBD;
+}
+
+/* line 365, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer-top {
+  padding: 3em 0;
+}
+
+/* line 368, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.top-footer1 {
+  margin: 6em 0 0;
+}
+
+/* line 371, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer-bottom-cate h6 {
+  font-size: 1.1em;
+  color: #000;
+  margin: 0 0 0.5em;
+  font-family: 'OleoScript-Regular';
+}
+
+/* line 377, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer-bottom-cate ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 381, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer-bottom-cate ul li {
+  list-style: none;
+  padding: 0.2em 0;
+}
+
+/* line 385, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer-bottom-cate ul li a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #B2B2B2;
+}
+
+/* line 390, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer-bottom-cate ul li a:hover {
+  color: #52D0C4;
+  padding-left: 5px;
+}
+
+/* line 394, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.cate-bottom ul li {
+  font-size: 1em;
+  color: #000;
+}
+
+/* line 398, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.cate-bottom ul li.phone {
+  color: #52D0C4;
+  padding: 1em 0 0em;
+}
+
+/* line 402, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+p.footer-class {
+  font-size: 1em;
+  color: #B2B2B2;
+  margin: 2em 0 0;
+  text-align: center;
+}
+
+/* line 408, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+p.footer-class a {
+  text-decoration: none;
+  color: #52D0C4;
+}
+
+/* line 412, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+p.footer-class a:hover {
+  color: #B2B2B2;
+}
+
+/* line 415, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.footer-bottom {
+  padding: 4em 0;
+  border-top: 1px solid #BDBDBD;
+}
+
+/*--//footer--*/
+/*-- contact --*/
+/* line 421, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact {
+  padding: 4em 0;
+}
+
+/* line 424, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact h1 {
+  font-size: 3em;
+  color: #000;
+  font-family: 'OleoScript-Regular';
+  margin: 0 0px 1em;
+  text-align: center;
+}
+
+/* line 431, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact-bottom span, .contact-bottom-top span {
+  font-size: 1.2em;
+  color: #fff;
+  display: block;
+  padding: 0 0 0.5em;
+}
+
+/* line 437, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact-bottom input[type="text"] {
+  width: 100%;
+  padding: 0.7em;
+  border: 1px solid #bbb;
+  -webkit-appearance: none;
+  outline: none;
+  color: #fff;
+  outline-color: #52D0C4;
+  background: none;
+}
+
+/* line 447, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact-bottom-top textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #bbb;
+  -webkit-appearance: none;
+  outline: none;
+  color: #bbb;
+  min-height: 220px;
+  resize: none;
+  outline-color: #52D0C4;
+  background: none;
+}
+
+/* line 459, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact-bottom-top {
+  margin: 1em 15px 0;
+}
+
+/* line 462, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact-form input[type="submit"] {
+  background: #52D0C4;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 1em 15px 0;
+  padding: 0.3em 1em;
+  font-size: 1.2em;
+  display: inline-block;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* line 477, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact-form input[type="submit"]:hover {
+  background: #000;
+}
+
+/* line 480, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.address-grid i {
+  color: #52D0C4;
+  font-size: 4em;
+  float: left;
+  margin: 0 9% 0 0;
+  display: inline-block;
+}
+
+/* line 487, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.address1 {
+  float: left;
+  margin-top: 0.5em;
+}
+
+/* line 491, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.address1 p {
+  font-size: 1.8em;
+  color: #b2b2b2;
+  line-height: 1.7em;
+}
+
+/* line 497, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.address1 p a {
+  text-decoration: none;
+  color: #b2b2b2;
+}
+
+/* line 501, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.address1 p a:hover {
+  color: #52D0C4;
+}
+
+/* line 504, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.address-more h2 {
+  color: #000;
+  font-size: 2em;
+  margin: 0 15px 0.7em;
+  font-family: 'OleoScript-Regular';
+}
+
+/* line 510, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.address {
+  padding: 3em 0 0;
+}
+
+/* line 513, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.contact span {
+  color: #b2b2b2;
+  font-size: 0.9em;
+  padding-bottom: 0.2em;
+  display: block;
+}
+
+/*--//contact--*/
+/*--login--*/
+/* line 521, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.account h1 {
+  color: #000;
+  font-size: 3em;
+  margin: 0 0 1em;
+  font-family: 'OleoScript-Regular';
+  text-align: center;
+}
+
+/* line 528, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.login-left h4 {
+  color: #000;
+  font-size: 1.3em;
+  font-family: 'OleoScript-Regular';
+}
+
+/* line 533, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.login-left p {
+  color: #b2b2b2;
+  display: block;
+  font-size: 0.9em;
+  margin: 1em 0 1.5em 0;
+  line-height: 1.8em;
+  width: 95%;
+}
+
+/* line 541, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.acount-btn {
+  background: #52d0c4;
+  color: #FFF;
+  font-size: 0.9em;
+  padding: 0.4em 1em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* line 553, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.acount-btn:hover, .login-right input[type="submit"]:hover {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 558, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.login-right form {
+  padding: 1em 0;
+}
+
+/* line 561, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.login-right span {
+  color: #b2b2b2;
+  font-size: 0.9em;
+  padding-bottom: 0.4em;
+  display: block;
+}
+
+/* line 567, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.word-in {
+  margin: 0.5em 0 0;
+}
+
+/* line 570, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.login-right input[type="text"] {
+  border: 1px solid #bbb;
+  outline-color: #52d0c4;
+  width: 96%;
+  font-size: 0.9em;
+  padding: 10px;
+  margin: 0.5em 0;
+}
+
+/* line 578, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.login-right input[type="submit"] {
+  background: #52d0c4;
+  color: #FFF;
+  font-size: 0.9em;
+  padding: 0.4em 1em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+/* line 592, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+a.forgot {
+  font-size: 0.8125em;
+  color: #000000;
+}
+
+/* line 596, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.account {
+  padding: 4em 0;
+}
+
+/*--register--*/
+/* line 600, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.register h1 {
+  color: #000;
+  font-size: 3em;
+  margin: 0 0 1em;
+  font-family: 'OleoScript-Regular';
+  text-align: center;
+}
+
+/* line 607, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.register-top-grid span, .register-bottom-grid span {
+  color: #b2b2b2;
+  font-size: 0.9em;
+  padding-bottom: 0.2em;
+  display: block;
+}
+
+/* line 613, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+  border: 1px solid #EEE;
+  outline-color: #52D0C4;
+  width: 100%;
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+/* line 621, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox {
+  margin-bottom: 4px;
+  padding-left: 27px;
+  font-size: 1.2em;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+/* line 628, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox {
+  position: relative;
+  font-size: 0.9em;
+  color: #000;
+}
+
+/* line 633, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox:last-child {
+  margin-bottom: 0;
+}
+
+/* line 636, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.news-letter {
+  color: #000;
+  font-size: 1em;
+  margin-bottom: 1em;
+  display: block;
+  text-transform: uppercase;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  clear: both;
+}
+
+/* line 648, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox i {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  border: 2px solid #E1DFDF;
+}
+
+/* line 658, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox input + i:after {
+  content: '';
+  background: url("../images/tick1.png") no-repeat 1px 2px;
+  top: -1px;
+  left: -1px;
+  width: 15px;
+  height: 15px;
+  font: normal 12px/16px FontAwesome;
+  text-align: center;
+}
+
+/* line 668, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox input + i:after {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.1s;
+  -o-transition: opacity 0.1s;
+  -ms-transition: opacity 0.1s;
+  -moz-transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+}
+
+/* line 677, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox input {
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 681, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.checkbox input:checked + i:after {
+  opacity: 1;
+}
+
+/* line 684, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.news-letter:hover {
+  color: #00BFF0;
+}
+
+/* line 687, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.register-but {
+  margin-top: 1em;
+}
+
+/* line 690, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.register-but form input[type="submit"] {
+  background: #52D0C4;
+  color: #FFF;
+  font-size: 1em;
+  padding: 0.4em 1em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+
+/* line 703, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.register-but input[type="submit"]:hover {
+  background: #000;
+}
+
+/* line 706, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.mation {
+  padding: 1em 0;
+}
+
+/* line 709, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.register {
+  padding: 4em 0;
+}
+
+/*--product--*/
+/* line 713, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.products h1 {
+  color: #000;
+  font-size: 3em;
+  font-family: 'OleoScript-Regular';
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+/* line 720, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.products {
+  padding: 4em 0;
+}
+
+/*--menu-drop--*/
+/* line 724, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+h3.cate {
+  color: #52D0C4;
+  font-size: 1.5em;
+  font-family: 'OleoScript-Regular';
+}
+
+/* line 729, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+ul.kid-menu {
+  display: block !important;
+}
+
+/* line 732, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.menu-drop {
+  width: auto;
+  height: auto;
+  padding: 0;
+  list-style: none;
+  margin: 0.5em 0;
+}
+
+/* line 739, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.menu-drop > li > a {
+  width: 100%;
+  margin: 0.3em 0;
+  display: inline-block;
+  position: relative;
+  color: #B2B2B2;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+/* line 749, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.menu-drop > li > a:hover {
+  color: #52D0C4;
+}
+
+/* line 752, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.menu-drop ul li a {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 0.9em;
+  margin: 0.3em 0;
+  color: #52D0C4;
+  text-decoration: none;
+  text-indent: 1.2em;
+}
+
+/* line 762, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.menu-drop ul li a:hover {
+  color: #000;
+}
+
+/* line 765, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+ul.kid-menu li, ul.cute li {
+  list-style: none;
+}
+
+/*--//menu-drop--*/
+/*----*/
+/* line 770, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.fashion-grid {
+  float: left;
+  width: 24%;
+}
+
+/* line 774, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.fashion-grid1 {
+  float: right;
+  width: 68%;
+}
+
+/* line 778, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+h6.best2 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+/* line 782, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+h6.best2 a {
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
+/* line 786, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+h6.best2 a:hover {
+  color: #52D0C4;
+}
+
+/* line 789, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+span.price-in1 {
+  font-size: 1.3em;
+  padding: 0.3em 0 0;
+  display: block;
+  color: #52D0C4;
+}
+
+/* line 795, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.product-go {
+  padding: 1em 0;
+}
+
+/*--tag--*/
+/* line 799, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.tag {
+  padding: 2em 0;
+}
+
+/* line 802, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.tags {
+  padding: 1.5em 0 0;
+}
+
+/* line 805, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.tags ul li {
+  display: inline-block;
+  float: left;
+  width: 22.8%;
+  margin: 0.5em 2% 0 0;
+  text-align: center;
+}
+
+/* line 812, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.tags li a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.3em 0.4em;
+  text-decoration: none;
+  color: #B2B2B2;
+  border: 1px solid #B2B2B2;
+}
+
+/* line 820, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.tags li a:hover {
+  color: #fff;
+  background: #52D0C4;
+  border: 1px solid #52D0C4;
+}
+
+/* line 826, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.tags ul li:nth-child(4), .tags ul li:nth-child(8), .tags ul li:nth-child(12) {
+  margin: 0.5em 0 0;
+}
+
+/*--typo-single--*/
+/* line 830, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.thumb-image {
+  width: 305px;
+}
+
+/* line 832, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.thumb-image > img {
+  width: 100%;
+}
+
+/*--single--*/
+/* line 834, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.single-para h1 {
+  font-size: 1.5em;
+  color: #52D0C4;
+  line-height: 1.5em;
+  font-family: 'OleoScript-Regular';
+}
+
+/* line 840, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+label.add-to {
+  display: block;
+  font-size: 2em;
+  color: #000;
+}
+
+/* line 845, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.single-para p {
+  font-size: 0.9em;
+  color: #B2B2B2;
+  line-height: 1.8em;
+}
+
+/* line 850, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+a.cart {
+  padding: 0.3em 0.7em;
+  color: #FFF;
+  background: #52D0C4;
+  margin: 1.5em 0 0;
+  font-size: 1em;
+  display: inline-block;
+  line-height: 1.6em;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 861, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+a.cart:hover {
+  background: #000;
+}
+
+/*----*/
+/* line 865, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.star-on {
+  padding: 1em 0;
+}
+
+/* line 868, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.star-on ul {
+  float: left;
+}
+
+/* line 872, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.star-on ul li {
+  display: inline-block;
+}
+
+/* line 875, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.star-on ul li i {
+  color: #000;
+}
+
+/* line 878, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.review {
+  float: left;
+  padding: 0 1em;
+}
+
+/* line 882, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.reviews-tabs {
+  margin-top: 60px;
+}
+
+/* line 885, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.response-text-right p {
+  font-size: 13px;
+  margin: 0 0 1em;
+  line-height: 20px;
+}
+
+/* line 890, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #816263;
+  cursor: default;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid #E7E7E7;
+  border-radius: 0;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+/* line 902, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.nav-tabs > li > a {
+  margin-right: 0px;
+  line-height: 1.42857143;
+  border-radius: 0;
+  color: #000000;
+  cursor: default;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid #E7E7E7;
+  border-radius: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  font-family: 'PlayfairDisplay-Regular';
+}
+
+/* line 918, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+ul.nav.nav-tabs {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding-bottom: 18px;
+}
+
+/* line 923, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.star-on a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #52D0C4;
+}
+
+/* line 928, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.star-on a:hover {
+  color: #000;
+}
+
+/* line 931, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.social-icons {
+  float: left;
+  width: 40%;
+}
+
+/* line 935, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.social-icons ul li {
+  display: inline-block;
+}
+
+/* line 938, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.social-icons ul li a {
+  width: 18px;
+  height: 18px;
+  background: url(/themes/efashion/assets/'../images/s-icons.png') no-repeat 0px 0px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* line 945, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.social-icons ul li a:hover {
+  opacity: 0.5;
+}
+
+/* line 948, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.social-icons ul li a.facebook1 {
+  background-position: 0px 0px;
+}
+
+/* line 951, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.social-icons ul li a.twitter1 {
+  background-position: -18px 0px;
+}
+
+/* line 954, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.social-icons ul li a.googleplus1 {
+  background-position: -36px 0px;
+}
+
+/* line 957, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.single-bottom h4 {
+  color: #000;
+  font-size: 1.5em;
+  padding: 0.5em;
+  border-bottom: 1px solid #fa7455;
+}
+
+/* line 963, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.single {
+  padding: 4em 0;
+}
+
+/* line 966, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.available h6 {
+  color: #52D0C4;
+  font-size: 1.4em;
+  padding: 0 0 1em;
+}
+
+/* line 971, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.available ul li {
+  display: inline-block;
+  padding: 0 0.5em 0 0;
+  color: #4c4c4c;
+  font-size: 0.9em;
+}
+
+/* line 977, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.available ul li select {
+  outline: none;
+  padding: 3px;
+}
+
+/* line 981, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.available {
+  padding: 2em 0 1em;
+}
+
+/*--checkout--*/
+/* line 986, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.check-out {
+  padding: 4em 0em;
+}
+
+/* line 989, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+table {
+  width: 100%;
+  margin: 0em 0 2em;
+}
+
+/* line 993, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+th {
+  color: #52D0C4;
+  font-size: 1.2em;
+  font-family: 'OleoScript-Regular';
+  font-weight: 400;
+}
+
+/* line 999, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+th, td {
+  padding: 10px;
+}
+
+/* line 1002, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+td {
+  color: #b2b2b2;
+  font-size: 1em;
+}
+
+/* line 1006, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+a.at-in {
+  float: left;
+  width: 20%;
+}
+
+/* line 1010, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.sed {
+  float: right;
+  width: 74%;
+}
+
+/* line 1014, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.sed h5 {
+  color: #52D0C4;
+  font-size: 1.1em;
+  font-family: 'OleoScript-Regular';
+}
+
+/* line 1019, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.sed p {
+  color: #b2b2b2;
+  font-size: 0.8em;
+  line-height: 1.8em;
+  padding: 1em 0 0;
+}
+
+/* line 1025, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.check input[type="text"] {
+  width: 76%;
+  padding: 0.3em;
+  margin: 1em 0;
+  background: #fff;
+  outline: none;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+/* line 1034, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.check {
+  width: 6%;
+}
+
+/* line 1037, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.ring-in {
+  width: 45%;
+}
+
+/* line 1040, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.check-out h1 {
+  font-size: 3em;
+  color: #000;
+  font-family: 'OleoScript-Regular';
+  margin: 0 0px 1em;
+  text-align: center;
+}
+
+/* line 1047, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+a.to-buy {
+  padding: 0.3em 0.7em;
+  color: #FFF;
+  background: #52D0C4;
+  margin: 0.5em 0 0;
+  font-size: 1em;
+  display: inline-block;
+  line-height: 1.6em;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 1058, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+a.to-buy:hover {
+  background: #000;
+}
+
+/*--//checkout--*/
+/*--typo--*/
+/* line 1063, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+h1.typo1 {
+  font-size: 3em;
+  color: #000;
+  font-family: 'OleoScript-Regular';
+  margin: 0 0px 1em;
+  text-align: center;
+}
+
+/* line 1070, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.page-header h3 {
+  font-size: 2.5em;
+  color: #000;
+}
+
+/* line 1074, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: none;
+}
+
+/* line 1080, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.grid1 {
+  margin: 1.5em 0 0;
+}
+
+/* line 1083, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+ul.nav.nav-pills {
+  margin: 1.5em 0 0;
+}
+
+/* line 1086, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.grid2 {
+  margin: 1em 0 0;
+}
+
+/* line 1089, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+.page {
+  padding: 4em 0;
+}
+
+/*--//typo--*/
+/*--responsive--*/
+@media (max-width: 1024px) {
+  /* line 1101, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top h1 {
+    font-size: 2.5em;
+    margin: 0 0 0.3em;
+  }
+
+  /* line 1105, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top {
+    padding: 3em 0;
+  }
+
+  /* line 1108, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 input[type="submit"] {
+    width: 33%;
+  }
+
+  /* line 1111, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .banner-mat img {
+    height: 256px;
+    width: 100%;
+  }
+
+  /* line 1115, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .footer-bottom {
+    padding: 3em 0;
+  }
+
+  /*--products--*/
+  /* line 1119, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .products {
+    padding: 3em 0;
+  }
+
+  /* line 1122, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .products h1 {
+    font-size: 2.5em;
+  }
+
+  /* line 1125, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .tags li a {
+    font-size: 0.77em;
+  }
+
+  /*--single--*/
+  /* line 1129, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .thumb-image {
+    width: 242px;
+  }
+
+  /*--contact--*/
+  /* line 1133, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact {
+    padding: 3em 0;
+  }
+
+  /* line 1136, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact h1 {
+    font-size: 2.5em;
+    margin: 0 0px 0.8em;
+  }
+
+  /*--account--*/
+  /* line 1141, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .account h1, .register h1 {
+    font-size: 2.5em;
+  }
+
+  /* line 1144, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .account, .register {
+    padding: 3em 0;
+  }
+
+  /*--checkout--*/
+  /* line 1148, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .check-out {
+    padding: 3em 0em;
+  }
+
+  /* line 1151, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .check-out h1 {
+    font-size: 2.5em;
+  }
+
+  /*--typo--*/
+  /* line 1155, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .page {
+    padding: 3em 0;
+  }
+
+  /* line 1158, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1.typo1 {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 768px) {
+  /* line 1163, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md2 {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+  }
+
+  /* line 1168, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  p.log {
+    width: 55%;
+    font-size: 0.85em;
+  }
+
+  /* line 1172, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number span {
+    color: #000;
+    font-size: 0.82em;
+    margin-top: 1.5em;
+    display: block;
+  }
+
+  /* line 1178, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .search {
+    margin-top: 3%;
+  }
+
+  /* line 1181, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .banner-mat img {
+    height: 186px;
+  }
+
+  /* line 1184, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top1 {
+    padding: 0em 0;
+  }
+
+  /* line 1187, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top h1 {
+    margin: 0 0 1em;
+  }
+
+  /* line 1190, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top {
+    padding: 3em 0 1em;
+  }
+
+  /* line 1193, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 {
+    margin: 2em 0 0;
+  }
+
+  /* line 1196, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 input[type="text"] {
+    width: 40%;
+  }
+
+  /* line 1199, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 input[type="submit"] {
+    width: 16%;
+  }
+
+  /* line 1202, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .world, .logo, .header-left {
+    width: 33.33%;
+    float: left;
+  }
+
+  /* line 1206, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo a span {
+    font-size: 28px;
+    width: 45px;
+    height: 46px;
+    padding: 4px 0 0 3px;
+    margin-top: 3px;
+  }
+
+  /* line 1213, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo h1 a {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  /* line 1217, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number, .search {
+    width: 16.66%;
+    float: left;
+  }
+
+  /* line 1221, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .h_menu4 {
+    float: left;
+    width: 66.66%;
+  }
+
+  /* line 1225, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo img {
+    width: 100%;
+  }
+
+  /* line 1228, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .banner-mat {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 1232, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .matter-banner {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 1236, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .footer-bottom-cate {
+    float: left;
+    width: 25%;
+  }
+
+  /* line 1240, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number {
+    margin-top: 0%;
+    padding: 0;
+  }
+
+  /*--products--*/
+  /* line 1245, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md3 {
+    float: left;
+    width: 33.33%;
+    margin: 0 0 2em;
+  }
+
+  /* line 1250, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .fashion-grid1 {
+    width: 85%;
+  }
+
+  /* line 1253, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .fashion-grid {
+    width: 9%;
+  }
+
+  /* line 1256, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .tags li a {
+    font-size: 0.9em;
+  }
+
+  /*--single--*/
+  /* line 1260, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .grid {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 1264, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .thumb-image {
+    width: 305px;
+  }
+
+  /* line 1267, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .single-top-in {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 1271, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .single {
+    padding: 3em 0;
+  }
+
+  /*--contact--*/
+  /* line 1275, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .in-contact {
+    margin: 1em 0 0;
+  }
+
+  /* line 1278, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact h1 {
+    margin: 0 0px 0.3em;
+  }
+
+  /* line 1281, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address-grid i {
+    font-size: 3em;
+    margin: 0 5% 0 0;
+  }
+
+  /* line 1285, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address1 p {
+    font-size: 1.4em;
+    line-height: 1.7em;
+  }
+
+  /* line 1289, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address-grid {
+    margin: 0 0 1em;
+  }
+
+  /*--account--*/
+  /* line 1293, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .account h1, .register h1 {
+    margin: 0;
+  }
+
+  /*--checkout--*/
+  /* line 1297, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .sed p {
+    padding: 0.5em 0 0;
+  }
+
+  /* line 1300, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .check-out {
+    padding: 3em 0em;
+  }
+
+  /*--typo--*/
+  /* line 1304, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1.grid2 {
+    font-size: 2.3em;
+  }
+}
+@media (max-width: 736px) {
+  /* line 1309, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  p.log {
+    width: 60%;
+  }
+
+  /* line 1312, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number span {
+    font-size: 0.75em;
+  }
+}
+@media (max-width: 667px) {
+  /* line 1317, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  p.log {
+    font-size: 0.77em;
+  }
+}
+@media (max-width: 640px) {
+  /* line 1322, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .world {
+    width: 26%;
+    padding: 0;
+  }
+
+  /* line 1326, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  select.in-drop, select.in-drop1 {
+    font-size: 0.8em;
+  }
+
+  /* line 1329, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .box_1 h3 {
+    font-size: 0.85em;
+  }
+
+  /* line 1332, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .header-left {
+    width: 33%;
+    padding: 0;
+  }
+
+  /* line 1337, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo {
+    width: 41%;
+  }
+
+  /* line 1340, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* line 1344, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number {
+    padding: 0;
+    width: 20%;
+  }
+
+  /* line 1348, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .h_menu4 {
+    width: 63%;
+  }
+
+  /* line 1351, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .search {
+    padding: 0;
+  }
+
+  /* line 1354, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .banner-mat img {
+    height: 152px;
+  }
+
+  /* line 1357, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top h1 {
+    font-size: 2em;
+  }
+
+  /* line 1360, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .cate-bottom ul li {
+    font-size: 0.9em;
+  }
+
+  /*--product--*/
+  /* line 1364, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md1 {
+    padding: 0.5em;
+  }
+
+  /* line 1367, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .price h5 {
+    font-size: 1.1em;
+  }
+
+  /* line 1370, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .price a {
+    padding: 0.3em 0.5em;
+  }
+
+  /*--single--*/
+  /* line 1374, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .single-top-in {
+    width: 100%;
+    float: left;
+    margin: 0 0 2em;
+  }
+
+  /* line 1379, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .grid {
+    width: 53%;
+  }
+
+  /* line 1382, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .thumb-image {
+    width: 257px;
+  }
+
+  /*--contact--*/
+  /* line 1386, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact {
+    padding: 2em 0;
+  }
+
+  /*--account--*/
+  /* line 1390, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .account, .register {
+    padding: 2em 0;
+  }
+
+  /*--checkout--*/
+  /* line 1394, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  th, td {
+    padding: 10px 4px;
+  }
+
+  /*--typo--*/
+  /* line 1398, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-lg {
+    font-size: 1.1em;
+  }
+
+  /* line 1401, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1.grid2 {
+    font-size: 2em;
+  }
+
+  /* line 1404, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h2.grid2 {
+    font-size: 1.9em;
+  }
+
+  /* line 1407, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h3.typo1 {
+    font-size: 2.5em;
+  }
+
+  /* line 1410, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .page {
+    margin: 2em 0;
+  }
+}
+@media (max-width: 600px) {
+  /* line 1415, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  select.in-drop, select.in-drop1 {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 568px) {
+  /* line 1420, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .world {
+    width: 28%;
+    padding: 0;
+  }
+
+  /* line 1424, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo {
+    width: 39%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 1429, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .matter-banner, .banner-mat {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* line 1433, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .banner-mat img {
+    display: none;
+  }
+
+  /* line 1436, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .world {
+    display: none;
+  }
+
+  /* line 1439, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 1444, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .header-left {
+    width: 100%;
+  }
+
+  /* line 1447, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo img {
+    width: 29%;
+  }
+
+  /* line 1450, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .search {
+    width: 11%;
+  }
+
+  /* line 1453, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .h_menu4 {
+    width: 67%;
+  }
+
+  /* line 1456, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number {
+    width: 22%;
+  }
+
+  /* line 1459, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top {
+    padding: 2em 0 1em;
+  }
+
+  /* line 1462, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .price h5 {
+    font-size: 1em;
+    margin-top: 6px;
+  }
+
+  /* line 1466, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .footer-top {
+    padding: 2em 0;
+  }
+
+  /* line 1469, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer iframe {
+    min-height: 150px;
+  }
+
+  /* line 1472, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 {
+    margin: 1em 0 0;
+  }
+
+  /* line 1475, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 h2 {
+    font-size: 1.5em;
+  }
+
+  /* line 1478, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 input[type="text"] {
+    width: 46%;
+  }
+
+  /* line 1481, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 input[type="submit"] {
+    width: 23%;
+  }
+
+  /* line 1484, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .footer-bottom-cate {
+    width: 50%;
+    margin: 0 0 1em;
+  }
+
+  /* line 1488, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .footer-bottom {
+    padding: 2em 0 0em;
+  }
+
+  /*--products--*/
+  /* line 1492, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .products {
+    padding: 2em 0;
+  }
+
+  /* line 1495, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .products h1 {
+    font-size: 2em;
+    margin: 0 0 0.5em;
+  }
+
+  /* line 1499, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md3 {
+    padding: 0 3px;
+    margin: 0 0 1em;
+  }
+
+  /* line 1503, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .price a {
+    font-size: 0.8em;
+  }
+
+  /* line 1506, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md-9 {
+    padding: 0;
+  }
+
+  /* line 1509, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .fashion-grid {
+    width: 20%;
+  }
+
+  /* line 1512, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .fashion-grid1 {
+    width: 76%;
+  }
+
+  /* line 1515, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .product-bottom {
+    padding: 0;
+  }
+
+  /* line 1518, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .product-go {
+    padding: 0.5em 0;
+  }
+
+  /* line 1521, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .tag {
+    padding: 1em 0;
+  }
+
+  /* line 1524, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .tags {
+    padding: 1em 0 0;
+  }
+
+  /* line 1527, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .grid {
+    width: 67%;
+  }
+
+  /*--contact--*/
+  /* line 1531, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact h1 {
+    font-size: 2em;
+  }
+
+  /* line 1534, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address-more h2 {
+    font-size: 1.7em;
+  }
+
+  /* line 1537, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address-grid i {
+    font-size: 2.5em;
+  }
+
+  /* line 1540, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address1 p {
+    font-size: 1.2em;
+  }
+
+  /* line 1543, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address {
+    padding: 2em 0 0;
+  }
+
+  /*--account--*/
+  /* line 1547, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .account h1, .register h1 {
+    font-size: 2em;
+  }
+
+  /*--checkout--*/
+  /* line 1551, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .check-out h1 {
+    font-size: 2em;
+    margin: 0 0 0.4em;
+  }
+
+  /* line 1555, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .check-out {
+    padding: 2em 0em;
+  }
+
+  /* line 1558, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .sed {
+    float: right;
+    width: 0;
+    display: none;
+  }
+
+  /* line 1563, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  a.at-in {
+    float: left;
+    width: 76%;
+  }
+
+  /* line 1567, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .ring-in {
+    width: 20%;
+  }
+
+  /* line 1570, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  th, td {
+    padding: 7px 0px;
+  }
+
+  /* line 1573, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  th {
+    font-size: 1em;
+  }
+
+  /* line 1576, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  td {
+    font-size: 0.8em;
+  }
+
+  /* line 1579, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  a.to-buy {
+    margin: 0;
+    font-size: 0.8em;
+  }
+
+  /* line 1583, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .single {
+    padding: 2em 0;
+  }
+
+  /*--typo--*/
+  /* line 1587, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .page-header h3 {
+    font-size: 2em;
+  }
+
+  /* line 1590, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-lg {
+    font-size: 1em;
+    padding: 7px;
+  }
+
+  /* line 1594, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-1 {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  /* line 1598, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-sm {
+    font-size: 0.8em;
+    padding: 9px;
+  }
+
+  /* line 1602, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1#h1-bootstrap-heading {
+    font-size: 2.2em;
+  }
+
+  /* line 1605, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h2#h2-bootstrap-heading {
+    font-size: 2em;
+  }
+
+  /* line 1608, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1.grid2 {
+    font-size: 1.45em;
+  }
+
+  /* line 1611, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h2.grid2 {
+    font-size: 1.35em;
+  }
+
+  /* line 1614, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h3.grid2 {
+    font-size: 1.3em;
+  }
+
+  /* line 1617, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h4.grid2 {
+    font-size: 1.2em;
+  }
+
+  /* line 1620, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h3.typo1 {
+    font-size: 2em;
+  }
+
+  /* line 1623, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .page {
+    margin: 2em 0;
+  }
+
+  /* line 1626, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1.typo1 {
+    font-size: 2em;
+    margin: 0 0 0.8em;
+  }
+}
+@media (max-width: 414px) {
+  /* line 1632, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .h_menu4 {
+    width: 60%;
+  }
+
+  /* line 1635, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number {
+    width: 29%;
+  }
+}
+@media (max-width: 320px) {
+  /* line 1640, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo {
+    width: 100%;
+  }
+
+  /* line 1643, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .header-left {
+    width: 100%;
+  }
+
+  /* line 1646, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo img {
+    width: 46%;
+  }
+
+  /* line 1649, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 1653, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .header-left {
+    width: 100%;
+  }
+
+  /* line 1656, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .box_1 h3 {
+    font-size: 0.8em;
+  }
+
+  /* line 1659, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  p.log {
+    margin-top: 7%;
+    font-size: 0.9em;
+  }
+
+  /* line 1663, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .header-left {
+    margin-top: 1%;
+  }
+
+  /* line 1666, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number {
+    width: 32%;
+  }
+
+  /* line 1669, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number span {
+    font-size: 0.8em;
+  }
+
+  /* line 1672, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .search {
+    width: 6%;
+  }
+
+  /* line 1675, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .h_menu4 {
+    width: 62%;
+  }
+
+  /* line 1678, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .number {
+    margin-top: 0%;
+  }
+
+  /* line 1681, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .search {
+    margin-top: 6%;
+  }
+
+  /* line 1684, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .head-top {
+    padding: 0.4em 0 0;
+  }
+
+  /* line 1687, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top h1 {
+    font-size: 1.5em;
+    margin: 0 0 0.7em;
+  }
+
+  /* line 1691, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .content-top {
+    padding: 1.5em 0 0.5em;
+  }
+
+  /* line 1694, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md2 {
+    padding: 0 5px;
+    margin-bottom: 1em;
+  }
+
+  /* line 1698, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md1 h3 {
+    font-size: 1.1em;
+  }
+
+  /* line 1701, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .price a {
+    font-size: 0.7em;
+    display: inline-block;
+    float: none;
+    padding: 0.3em 0.6em;
+  }
+
+  /* line 1707, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .col-md1 {
+    padding: 0.3em;
+  }
+
+  /* line 1710, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .price h5 {
+    font-size: 1em;
+    margin: 0.4em 0;
+    float: none;
+  }
+
+  /* line 1715, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .price {
+    text-align: center;
+  }
+
+  /* line 1718, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .footer-top {
+    padding: 1.5em 0;
+  }
+
+  /* line 1721, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer {
+    padding: 0;
+  }
+
+  /* line 1724, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 {
+    padding: 0;
+  }
+
+  /* line 1727, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 h2 {
+    font-size: 1.3em;
+  }
+
+  /* line 1730, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 input[type="text"] {
+    width: 65%;
+    padding: 0.4em;
+  }
+
+  /* line 1734, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .top-footer1 input[type="submit"] {
+    font-size: 0.85em;
+    padding: 0.6em 0em;
+    width: 33%;
+  }
+
+  /* line 1739, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .footer-bottom-cate {
+    padding: 0;
+  }
+
+  /* line 1742, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  p.footer-class {
+    font-size: 0.9em;
+    margin: 0em 0 1em;
+    line-height: 1.5em;
+  }
+
+  /* line 1747, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  ul.callbacks_tabs.callbacks1_tabs {
+    left: 40%;
+  }
+
+  /* line 1750, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .callbacks_tabs a:after {
+    height: 10px;
+    width: 10px;
+  }
+
+  /*--product--*/
+  /* line 1755, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .products h1 {
+    font-size: 1.8em;
+  }
+
+  /* line 1758, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .products {
+    padding: 1.5em 0;
+  }
+
+  /* line 1761, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h3.cate {
+    font-size: 1.2em;
+  }
+
+  /* line 1764, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact h1 {
+    font-size: 1.7em;
+    margin: 0;
+  }
+
+  /* line 1768, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .in-contact {
+    padding: 0;
+    margin: 0.5em 0 0;
+  }
+
+  /* line 1772, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact-bottom input[type="text"] {
+    padding: 0.5em;
+  }
+
+  /* line 1775, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact-bottom-top {
+    margin: 0.5em 0 0;
+  }
+
+  /* line 1778, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact-bottom-top textarea {
+    min-height: 120px;
+  }
+
+  /* line 1781, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact-form input[type="submit"] {
+    margin: 0.5em 0px 0;
+    padding: 0.3em 0.5em;
+    font-size: 1em;
+  }
+
+  /* line 1786, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address {
+    padding: 1em 0 0;
+  }
+
+  /* line 1789, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address-more h2 {
+    font-size: 1.5em;
+    margin: 0 0 0.5em;
+  }
+
+  /* line 1793, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address-grid {
+    padding: 0;
+  }
+
+  /* line 1796, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address-grid i {
+    font-size: 2em;
+  }
+
+  /* line 1799, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address1 p {
+    font-size: 1em;
+  }
+
+  /* line 1802, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .address1 {
+    margin-top: 0;
+  }
+
+  /* line 1805, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .contact {
+    padding: 1.5em 0 0.5em;
+  }
+
+  /* line 1808, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .product-bottom {
+    padding: 0;
+  }
+
+  /* line 1811, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .single {
+    padding: 1.5em 0 0.5em;
+  }
+
+  /*--account--*/
+  /* line 1815, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .account, .register {
+    padding: 1.5em 0;
+  }
+
+  /* line 1818, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .account h1, .register h1 {
+    font-size: 1.7em;
+  }
+
+  /* line 1821, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .login-right, .login-left, .register-top-grid, .register-bottom-grid {
+    padding: 0;
+  }
+
+  /* line 1824, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .login-left p {
+    width: 100%;
+  }
+
+  /* line 1827, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .login-right span {
+    padding-bottom: 0em;
+  }
+
+  /* line 1830, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .register-but {
+    margin-top: 0em;
+  }
+
+  /* line 1833, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .mation {
+    padding: 0 0 0.5em;
+  }
+
+  /* line 1836, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  td {
+    font-size: 0.75em;
+  }
+
+  /* line 1839, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  table {
+    margin: 0em 0 1em;
+  }
+
+  /* line 1842, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .check-out h1 {
+    font-size: 1.7em;
+    margin: 0 0 0.4em;
+  }
+
+  /* line 1846, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .check-out {
+    padding: 1.5em 0em;
+  }
+
+  /*--single--*/
+  /* line 1850, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .thumb-image {
+    width: 260px;
+  }
+
+  /* line 1853, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .grid {
+    width: 100%;
+  }
+
+  /* line 1856, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .single-top-in {
+    padding: 0;
+    margin: 0 0 1em;
+  }
+
+  /* line 1860, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .single-para h1 {
+    font-size: 1.2em;
+  }
+
+  /* line 1863, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .star-on a {
+    font-size: 0.8em;
+  }
+
+  /* line 1866, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .available {
+    padding: 1em 0 1em;
+  }
+
+  /* line 1869, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  label.add-to {
+    font-size: 1.5em;
+  }
+
+  /* line 1872, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  a.cart {
+    padding: 0.2em 0.5em;
+    margin: 0.5em 0 0;
+  }
+
+  /* line 1876, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .h_nav h4 {
+    font-size: 1.1em;
+  }
+
+  /*--typo--*/
+  /* line 1880, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1#h1-bootstrap-heading {
+    font-size: 1.5em;
+  }
+
+  /* line 1883, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h2#h2-bootstrap-heading {
+    font-size: 1.4em;
+  }
+
+  /* line 1886, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h3#h3-bootstrap-heading {
+    font-size: 1.3em;
+  }
+
+  /* line 1889, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-lg {
+    font-size: 0.9em;
+    margin: 0 0 0.5em 0px;
+    padding: 9px;
+  }
+
+  /* line 1894, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .grid1 {
+    margin: 0.7em 0 0;
+  }
+
+  /* line 1897, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-1 {
+    font-size: 0.8em;
+    margin: 0 0 0.5em;
+  }
+
+  /* line 1901, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-sm {
+    font-size: 0.7em;
+    padding: 5px;
+    margin: 0 0 0.5em;
+  }
+
+  /* line 1906, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  button.btn.btn-xs {
+    font-size: 0.7em;
+  }
+
+  /* line 1909, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  ul.nav.nav-pills a {
+    padding: 0.5em;
+    font-size: 0.9em;
+  }
+
+  /* line 1913, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  span.label {
+    margin: 0 0 0.5em;
+    display: inline-block;
+  }
+
+  /* line 1917, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .page {
+    padding: 0em;
+    margin: 1.7em 0;
+  }
+
+  /* line 1921, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .page-header {
+    margin: 16px 0 9px;
+  }
+
+  /* line 1924, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .grid2 {
+    margin: 0.4em 0 0;
+  }
+
+  /* line 1927, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h3.typo1 {
+    font-size: 1.7em;
+  }
+
+  /* line 1930, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  .page-header h3 {
+    font-size: 1.8em;
+  }
+
+  /* line 1933, /home/vtvsoft/Saigonyo/app/apps/themes/efashion/assets/css/style.css.scss */
+  h1.typo1 {
+    font-size: 1.7em;
+    margin: 0 0 0.5em;
+  }
+}
